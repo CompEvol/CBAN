@@ -33,7 +33,7 @@
     </package>
 
     <package name='MASTER' version='1.6.0'
-           url="https://github.com/CompEvol/MASTER/releases/download/v1.6.0/MASTER.addon.v1.6.0.zip"
+           url="https://github.com/CompEvol/MASTER/releases/download/v1.6.0/MASTER.package.v1.6.0.zip"
            description="stochastic simulation" >
         <depends on='beast2' atleast='2.1.0'/>
     </package>
