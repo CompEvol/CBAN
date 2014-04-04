@@ -39,7 +39,7 @@
     </package>
     
     <package name='MultiTypeTree' version='2.0.0'
-           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v2.0.0/MultiTypeTree-2.0.0."
+           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v2.0.0/MultiTypeTree-2.0.0.zip"
            description="structured coalescent simulation" >
         <depends on='beast2' atleast='2.1.0'/>
     </package>
