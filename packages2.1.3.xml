@@ -63,10 +63,11 @@
         <depends on='beast2' atleast='2.1.0'/>
     </package>
 
-    <package name='SA' version='1.0.0'
-           url="http://beastii.googlecode.com/files/SA.addon.v1.0.0.zip"
+    <package name='SA' version='1.0.1'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.1.2/SA.addon.v1.0.1.zip"
            description="Sampled ancestor trees" >
         <depends on='beast2' atleast='2.1.0'/>
+        <depends on='BDSKY' atleast='1.1.0'/>
     </package>
 
     <package name='SNAPP' version='1.1.5'
