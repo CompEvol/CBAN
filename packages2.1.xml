@@ -32,8 +32,8 @@
         <depends on='beast2' atleast='2.1.0'/>
     </package>
 
-    <package name='MASTER' version='1.7.0'
-           url="https://github.com/CompEvol/MASTER/releases/download/v1.7.0/MASTER.package.v1.7.0.zip"
+    <package name='MASTER' version='1.7.1'
+           url="https://github.com/CompEvol/MASTER/releases/download/v1.7.1/MASTER.package.v1.7.1.zip"
            description="stochastic simulation" >
         <depends on='beast2' atleast='2.1.0'/>
     </package>
