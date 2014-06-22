@@ -20,8 +20,8 @@
         <depends on='BEASTlabs' atleast='1.1.2'/>
     </package>
 
-    <package name='CA' version='1.0.2'
-           url="https://github.com/CompEvol/CBAN/releases/download/v2.1.2/CA.addon.v1.0.2.zip"
+    <package name='CA' version='1.0.3'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.1.2/CA.addon.v1.0.3.zip"
            description="CladeAge aPackage for fossil calibrations">
         <depends on='beast2' atleast='2.1.0'/>
     </package>
