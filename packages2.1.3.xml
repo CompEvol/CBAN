@@ -70,8 +70,8 @@
         <depends on='BDSKY' atleast='1.1.1'/>
     </package>
 
-    <package name='SNAPP' version='1.1.5'
-           url="https://github.com/CompEvol/CBAN/releases/download/v2.1.2/SNAPP.addon.v1.1.5.zip"
+    <package name='SNAPP' version='1.1.6'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.1.2/SNAPP.addon.v1.1.6.zip"
            description="SNP and AFLP Phylogenies" >
         <depends on='beast2' atleast='2.1.0'/>
     </package>
