@@ -3,7 +3,7 @@
 <!--
     <package name='BDSKY' version='1.1.1'
            url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BDSKY.addon.v1.1.1.zip"
-           description="birth death skyline -- handles serially sampled tips">
+           description="birth death skyline - handles serially sampled tips">
         <depends on='beast2' atleast='2.2.0'/>
     </package>
 -->
