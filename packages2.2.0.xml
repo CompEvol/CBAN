@@ -90,5 +90,11 @@
            description="BEAST Shell -- BeanShell scripting for BEAST">
         <depends on='beast2' atleast='2.2.0'/>
     </package>
+    
+    <package nam='morph-models' version='1.0.0'
+            url="https://github.com/CompEvol/morph-models/releases/download/pre-v1.0.0/MM.addon.v1.0.0.zip"
+            description="Enables models of morphological chatacter evolution"
+        <depends on='beast2' atleast='2.2.0'
+    </package>
         
 </packages>
