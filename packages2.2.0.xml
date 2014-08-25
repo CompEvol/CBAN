@@ -9,7 +9,7 @@
 -->
 
     <package name='BEASTlabs' version='1.1.2'
-           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BEASTlabs.addon.v1.1.2.zip"
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BEASTlabs.addon.v1.2.0.zip"
            description="BEAST utilities, such as multi threaded treeliklihood, Script">
         <depends on='beast2' atleast='2.2.0'/>
     </package>
