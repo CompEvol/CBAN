@@ -88,5 +88,11 @@
         <depends on='beast2' atleast='2.1.3'/>
     </package>
         
+    <package name='LMM' version='1.0.0'
+           url="https://github.com/MichaelWoodhams/BeastLieMarkov/releases/download/v1.0.0/LMM.addon.v1.0.0.zip"
+           description="Lie Markov Model (substitution model)">
+        <depends on='beast2' atleast='2.1.3'/>
+    </package>        
+        
         
 </packages>
