@@ -39,16 +39,16 @@
         <depends on='beast2' atleast='2.2.0'/>
     </package>
 
+    <package name='MultiTypeTree' version='4.0.0'
+           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v4.0.0/MultiTypeTree.v4.0.0.zip"
+           description="Structured coalescent inference." >
+        <depends on='beast2' atleast='2.2.0'/>
+    </package>
+    
 <!--
     <package name='DISSECT' version='1.0.0'
            url="http://www.indriid.com/2014/DISSECT.addon.v1.0.0.zip"
            description="species delimitation with *BEAST">
-        <depends on='beast2' atleast='2.2.0'/>
-    </package>
-
-    <package name='MultiTypeTree' version='3.0.0'
-           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v3.0.0/MultiTypeTree.v3.0.0.zip"
-           description="structured coalescent simulation" >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
 -->
