@@ -70,14 +70,14 @@
            description="Reversible-jump Based substitution model" >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
+-->
 
-    <package name='SA' version='1.1.0'
-           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/SA.addon.v1.1.0.zip"
+    <package name='SA' version='1.1.1'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/SA.addon.v1.1.1.zip"
            description="Sampled ancestor trees" >
         <depends on='beast2' atleast='2.2.0'/>
-        <depends on='BDSKY' atleast='1.1.1'/>
     </package>
--->
+
     <package name='SNAPP' version='1.1.8'
            url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/SNAPP.addon.v1.1.8.zip"
            description="SNP and AFLP Phylogenies" >
