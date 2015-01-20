@@ -33,6 +33,12 @@
         <depends on='beast2' atleast='2.2.0'/>
     </package>
 
+    <package name='MASTER' version='3.0.0'
+           url="https://github.com/CompEvol/MASTER/releases/download/v3.0.0/MASTER.package.v3.0.0.zip"
+           description="Stochastic population dynamics simulation." >
+        <depends on='beast2' atleast='2.2.0'/>
+    </package>
+
 <!--
     <package name='DISSECT' version='1.0.0'
            url="http://www.indriid.com/2014/DISSECT.addon.v1.0.0.zip"
@@ -40,12 +46,6 @@
         <depends on='beast2' atleast='2.2.0'/>
     </package>
 
-    <package name='MASTER' version='1.10.0'
-           url="https://github.com/CompEvol/MASTER/releases/download/v1.10.0/MASTER.package.v1.10.0.zip"
-           description="stochastic simulation" >
-        <depends on='beast2' atleast='2.2.0'/>
-    </package>
-    
     <package name='MultiTypeTree' version='3.0.0'
            url="https://github.com/CompEvol/MultiTypeTree/releases/download/v3.0.0/MultiTypeTree.v3.0.0.zip"
            description="structured coalescent simulation" >
