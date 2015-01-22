@@ -45,13 +45,12 @@
         <depends on='beast2' atleast='2.2.0'/>
     </package>
     
-<!--
     <package name='DISSECT' version='1.0.0'
            url="http://www.indriid.com/2014/DISSECT.addon.v1.0.0.zip"
            description="species delimitation with *BEAST">
-        <depends on='beast2' atleast='2.2.0'/>
+        <depends on='beast2' atleast='2.1.0'/>
     </package>
--->
+
     <package name="MODEL_SELECTION" version="1.0.3"
             url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/MODEL_SELECTION.addon.v1.0.3.zip"
             description="Select models through path sampling/stepping stone analysis">
