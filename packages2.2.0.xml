@@ -8,8 +8,8 @@
     </package>
 -->
 
-    <package name='BEASTlabs' version='1.2.1'
-           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BEASTlabs.addon.v1.2.1.zip"
+    <package name='BEASTlabs' version='1.2.2'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BEASTlabs.addon.v1.2.2.zip"
            description="BEAST utilities, such as multi threaded treeliklihood, Script">
         <depends on='beast2' atleast='2.2.0'/>
     </package>
