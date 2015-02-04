@@ -75,8 +75,8 @@
         <depends on='beast2' atleast='2.2.0'/>
     </package>
 
-    <package name='SNAPP' version='1.1.9'
-           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/SNAPP.addon.v1.1.9.zip"
+    <package name='SNAPP' version='1.1.10'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/SNAPP.addon.v1.1.10.zip"
            description="SNP and AFLP Phylogenies" >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
