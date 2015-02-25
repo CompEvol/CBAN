@@ -49,6 +49,12 @@
         <depends on='beast2' atleast='2.1.0'/>
     </package>
 
+    <package name='STACEY' version='1.0.1'
+             url="http://www.indriid.com/2015/STACEY.addon.v1.0.1.zip"
+             description="species delimitation with *BEAST">
+        <depends on='beast2' atleast='2.2.0'/>
+    </package>
+
     <package name="MODEL_SELECTION" version="1.0.3"
             url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/MODEL_SELECTION.addon.v1.0.3.zip"
             description="Select models through path sampling/stepping stone analysis">
