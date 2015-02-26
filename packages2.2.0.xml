@@ -42,16 +42,16 @@
            description="Structured coalescent inference." >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
-    
-    <package name='DISSECT' version='1.0.0'
-           url="http://www.indriid.com/2014/DISSECT.addon.v1.0.0.zip"
-           description="species delimitation with *BEAST">
-        <depends on='beast2' atleast='2.1.0'/>
+
+    <package name='DISSECT' version='1.2.0'
+             url="http://www.indriid.com/2015/DISSECT.addon.v1.2.0.zip"
+             description="Species delimitation with *BEAST">
+        <depends on='beast2' atleast='2.2.0'/>
     </package>
 
     <package name='STACEY' version='1.0.1'
              url="http://www.indriid.com/2015/STACEY.addon.v1.0.1.zip"
-             description="species delimitation with *BEAST">
+             description="Species delimitation and species tree estimation">
         <depends on='beast2' atleast='2.2.0'/>
     </package>
 
