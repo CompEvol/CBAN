@@ -45,7 +45,7 @@
     </package>
     
     <package name="MODEL_SELECTION" version="1.0.1."
-            url="https://github.com/CompEvol/CBAN/releases/download/v2.1.2/MODEL_SELECTION.addon.v1.0.1.zip"
+            url="https://github.com/CompEvol/CBAN/releases/download/v2.1.2/MODEL_SELECTION.addon.v1.0.2.zip"
             description="Select models through path sampling/stepping stone analysis">
         <depends on='beast2' atleast='2.1.2'/>
     </package>
