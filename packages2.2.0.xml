@@ -75,8 +75,8 @@
         <depends on='beast2' atleast='2.2.0'/>
     </package>
 
-    <package name='SA' version='1.1.1'
-           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/SA.addon.v1.1.1.zip"
+    <package name='SA' version='1.1.2'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/SA.addon.v1.1.2.zip"
            description="Sampled ancestor trees" >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
