@@ -5,6 +5,12 @@
            description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
         <depends on='beast2' atleast='2.2.0'/>
     </package>
+    
+    <package name='BDSKY' version='1.2.1'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BDSKY.addon.1.2.1.zip"
+           description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
+        <depends on='beast2' atleast='2.2.0'/>
+    </package>
 
     <package name='BEASTlabs' version='1.2.2'
            url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BEASTlabs.addon.v1.2.2.zip"
