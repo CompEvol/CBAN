@@ -115,6 +115,7 @@
             url="https://github.com/BEAST2-Dev/bModelTest/releases/download/0.0.1/bModelTest.addon.v0.0.1.zip"
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
         <depends on='beast2' atleast='2.2.1'/>
+        <depends on='MGSM' atleast='0.0.2'/>
     </package>
         
 </packages>
