@@ -117,5 +117,12 @@
         <depends on='beast2' atleast='2.2.1'/>
         <depends on='MGSM' atleast='0.0.2'/>
     </package>
-        
+
+<!--        
+    <package name='BASTA' version='1.1.0'
+            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/src/master/dist/BASTA.v1.1.0.zip"
+            description="Bayesian structured coalescent approximation">
+        <depends on='beast2' atleast='2.2.0'/>
+    </package>
+    -->
 </packages>
