@@ -1,0 +1,127 @@
+<packages>
+<!--    
+    <package name='BDSKY' version='1.2.1'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BDSKY.addon.1.2.1.zip"
+           description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name='BEASTlabs' version='1.2.2'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BEASTlabs.addon.v1.2.2.zip"
+           description="BEAST utilities, such as multi threaded treeliklihood, Script">
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name='BEAST_CLASSIC' version='1.1.8'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BEAST_CLASSIC.addon.v1.1.8.zip"
+           description="BEAST classes ported from BEAST 1 in wrappers" >
+        <depends on='beast2' atleast='2.3.0'/>
+        <depends on='BEASTlabs' atleast='1.2.1'/>
+    </package>
+
+    <package name='GEO_SPHERE' version='0.0.5'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/GEO_SPHERE.addon.v0.0.5.zip"
+           description="Whole world phylogeography" >
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name='CA' version='1.0.4'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/CA.addon.v1.0.4.zip"
+           description="CladeAge aPackage for fossil calibrations">
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name='MASTER' version='4.1.1'
+           url="https://github.com/CompEvol/MASTER/releases/download/v4.1.1/MASTER.package.v4.1.1.zip"
+           description="Stochastic population dynamics simulation." >
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name='MultiTypeTree' version='5.3.0'
+           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v5.3.0/MultiTypeTree.v5.3.0.zip"
+           description="Structured coalescent inference." >
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name='DISSECT' version='1.2.0'
+             url="http://www.indriid.com/2015/DISSECT.addon.v1.2.0.zip"
+             description="Species delimitation with *BEAST">
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name='STACEY' version='1.0.1'
+             url="http://www.indriid.com/2015/STACEY.addon.v1.0.1.zip"
+             description="Species delimitation and species tree estimation">
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name="MODEL_SELECTION" version="1.0.3"
+            url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/MODEL_SELECTION.addon.v1.0.3.zip"
+            description="Select models through path sampling/stepping stone analysis">
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name='phylodynamics' version='1.1.1'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/phylodynamics.addon.v1.1.1.zip"
+           description="birth death skyline model" >
+        <depends on='beast2' atleast='2.3.0'/>
+        <depends on='BDSKY' atleast='1.2.0'/>
+    </package>
+
+
+    <package name='RBS' version='1.1.1'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/RBS.addon.v1.1.1.zip"
+           description="Reversible-jump Based substitution model" >
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name='SA' version='1.1.2'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/SA.addon.v1.1.2.zip"
+           description="Sampled ancestor trees" >
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+-->
+    <package name='SNAPP' version='1.2.0'
+           url="https://github.com/BEAST2-Dev/SNAPP/releases/download/v1.2.0/SNAPP.addon.v1.2.0.zip"
+           description="SNP and AFLP Phylogenies" >
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+<!--
+    <package name='SubstBMA' version='1.1.2'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/SubstBMA.addon.v1.1.2.zip"
+           description="Substitution Bayesian Model Averaging" >
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+
+    <package name='BEASTShell' version='1.1.1'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/BEASTShell.addon.v1.1.1.zip"
+           description="BEAST Shell -- BeanShell scripting for BEAST">
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+    
+    <package name='morph-models' version='1.0.0'
+            url="https://github.com/CompEvol/morph-models/releases/download/v1.0.1/MM.addon.v1.0.1.zip"
+            description="Enables models of morphological chatacter evolution">
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+        
+    <package name='MGSM' version='0.0.2'
+            url="https://github.com/BEAST2-Dev/MGSM/releases/download/0.0.1/MSGM.addon.v0.0.2.zip"
+            description="Multi-gamma and relaxed gamma site models">
+        <depends on='beast2' atleast='2.2.1'/>
+    </package>
+        
+    <package name='bModelTest' version='0.0.2'
+            url="https://github.com/BEAST2-Dev/bModelTest/releases/download/0.0.1/bModelTest.addon.v0.0.2.zip"
+            description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
+        <depends on='beast2' atleast='2.2.1'/>
+        <depends on='MGSM' atleast='0.0.2'/>
+    </package>
+
+    <package name='BASTA' version='1.1.0'
+            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/src/master/dist/BASTA.v1.1.0.zip"
+            description="Bayesian structured coalescent approximation">
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
+    -->
+</packages>
