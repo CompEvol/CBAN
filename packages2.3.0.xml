@@ -30,7 +30,7 @@
            description="CladeAge aPackage for fossil calibrations">
         <depends on='beast2' atleast='2.3.0'/>
     </package>
-
+-->
     <package name='MASTER' version='4.1.1'
            url="https://github.com/CompEvol/MASTER/releases/download/v4.1.1/MASTER.package.v4.1.1.zip"
            description="Stochastic population dynamics simulation." >
@@ -42,7 +42,7 @@
            description="Structured coalescent inference." >
         <depends on='beast2' atleast='2.3.0'/>
     </package>
-
+<!--
     <package name='DISSECT' version='1.2.0'
              url="http://www.indriid.com/2015/DISSECT.addon.v1.2.0.zip"
              description="Species delimitation with *BEAST">
