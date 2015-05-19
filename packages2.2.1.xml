@@ -19,8 +19,8 @@
         <depends on='BEASTlabs' atleast='1.2.1'/>
     </package>
 
-    <package name='GEO_SPHERE' version='0.0.5'
-           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/GEO_SPHERE.addon.v0.0.5.zip"
+    <package name='GEO_SPHERE' version='0.0.6'
+           url="https://github.com/CompEvol/CBAN/releases/download/v2.2.0/GEO_SPHERE.addon.v0.0.6.zip"
            description="Whole world phylogeography" >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
