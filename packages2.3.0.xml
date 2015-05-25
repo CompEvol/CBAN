@@ -42,7 +42,7 @@
            description="Structured coalescent inference." >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
-<!--
+
     <package name='DISSECT' version='1.2.0'
              url="http://www.indriid.com/2015/DISSECT.addon.v1.2.0.zip"
              description="Species delimitation with *BEAST">
@@ -54,7 +54,7 @@
              description="Species delimitation and species tree estimation">
         <depends on='beast2' atleast='2.3.0'/>
     </package>
--->
+
     <package name="MODEL_SELECTION" version="1.1.0"
             url="https://github.com/BEAST2-Dev/model-selection/releases/tag/v1.1.0"
             description="Select models through path sampling/stepping stone analysis">
@@ -116,11 +116,11 @@
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
         <depends on='beast2' atleast='2.3.0'/>
     </package>
-<!--
+
     <package name='BASTA' version='1.1.0'
             url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/src/master/dist/BASTA.v1.1.0.zip"
             description="Bayesian structured coalescent approximation">
         <depends on='beast2' atleast='2.3.0'/>
     </package>
-    -->
+
 </packages>
