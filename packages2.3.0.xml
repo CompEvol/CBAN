@@ -98,13 +98,13 @@
            description="BEAST Shell - BeanShell scripting for BEAST">
         <depends on='beast2' atleast='2.3.0'/>
     </package>
-<!--    
+    
     <package name='morph-models' version='1.0.0'
             url="https://github.com/CompEvol/morph-models/releases/download/v1.0.1/MM.addon.v1.0.1.zip"
             description="Enables models of morphological chatacter evolution">
-        <depends on='beast2' atleast='2.3.0'/>
+        <depends on='beast2' atleast='2.2.0'/>
     </package>
--->        
+       
     <package name='MGSM' version='0.1.0'
             url="https://github.com/BEAST2-Dev/MGSM/releases/download/0.0.1/MSGM.addon.v0.1.0.zip"
             description="Multi-gamma and relaxed gamma site models">
