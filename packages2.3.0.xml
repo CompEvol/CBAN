@@ -104,8 +104,8 @@
         <depends on='beast2' atleast='2.2.0'/>
     </package>
        
-    <package name='MGSM' version='0.1.2'
-            url="https://github.com/BEAST2-Dev/MGSM/releases/download/0.0.1/MSGM.addon.v0.1.2.zip"
+    <package name='MGSM' version='0.1.3'
+            url="https://github.com/BEAST2-Dev/MGSM/releases/download/0.0.1/MSGM.addon.v0.1.3.zip"
             description="Multi-gamma and relaxed gamma site models">
         <depends on='beast2' atleast='2.3.0'/>
     </package>
