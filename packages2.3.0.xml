@@ -110,8 +110,8 @@
         <depends on='beast2' atleast='2.3.0'/>
     </package>
         
-    <package name='bModelTest' version='0.1.0'
-            url="https://github.com/BEAST2-Dev/bModelTest/releases/download/0.0.1/bModelTest.addon.v0.1.0.zip"
+    <package name='bModelTest' version='0.1.1'
+            url="https://github.com/BEAST2-Dev/bModelTest/releases/download/0.0.1/bModelTest.addon.v0.1.1.zip"
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
         <depends on='beast2' atleast='2.3.0'/>
     </package>
