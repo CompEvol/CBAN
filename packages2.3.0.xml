@@ -50,7 +50,7 @@
     </package>
 
     <package name='STACEY' version='1.0.3'
-             url="indriid.com/2015/STACEY.addon.v1.0.3.zip"
+             url="http://indriid.com/2015/STACEY.addon.v1.0.3.zip"
              description="Species delimitation and species tree estimation">
         <depends on='beast2' atleast='2.3.0'/>
     </package>
