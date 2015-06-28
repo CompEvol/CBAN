@@ -68,8 +68,8 @@
         <depends on='BDSKY' atleast='1.2.2'/>
     </package>
 
-    <package name='RBS' version='1.2.3'
-           url="https://github.com/BEAST2-Dev/rb-beast/releases/download/v1.2.0/RBS.addon.v1.2.3.zip"
+    <package name='RBS' version='1.2.4'
+           url="https://github.com/BEAST2-Dev/rb-beast/releases/download/v1.2.0/RBS.addon.v1.2.4.zip"
            description="Reversible-jump Based substitution model" >
         <depends on='beast2' atleast='2.3.0'/>
     </package>
