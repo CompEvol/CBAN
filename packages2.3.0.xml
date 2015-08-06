@@ -42,6 +42,12 @@
            description="Structured coalescent inference." >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
+    
+    <package name='bacter' version='1.0.0-pre'
+           url="https://github.com/CompEvol/bacter/releases/download/v1.0.0-pre/bacter.v1.0.0-pre.zip"
+           description="ClonalOrigin ARG inference." >
+        <depends on='beast2' atleast='2.3.0'/>
+    </package>
 
     <package name='DISSECT' version='1.2.0'
              url="http://www.indriid.com/2015/DISSECT.addon.v1.2.0.zip"
