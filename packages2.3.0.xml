@@ -86,8 +86,8 @@
         <depends on='beast2' atleast='2.3.0'/>
     </package>
 
-    <package name='SNAPP' version='1.2.1'
-           url="https://github.com/BEAST2-Dev/SNAPP/releases/download/v1.2.0/SNAPP.addon.v1.2.1.zip"
+    <package name='SNAPP' version='1.2.2'
+           url="https://github.com/BEAST2-Dev/SNAPP/releases/download/v1.2.0/SNAPP.addon.v1.2.2.zip"
            description="SNP and AFLP Phylogenies" >
         <depends on='beast2' atleast='2.3.0'/>
     </package>
