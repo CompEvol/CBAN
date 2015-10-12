@@ -38,10 +38,10 @@
         <depends on='beast2' atleast='2.1.0'/>
     </package>
     
-    <package name='MultiTypeTree' version='3.0.0'
-           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v3.0.0/MultiTypeTree.v3.0.0.zip"
-           description="structured coalescent simulation" >
-        <depends on='beast2' atleast='2.1.0'/>
+    <package name='MultiTypeTree' version='5.4.0'
+           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v5.4.0/MultiTypeTree.v5.4.0.zip"
+           description="Structured coalescent inference." >
+        <depends on='beast2' atleast='2.3.0'/>
     </package>
     
     <package name="MODEL_SELECTION" version="1.0.2."
