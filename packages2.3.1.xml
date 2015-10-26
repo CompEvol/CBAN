@@ -43,10 +43,10 @@
         <depends on='beast2' atleast='2.3.0'/>
     </package>
     
-    <package name='bacter' version='1.0.0-pre2'
-           url="https://github.com/CompEvol/bacter/releases/download/v1.0.0-pre2/bacter.v1.0.0-pre2.zip"
+    <package name='bacter' version='1.0.0-pre3'
+           url="https://github.com/CompEvol/bacter/releases/download/v1.0.0-pre3/bacter.v1.0.0-pre3.zip"
            description="ClonalOrigin ARG inference." >
-        <depends on='beast2' atleast='2.3.0'/>
+        <depends on='beast2' atleast='2.3.1'/>
     </package>
 
     <package name='DISSECT' version='1.2.0'
