@@ -86,10 +86,10 @@
         <depends on='beast2' atleast='2.3.0'/>
     </package>
 
-    <package name='SNAPP' version='1.2.4'
-           url="https://github.com/BEAST2-Dev/SNAPP/releases/download/v1.2.0/SNAPP.addon.v1.2.4.zip"
+    <package name='SNAPP' version='1.2.5'
+           url="https://github.com/BEAST2-Dev/SNAPP/releases/download/v1.2.0/SNAPP.addon.v1.2.5.zip"
            description="SNP and AFLP Phylogenies" >
-        <depends on='beast2' atleast='2.3.0'/>
+        <depends on='beast2' atleast='2.3.1'/>
     </package>
 
     <package name='SubstBMA' version='1.2.0'
