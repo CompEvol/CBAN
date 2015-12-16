@@ -128,4 +128,17 @@
         <depends on='beast2' atleast='2.3.1'/>
     </package>
 
+    <package name='SCOTTI' version='1.0.0'
+            url="https://bitbucket.org/nicofmay/scotti/raw/master/SCOTTI/dist/SCOTTI.v1.0.0.zip"
+            description="Structured COalescent Transmission Tree Inference">
+        <depends on='beast2' atleast='2.2.1'/>
+    </package>
+
+<!--
+    <package name='PoMo' version='0.1.0'
+            url="https://bitbucket.org/nicofmay/pomo-beast/raw/master/dist/PoMo.v0.1.0.zip"
+            description="PoMo">
+        <depends on='beast2' atleast='2.2.1'/>
+    </package>
+-->
 </packages>
