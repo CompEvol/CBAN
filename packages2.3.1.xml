@@ -43,12 +43,6 @@
         <depends on='beast2' atleast='2.3.0'/>
     </package>
     
-    <package name='MultiTypeTree_rebuild' version='5.4.1'
-           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v5.4.1/MultiTypeTree_rebuild.v5.4.1.zip"
-           description="Structured coalescent inference." >
-        <depends on='beast2' atleast='2.3.0'/>
-    </package>
-    
     <package name='bacter' version='1.0.0-pre6'
            url="https://github.com/CompEvol/bacter/releases/download/v1.0.0-pre6/bacter.v1.0.0-pre6.zip"
            description="ClonalOrigin ARG inference." >
@@ -134,12 +128,6 @@
         <depends on='beast2' atleast='2.3.1'/>
     </package>
     
-    <package name='BASTA_rebuild' version='2.1.0'
-            url="https://github.com/tgvaughan/BASTA/releases/download/v2.1.0/BASTA.v2.1.0.zip"
-            description="Bayesian structured coalescent approximation">
-        <depends on='beast2' atleast='2.3.3'/>
-    </package>
-
     <package name='SCOTTI' version='1.0.0'
             url="https://bitbucket.org/nicofmay/scotti/raw/master/SCOTTI/dist/SCOTTI.v1.0.0.zip"
             description="Structured COalescent Transmission Tree Inference">
