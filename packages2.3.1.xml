@@ -33,14 +33,14 @@
 
     <package name='MASTER' version='4.1.3'
            url="https://github.com/CompEvol/MASTER/releases/download/v4.1.3/MASTER.package.v4.1.3.zip"
-           description="Stochastic population dynamics simulation." >
+           description="Stochastic population dynamics simulation" >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
 
-    <package name='MultiTypeTree' version='5.4.1'
-           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v5.4.1/MultiTypeTree.v5.4.1.zip"
-           description="Structured coalescent inference." >
-        <depends on='beast2' atleast='2.3.0'/>
+    <package name='MultiTypeTree' version='5.5.0'
+           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v5.5.0/MultiTypeTree.v5.5.0.zip"
+           description="Structured coalescent inference" >
+        <depends on='beast2' atleast='2.3.2'/>
     </package>
     
     <package name='bacter' version='1.0.0-pre6'
