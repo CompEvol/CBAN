@@ -128,8 +128,8 @@
         <depends on='beast2' atleast='2.3.1'/>
     </package>
     
-    <package name='SCOTTI' version='1.0.0'
-            url="https://bitbucket.org/nicofmay/scotti/raw/master/SCOTTI/dist/SCOTTI.v1.0.0.zip"
+    <package name='SCOTTI' version='1.0.1'
+            url="https://bitbucket.org/nicofmay/scotti/raw/master/SCOTTI/dist/SCOTTI.v1.0.1.zip"
             description="Structured COalescent Transmission Tree Inference">
         <depends on='beast2' atleast='2.2.1'/>
     </package>
