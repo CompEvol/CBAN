@@ -98,7 +98,7 @@
         <depends on='beast2' atleast='2.3.0'/>
     </package>
 
-    <package name='BEASTShell' version='1.1.1'
+    <package name='BEASTShell' version='1.2.0'
            url="https://github.com/CompEvol/beastshell/releases/download/0.0.2/BEASTShell.addon.v1.2.0.zip"
            description="BEAST Shell - BeanShell scripting for BEAST">
         <depends on='beast2' atleast='2.3.0'/>
