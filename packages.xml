@@ -36,6 +36,13 @@
            description="Stochastic population dynamics simulation" >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
+    
+    <!-- Fake entry for debugging -->
+    <package name='MASTER' version='5.0.0'
+           url="https://github.com/CompEvol/MASTER/releases/download/v4.1.3/MASTER.package.v4.1.3.zip"
+           description="Stochastic population dynamics simulation" >
+        <depends on='beast2' atleast='2.5.0'/>
+    </package>
 
     <package name='MultiTypeTree' version='5.5.0'
            url="https://github.com/CompEvol/MultiTypeTree/releases/download/v5.5.0/MultiTypeTree.v5.5.0.zip"
