@@ -43,6 +43,13 @@
         <depends on='beast2' atleast='2.3.2'/>
     </package>
     
+    <!-- fake entry for debugging -->
+    <package name='MultiTypeTree' version='6.0.0'
+           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v5.5.0/MultiTypeTree.v5.5.0.zip"
+           description="Structured coalescent inference" >
+        <depends on='beast2' atleast='2.4.0'/>
+    </package>
+    
     <package name='bacter' version='1.0.0-pre6'
            url="https://github.com/CompEvol/bacter/releases/download/v1.0.0-pre6/bacter.v1.0.0-pre6.zip"
            description="ClonalOrigin ARG inference." >
