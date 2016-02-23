@@ -1,5 +1,6 @@
 <packages>
-
+    <package name='BEAST' version='2.4.0pre' url="https://github.com/CompEvol/beast2/releases/download/v2.4.0pre/beast.package.2.4.0pre.zip"/>
+<!--
     <package name='BDSKY' version='1.2.2'
            url="https://github.com/BEAST2-Dev/bdsky/releases/download/1.2.2/BDSKY.addon.1.2.2.zip"
            description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
@@ -36,8 +37,9 @@
            description="Stochastic population dynamics simulation" >
         <depends on='beast2' atleast='2.2.0'/>
     </package>
-    
+   --> 
     <!-- Fake entry for debugging -->
+    <!--
     <package name='MASTER' version='5.0.0'
            url="https://github.com/CompEvol/MASTER/releases/download/v4.1.3/MASTER.package.v4.1.3.zip"
            description="Stochastic population dynamics simulation" >
@@ -49,8 +51,9 @@
            description="Structured coalescent inference" >
         <depends on='beast2' atleast='2.3.2'/>
     </package>
-    
+    -->
     <!-- fake entry for debugging -->
+    <!--
     <package name='MultiTypeTree' version='6.0.0'
            url="https://github.com/CompEvol/MultiTypeTree/releases/download/v5.5.0/MultiTypeTree.v5.5.0.zip"
            description="Structured coalescent inference" >
@@ -154,5 +157,5 @@
             description="PoMo, a substitution model that separates mutation and drift processes">
         <depends on='beast2' atleast='2.2.1'/>
     </package>
-
+    -->
 </packages>
