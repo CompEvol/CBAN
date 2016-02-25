@@ -72,13 +72,13 @@
              description="Species delimitation with *BEAST">
         <depends on='beast2' atleast='2.3.0'/>
     </package>
-
-    <package name='STACEY' version='1.0.5'
-             url="http://www.indriid.com/2015/STACEY.addon.v1.0.5.zip"
-             description="Species delimitation and species tree estimation">
-        <depends on='beast2' atleast='2.3.0'/>
-    </package>
 -->
+    <package name='STACEY' version='1.2.0'
+             url="http://www.indriid.com/2016/STACEY.addon.v1.2.0.zip"
+             description="Species delimitation and species tree estimation">
+        <depends on='beast2' atleast='2.4.0'/>
+    </package>
+
     <package name="MODEL_SELECTION" version="1.2.0"
             url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.2.0/MODEL_SELECTION.addon.v1.2.0.zip"
             description="Select models through path sampling/stepping stone analysis">
