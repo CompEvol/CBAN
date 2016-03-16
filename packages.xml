@@ -1,5 +1,7 @@
 <packages>
-    <package name='BEAST' version='2.4.0pre' url="https://github.com/CompEvol/beast2/releases/download/v2.4.0pre/beast.package.2.4.0pre.zip"/>
+    <package name='BEAST' version='2.4.0'
+        url="https://github.com/CompEvol/beast2/releases/download/v2.4.0/beast.package.2.4.0.zip"
+        description="BEAST core"/>
 <!--
     <package name='BDSKY' version='1.2.2'
            url="https://github.com/BEAST2-Dev/bdsky/releases/download/1.2.2/BDSKY.addon.1.2.2.zip"
