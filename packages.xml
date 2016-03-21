@@ -126,24 +126,24 @@
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
-<!--c
-    <package name='BASTA' version='2.1.0'
-            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/6e46a2725807eb67a90119033f8546cb6115c802/dist/BASTA.v2.1.0.zip"
+<
+    <package name='BASTA' version='2.1.1'
+            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/8d019e4c50eb678b47365c63335b8faba7f2721a/dist/BASTA.v2.1.1.zip"
             description="Bayesian structured coalescent approximation">
-        <depends on='beast2' atleast='2.3.1'/>
+        <depends on='beast2' atleast='2.4.0'/>
     </package>
     
-    <package name='SCOTTI' version='1.0.1'
-            url="https://bitbucket.org/nicofmay/scotti/raw/master/SCOTTI/dist/SCOTTI.v1.0.1.zip"
+    <package name='SCOTTI' version='1.0.2'
+            url="https://bitbucket.org/nicofmay/scotti/raw/3f830b784d2c2f6b1cf39403285293b1f643aa64/SCOTTI/dist/SCOTTI.v1.0.2.zip"
             description="Structured COalescent Transmission Tree Inference">
-        <depends on='beast2' atleast='2.2.1'/>
+        <depends on='beast2' atleast='2.4.0'/>
     </package>
 
 
-    <package name='PoMo' version='0.1.1'
-            url="https://bitbucket.org/nicofmay/pomo-beast/raw/master/dist/PoMo.v0.1.1.zip"
+    <package name='PoMo' version='0.2.0'
+            url="https://bitbucket.org/nicofmay/pomo-beast/raw/e9aa31db0d9573276591960d6e082be079ee311d/dist/PoMo.v0.2.0.zip"
             description="PoMo, a substitution model that separates mutation and drift processes">
-        <depends on='beast2' atleast='2.2.1'/>
+        <depends on='beast2' atleast='2.4.0'/>
     </package>
-    -->
+    
 </packages>
