@@ -126,7 +126,7 @@
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
-<
+
     <package name='BASTA' version='2.1.1'
             url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/8d019e4c50eb678b47365c63335b8faba7f2721a/dist/BASTA.v2.1.1.zip"
             description="Bayesian structured coalescent approximation">
