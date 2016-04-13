@@ -71,8 +71,8 @@
         <depends on='beast2' atleast='2.3.0'/>
     </package>
 -->
-    <package name='STACEY' version='1.2.0'
-             url="http://www.indriid.com/2016/STACEY.addon.v1.2.0.zip"
+    <package name='STACEY' version='1.2.1'
+             url="http://www.indriid.com/2016/STACEY.addon.v1.2.1.zip"
              description="Species delimitation and species tree estimation">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
