@@ -97,6 +97,13 @@
         <depends on='BDSKY' atleast='1.3.0'/>
     </package>
 
+    <package name='bdmm' version='0.1'
+           url="https://github.com/denisekuehnert/bdmm/releases/download/0.1/BDMM.addon.v0.1.zip"
+           description="pre-release of multitype birth-death model (aka birth-death-migration model)" >
+        <depends on='beast2' atleast='2.4.0'/>
+        <depends on='MultiTypeTree' atleast='6.1.0'/>
+    </package>
+
     <package name='RBS' version='1.3.1'
            url="https://github.com/BEAST2-Dev/rb-beast/releases/download/v1.3.0/RBS.addon.v1.3.1.zip"
            description="Reversible-jump Based substitution model" >
