@@ -1,0 +1,9 @@
+<packages>
+
+    <package name='Babel' version='0.1.0'
+           url="https://github.com/rbouckaert/Babel/releases/download/0.0.1/Babel.addon.v0.1.0.zip"
+           description="BABEL = BEAST analysis backing effective linguistics">
+        <depends on='beast2' atleast='2.4.0'/>
+    </package>
+
+</packages>
