@@ -122,11 +122,11 @@
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
-    <package name='subst-bma' version='1.3.0'
+    <!--package name='subst-bma' version='1.3.0'
            url="https://github.com/BEAST2-Dev/subst-bma/releases/download/v1.3.0/SubstBMA.addon.v1.3.0.zip"
            description="Substitution Bayesian Model Averaging" >
         <depends on='beast2' atleast='2.4.0'/>
-    </package>
+    </package-->
 
     <package name='BEASTShell' version='1.3.0'
            url="https://github.com/CompEvol/beastshell/releases/download/v1.3.0/BEASTShell.addon.v1.3.0.zip"
