@@ -128,8 +128,8 @@
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
-    <package name="substBMA" version="1.2.1"
-            url="https://github.com/jessiewu/substBMA/releases/download/v1.2.1/substBMA.v1.2.1.zip"
+    <package name="substBMA" version="1.2.2"
+            url="https://github.com/jessiewu/substBMA/releases/download/v1.2.2/substBMA.v1.2.2.zip"
             description="Substitution Bayesian Model Averaging">
         <depends on="BEAST" atleast="2.4.0"/>
     </package>
