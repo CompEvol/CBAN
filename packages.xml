@@ -77,17 +77,17 @@
             description="Select models through path sampling/stepping stone analysis">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
-    <package name="MODEL_SELECTION" version="1.3.0"
-            url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.3.0/MODEL_SELECTION.addon.v1.3.0.zip"
-            description="Select models through path sampling/stepping stone analysis">
-        <depends on='beast2' atleast='2.4.0'/>
-        <depends on='BEASTLabs' atleast='1.5.0'/>
-    </package>
     <package name="MODEL_SELECTION" version="1.3.1"
             url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.3.0/MODEL_SELECTION.addon.v1.3.1.zip"
             description="Select models through path sampling/stepping stone analysis">
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.5.0'/>
+    </package>
+    <package name="MODEL_SELECTION" version="1.3.2"
+            url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.3.0/MODEL_SELECTION.addon.v1.3.2.zip"
+            description="Select models through path sampling/stepping stone analysis">
+        <depends on='beast2' atleast='2.4.0'/>
+        <depends on='BEASTLabs' atleast='1.5.3'/>
     </package>
 
     <package name='phylodynamics' version='1.2.0'
