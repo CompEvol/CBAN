@@ -47,8 +47,8 @@
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
-    <package name='MultiTypeTree' version='6.2.0'
-           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v6.2.0/MultiTypeTree.v6.2.0.zip"
+    <package name='MultiTypeTree' version='6.2.1'
+           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v6.2.1/MultiTypeTree.v6.2.1.zip"
            description="Structured coalescent inference" >
         <depends on='BEAST' atleast='2.4.0' />
     </package>
