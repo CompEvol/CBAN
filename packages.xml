@@ -98,7 +98,7 @@
     </package>
 
     <package name='bdmm' version='0.1.0'
-           url="https://github.com/denisekuehnert/bdmm/releases/download/0.1.0/BDMM.addon.v0.1.0.zip"
+           url="https://github.com/denisekuehnert/bdmm/releases/download/0.1.1/BDMM.addon.0.1.1.zip"
            description="pre-release of multitype birth-death model (aka birth-death-migration model)" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='MultiTypeTree' atleast='6.1.0'/>
