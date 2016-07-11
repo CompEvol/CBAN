@@ -3,8 +3,8 @@
         url="https://github.com/CompEvol/beast2/releases/download/v2.4.2/BEAST.addon.v2.4.2.zip"
         description="BEAST core"/>
 
-    <package name='BDSKY' version='1.3.1'
-           url="https://github.com/BEAST2-Dev/bdsky/releases/download/1.3.1/BDSKY.addon.1.3.1.zip"
+    <package name='BDSKY' version='1.3.2'
+           url="https://github.com/BEAST2-Dev/bdsky/releases/download/1.3.2/BDSKY.addon.1.3.2.zip"
            description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
