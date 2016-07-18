@@ -184,8 +184,8 @@
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
-    <package name='StarBEAST2' version='0.11.0'
-            url="https://github.com/genomescale/starbeast2/releases/download/v0.11.0/starbeast2.zip"
+    <package name='StarBEAST2' version='0.12.0'
+            url="https://github.com/genomescale/starbeast2/releases/download/v0.12.0/starbeast2.zip"
             description="Faster multi-species coalescent inference using multi-locus data">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
