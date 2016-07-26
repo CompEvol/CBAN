@@ -55,7 +55,8 @@
 
     <package name='bacter' version='1.0.1'
            url="https://github.com/CompEvol/bacter/releases/download/v1.0.1/bacter.v1.0.1.zip"
-           description="ClonalOrigin ARG inference." >
+           description="ClonalOrigin ARG inference."
+           projectURL="http://tgvaughan.github.io/bacter">
         <depends on='BEAST' atleast='2.4'/>
     </package>
 
