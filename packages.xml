@@ -50,9 +50,9 @@
     </package>
 
     <package name='MultiTypeTree' version='6.2.1'
-           url="https://github.com/CompEvol/MultiTypeTree/releases/download/v6.2.1/MultiTypeTree.v6.2.1.zip"
+           url="https://github.com/tgvaughan/MultiTypeTree/releases/download/v6.2.1/MultiTypeTree.v6.2.1.zip"
            description="Structured coalescent inference"
-           projectURL="http://compevol.github.io/MultiTypeTree" >
+           projectURL="http://tgvaughan.github.io/MultiTypeTree" >
         <depends on='BEAST' atleast='2.4.0' />
     </package>
 
