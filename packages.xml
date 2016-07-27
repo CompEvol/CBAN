@@ -43,9 +43,9 @@
     </package>
 
     <package name='MASTER' version='5.0.2'
-           url="https://github.com/CompEvol/MASTER/releases/download/v5.0.2/MASTER.package.v5.0.2.zip"
+           url="https://github.com/tgvaughan/MASTER/releases/download/v5.0.2/MASTER.package.v5.0.2.zip"
            description="Stochastic population dynamics simulation"
-           projectURL="http://compevol.github.io/MASTER" >
+           projectURL="http://tgvaughan.github.io/MASTER" >
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
