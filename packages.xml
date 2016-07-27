@@ -1,6 +1,7 @@
 <packages>
     <package name='BEAST' version='2.4.2'
         url="https://github.com/CompEvol/beast2/releases/download/v2.4.2/BEAST.addon.v2.4.2.zip"
+        projectURL="http://beast2.org"
         description="BEAST core"/>
 
     <package name='BDSKY' version='1.3.2'
@@ -43,20 +44,22 @@
 
     <package name='MASTER' version='5.0.2'
            url="https://github.com/CompEvol/MASTER/releases/download/v5.0.2/MASTER.package.v5.0.2.zip"
-           description="Stochastic population dynamics simulation" >
+           description="Stochastic population dynamics simulation"
+           projectURL="http://compevol.github.io/MASTER" >
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
     <package name='MultiTypeTree' version='6.2.1'
            url="https://github.com/CompEvol/MultiTypeTree/releases/download/v6.2.1/MultiTypeTree.v6.2.1.zip"
-           description="Structured coalescent inference" >
+           description="Structured coalescent inference"
+           projectURL="http://compevol.github.io/MultiTypeTree" >
         <depends on='BEAST' atleast='2.4.0' />
     </package>
 
     <package name='bacter' version='1.0.1'
            url="https://github.com/CompEvol/bacter/releases/download/v1.0.1/bacter.v1.0.1.zip"
            description="ClonalOrigin ARG inference."
-           projectURL="http://tgvaughan.github.io/bacter">
+           projectURL="http://tgvaughan.github.io/bacter" >
         <depends on='BEAST' atleast='2.4'/>
     </package>
 
