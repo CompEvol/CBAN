@@ -56,8 +56,8 @@
         <depends on='BEAST' atleast='2.4.0' />
     </package>
 
-    <package name='bacter' version='1.0.1'
-           url="https://github.com/CompEvol/bacter/releases/download/v1.0.1/bacter.v1.0.1.zip"
+    <package name='bacter' version='1.1.0'
+           url="https://github.com/CompEvol/bacter/releases/download/v1.1.0/bacter.v1.1.0.zip"
            description="ClonalOrigin ARG inference."
            projectURL="http://tgvaughan.github.io/bacter" >
         <depends on='BEAST' atleast='2.4'/>
@@ -171,7 +171,8 @@
 
     <package name='BASTA' version='2.1.2'
             url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/028d88908106ead31c2bc0e943eff98e0c3e37b1/dist/BASTA.v2.1.2.zip"
-            description="Bayesian structured coalescent approximation">
+            description="Bayesian structured coalescent approximation"
+            projectURL="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     
