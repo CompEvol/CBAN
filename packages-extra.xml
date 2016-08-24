@@ -22,4 +22,11 @@
     	<depends on='beast2' atleast='2.4.0'/>
     </package>
 
+    <package name="parameterclone" version="1.0.2"
+       url="https://github.com/Anaphory/parameterclone/releases/download/v1.0.2/parameterclone.v1.0.2.zip"
+       description="implementing Merge and Split operators for reversible-jump markov chains selecting models with various parameter size"
+       projectURL="https://github.com/Anaphory/parameterclone">
+    	<depends on='beast2' atleast='2.4.0'/>
+    </package>
+
 </packages>
