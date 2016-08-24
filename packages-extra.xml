@@ -14,6 +14,12 @@
 	    <depends on='beast2' atleast='2.4.3'/>
         <depends on="BEASTLabs" atleast="1.6.0"/>
     </package>
-
+  
+    <package name="correlatedcharacters" version="1.2.0"
+       url="https://github.com/Anaphory/correlatedcharacters/releases/download/v1.2.0/correlatedcharacters.v1.2.0.zip"
+       description="implementing elements of Pagel &amp; Meade=&apos;s CorrelatedEvolution: A reversible substitution model for correlated morphological characters"
+       projectURL="https://github.com/Anaphory/correlatedcharacters">
+    	<depends on='beast2' atleast='2.4.0'/>
+    </package>
 
 </packages>
