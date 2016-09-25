@@ -15,8 +15,8 @@
            description="BEAST utilities, such as Script, multi monophyletic constraints">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
-    <package name='BEASTLabs' version='1.6.0'
-           url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.6.0/BEASTlabs.addon.v1.6.0.zip"
+    <package name='BEASTLabs' version='1.7.0'
+           url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.7.0/BEASTlabs.addon.v1.7.0.zip"
            description="BEAST utilities, such as Script, multi monophyletic constraints">
         <depends on='beast2' atleast='2.4.3'/>
     </package>
