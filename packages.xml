@@ -175,8 +175,8 @@
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
-    <package name='bModelTest' version='0.3.2'
-            url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v0.3.0/bModelTest.addon.v0.3.2.zip"
+    <package name='bModelTest' version='0.3.3'
+            url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v0.3.0/bModelTest.addon.v0.3.3.zip"
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.5.3'/>
