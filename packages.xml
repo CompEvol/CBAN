@@ -183,8 +183,8 @@
     </package>
 
 
-    <package name='BASTA' version='2.2.0'
-            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/8fd7b80b81f06e55c96ca3054e3a5ba27f88f9dd/dist/BASTA.v2.2.0.zip"
+    <package name='BASTA' version='2.2.1'
+            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/09e305fd09b660e2e260b10fa7504b445b8e7f04/dist/BASTA.v2.2.1.zip"
             description="Bayesian structured coalescent approximation"
             projectURL="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation">
         <depends on='beast2' atleast='2.4.0'/>
