@@ -1,6 +1,6 @@
 <packages>
-    <package name='BEAST' version='2.4.3'
-        url="https://github.com/CompEvol/beast2/releases/download/v2.4.3/BEAST.addon.v2.4.3.zip"
+    <package name='BEAST' version='2.4.4'
+        url="https://github.com/CompEvol/beast2/releases/download/v2.4.4/BEAST.addon.v2.4.4.zip"
         projectURL="http://beast2.org"
         description="BEAST core"/>
 
