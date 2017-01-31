@@ -219,6 +219,11 @@
             description="Structured COalescent Transmission Tree Inference">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
+    <package name='SCOTTI' version='1.1.0'
+            url="https://bitbucket.org/nicofmay/scotti/raw/f5afb2637ac5b3ad5041476fe2be584c91140c3a/SCOTTI/dist/SCOTTI.v1.1.0.zip"
+            description="Structured COalescent Transmission Tree Inference">
+        <depends on='beast2' atleast='2.4.0'/>
+    </package>
 
 
     <package name='PoMo' version='0.2.0'
