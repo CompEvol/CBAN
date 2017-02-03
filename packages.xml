@@ -119,13 +119,13 @@
 
     <package name='phylodynamics' version='1.2.0'
            url="https://github.com/BEAST2-Dev/phylodynamics/releases/download/1.2.0/phylodynamics.addon.1.2.0.zip"
-           description="birth death skyline model" >
+           description="BDSIR and Stochastic Coalescent" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BDSKY' atleast='1.3.0' atmost='1.3.2'/>
     </package>
     <package name='phylodynamics' version='1.2.1'
            url="https://github.com/BEAST2-Dev/phylodynamics/releases/download/1.2.0/phylodynamics.addon.1.2.1.zip"
-           description="birth death skyline model" >
+           description="BDSKY and Stochastic Coalescent" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BDSKY' atleast='1.3.3'/>
     </package>
