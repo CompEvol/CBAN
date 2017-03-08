@@ -294,6 +294,12 @@
             projectURL="https://github.com/arjun-1/BEASTvntr">
         <depends on='beast2' atleast='2.4.3'/>
     </package>
+    <package name='BEASTvntr' version='0.1.1'
+            url="https://github.com/arjun-1/BEASTvntr/releases/download/v0.1.1/BEASTvntr.addon.v0.1.1.zip"
+            description="Variable Number of Tandem Repeat data, such as microsattelites"
+            projectURL="https://github.com/arjun-1/BEASTvntr">
+        <depends on='beast2' atleast='2.4.3'/>
+    </package>
     
     
 </packages>
