@@ -293,6 +293,12 @@
             description="Faster multi-species coalescent inference using multi-locus data">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
+
+    <package name='StarBEAST2' version='0.13.4'
+            url="https://github.com/genomescale/starbeast2/releases/download/v0.13.4/StarBEAST2.zip"
+            description="Faster multi-species coalescent inference using multi-locus data">
+        <depends on='beast2' atleast='2.4.5'/>
+    </package>
     
     <package name='BEASTvntr' version='0.1.0'
             url="https://github.com/arjun-1/BEASTvntr/releases/download/v0.1.0/BEASTvntr.addon.v0.1.0.zip"
