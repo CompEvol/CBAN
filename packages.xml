@@ -77,6 +77,13 @@
            projectURL="http://tgvaughan.github.io/MASTER" >
         <depends on='beast2' atleast='2.4.0'/>
     </package>
+    
+    <package name='MASTER' version='5.1.1'
+           url="https://github.com/tgvaughan/MASTER/releases/download/v5.1.1/MASTER.package.v5.1.1.zip"
+           description="Stochastic population dynamics simulation"
+           projectURL="http://tgvaughan.github.io/MASTER" >
+        <depends on='beast2' atleast='2.4.0'/>
+    </package>
 
     <package name='MultiTypeTree' version='6.2.1'
            url="https://github.com/tgvaughan/MultiTypeTree/releases/download/v6.2.1/MultiTypeTree.v6.2.1.zip"
