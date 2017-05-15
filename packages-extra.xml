@@ -65,7 +65,7 @@
    </package>
 
    <package name='SSM' version='0.0.1' 
-	url="https://github.com/rbouckaert/substmodels/releases/download/v0.0.1/substmodels.v0.0.1.zip"
+	url="https://github.com/rbouckaert/substmodels/releases/download/v0.0.1/SSM.v0.0.1.zip"
 	description="Standard Nucleotide Substitution Models"
 	projectURL="https://github.com/rbouckaert/substmodels/">
 	<depends on='beast2' atleast='2.4.0'/>
