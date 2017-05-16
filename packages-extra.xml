@@ -64,10 +64,10 @@
         <depends on='BEASTLabs' atleast='1.5.3'/>
    </package>
 
-   <package name='SSM' version='0.0.1' 
-	url="https://github.com/rbouckaert/substmodels/releases/download/v0.0.1/SSM.v0.0.1.zip"
+   <package name='SSM' version='0.0.2' 
+	url="https://github.com/BEAST2-Dev/substmodels/releases/download/v0.0.2/SSM.v0.0.2.zip"
 	description="Standard Nucleotide Substitution Models"
-	projectURL="https://github.com/rbouckaert/substmodels/">
+	projectURL="https://github.com/BEAST2-Dev/substmodels/">
 	<depends on='beast2' atleast='2.4.0'/>
    </package>
 
