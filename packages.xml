@@ -63,6 +63,14 @@
         <depends on='beast2' atleast='2.4.3'/>
         <depends on='BEASTLabs' atleast='1.6.0'/>
     </package>
+    <package name='GEO_SPHERE' version='1.1.2'
+           url="https://github.com/BEAST2-Dev/beast-geo/releases/download/v1.1.0/GEO_SPHERE.addon.v1.1.2.zip"
+           description="Whole world phylogeography" 
+           projectURL="https://github.com/BEAST2-Dev/beast-geo">
+        <depends on='beast2' atleast='2.4.3'/>
+        <depends on='BEASTLabs' atleast='1.6.0'/>
+    </package>
+
 
     <package name='CA' version='1.2.1'
            url="https://github.com/BEAST2-Dev/cladeage/releases/download/v1.2.0/CA.addon.v1.2.1.zip"
