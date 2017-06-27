@@ -84,8 +84,13 @@
 	<depends on='TreeStat2' atleast='0.0.1'/>	
     </package>
 	
-	
-	
+    <package name="SMA" version="0.0.1"
+	url="https://github.com/rbouckaert/SMA/releases/download/v0.0.1/SMA.v0.0.1.zip"
+	description="Substitution model adequacy: test whether the substitution model used is adequate for your data"
+	projectURL="https://github.com/rbouckaert/SMA">
+	<depends on='beast2' atleast='2.4.6'/>
+	<depends on='BEASTLabs' atleast='1.7.1'/>
+    </package>
 	
 	
 </packages>
