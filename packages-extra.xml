@@ -92,5 +92,15 @@
 	<depends on='BEASTLabs' atleast='1.7.1'/>
     </package>
 	
+    <package name="BREAK_AWAY" version="0.0.1"
+	url="https://github.com/rbouckaert/break-away/releases/download/v0.0.1/BREAK_AWAY.addon.v0.0.1.zip"
+	description="break-away model of phylogegraphy"
+	projectURL="https://github.com/rbouckaert/break-away">
+	<depends on='beast2' atleast='2.4.3'/>
+	<depends on='BEASTLabs' atleast='1.6.0'/>
+	<depends on='beast-geo' atleast='1.1.1'/>
+    </package>
+</addon>
+
 	
 </packages>
