@@ -100,7 +100,6 @@
 	<depends on='BEASTLabs' atleast='1.6.0'/>
 	<depends on='beast-geo' atleast='1.1.1'/>
     </package>
-</addon>
 
 	
 </packages>
