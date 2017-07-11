@@ -318,6 +318,12 @@
             projectURL="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
+    <package name='BASTA' version='2.3.1'
+            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/e2c31b3a8e80581a4cbd39c23c2ad68fdf6f6c88/dist/BASTA.v2.3.1.zip"
+            description="Bayesian structured coalescent approximation"
+            projectURL="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation">
+        <depends on='beast2' atleast='2.4.0'/>
+    </package>
     
     
     <package name='SCOTTI' version='1.0.2'
