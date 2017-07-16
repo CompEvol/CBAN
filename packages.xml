@@ -343,6 +343,12 @@
             description="PoMo, a substitution model that separates mutation and drift processes">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
+    <package name='PoMo' version='0.3.1'
+            url="https://bitbucket.org/nicofmay/pomo-beast/raw/76dfea9864ba589d6362aef69d051a4be38f500c/dist/PoMo.v0.3.1.zip"
+            description="PoMo, a substitution model that separates mutation and drift processes">
+        <depends on='beast2' atleast='2.4.0'/>
+    </package>
+
 
     <package name='StarBEAST2' version='0.13.0'
             url="https://github.com/genomescale/starbeast2/releases/download/v0.13.0/starbeast2.zip"
