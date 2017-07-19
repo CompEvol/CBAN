@@ -336,8 +336,15 @@
             description="Structured COalescent Transmission Tree Inference">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
+    <package name='SCOTTI' version='1.1.1'
+            url="https://bitbucket.org/nicofmay/scotti/raw/ff2795b60a7bbea7edb1b06aaaf78613fc17ab99/SCOTTI/dist/SCOTTI.v1.1.1.zip"
+            description="Structured COalescent Transmission Tree Inference">
+        <depends on='beast2' atleast='2.4.0'/>
+    </package>
 
 
+
+	
     <package name='PoMo' version='0.2.0'
             url="https://bitbucket.org/nicofmay/pomo-beast/raw/e9aa31db0d9573276591960d6e082be079ee311d/dist/PoMo.v0.2.0.zip"
             description="PoMo, a substitution model that separates mutation and drift processes">
