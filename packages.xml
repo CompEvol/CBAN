@@ -130,7 +130,7 @@
     <package name='EpiInf' version='5.0.1'
            url="https://github.com/tgvaughan/epiinf/releases/download/v5.0.1/EpiInf.v5.0.1.zip"
            description="BD/SIR/SIS epidemic trajectory inference."
-           projectURL="http://tgvaughan.github.io/bacter" >
+           projectURL="http://tgvaughan.github.io/EpiInf" >
         <depends on='BEAST' atleast='2.4'/>
 	<depends on='SA' atleast='1.1.5'/>
     </package>
