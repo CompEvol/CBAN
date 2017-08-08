@@ -414,8 +414,8 @@
     	<depends on='beast2' atleast='2.4.0'/>
     </package>
 
-	<package name="Mascot" version="0.0.3"
-           url="https://github.com/nicfel/Mascot/releases/download/v0.0.3/Mascot.v0.0.3.zip"
+	<package name="Mascot" version="0.0.4"
+           url="https://github.com/nicfel/Mascot/releases/download/v0.0.4/Mascot.v0.0.4.zip"
            description="Marginal approximation of the structured coalescent"
            projectURL="https://github.com/nicfel/Mascot-Tutorial">
       <depends on="BEAST" atleast="2.4.0"/>
