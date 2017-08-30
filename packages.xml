@@ -134,6 +134,14 @@
         <depends on='BEAST' atleast='2.4'/>
 	<depends on='SA' atleast='1.1.5'/>
     </package>
+	
+    <package name='EpiInf' version='6.0.0'
+           url="https://github.com/tgvaughan/epiinf/releases/download/v6.0.0/EpiInf.v6.0.0.zip"
+           description="BD/SIR/SIS epidemic trajectory inference."
+           projectURL="http://tgvaughan.github.io/EpiInf" >
+        <depends on='BEAST' atleast='2.4'/>
+	<depends on='SA' atleast='1.1.5'/>
+    </package>
 
 <!-- DISSECT is retired
     <package name='DISSECT' version='1.2.0'
