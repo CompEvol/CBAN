@@ -343,7 +343,8 @@
     
     <package name='SCOTTI' version='1.0.2'
             url="https://bitbucket.org/nicofmay/scotti/raw/3f830b784d2c2f6b1cf39403285293b1f643aa64/SCOTTI/dist/SCOTTI.v1.0.2.zip"
-            description="Structured COalescent Transmission Tree Inference">
+            description="Structured COalescent Transmission Tree Inference"
+	     projectURL="https://bitbucket.org/nicofmay/scotti">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     <package name='SCOTTI' version='1.1.0'
@@ -353,7 +354,8 @@
     </package>
     <package name='SCOTTI' version='1.1.1'
             url="https://bitbucket.org/nicofmay/scotti/raw/ff2795b60a7bbea7edb1b06aaaf78613fc17ab99/SCOTTI/dist/SCOTTI.v1.1.1.zip"
-            description="Structured COalescent Transmission Tree Inference">
+            description="Structured COalescent Transmission Tree Inference"
+	     projectURL="https://bitbucket.org/nicofmay/scotti">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
@@ -367,7 +369,8 @@
     </package>
     <package name='PoMo' version='0.3.1'
             url="https://bitbucket.org/nicofmay/pomo-beast/raw/76dfea9864ba589d6362aef69d051a4be38f500c/dist/PoMo.v0.3.1.zip"
-            description="PoMo, a substitution model that separates mutation and drift processes">
+            description="PoMo, a substitution model that separates mutation and drift processes"
+	    projectURL="https://bitbucket.org/nicofmay/pomo-beast">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
