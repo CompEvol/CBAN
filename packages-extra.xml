@@ -101,5 +101,11 @@
 	<depends on='GEO_SPHERE' atleast='1.1.1'/>
     </package>
 
+    <package name="BADTRIP" version="0.1.0"
+	url="https://bitbucket.org/nicofmay/badtrip/raw/d30f5899fe17d2e69e0413a6323b654fda45ce29/dist/BADTRIP.v0.1.0.zip"
+	description="Infer transmission time for non-haplotype data and epi data">
+	<depends on='beast2' atleast='2.4.3'/>
+    </package>
+
 	
 </packages>
