@@ -418,7 +418,7 @@
         <depends on='beast2' atleast='2.4.3'/>
     </package>
     
-    <package name='SSM' version='1.0.0' 
+    <package name='SSM' version='1.0.1' 
     	url="https://github.com/BEAST2-Dev/substmodels/releases/download/v1.0.1/SSM.v1.0.1.zip"
 	    description="Standard Nucleotide Substitution Models"
     	projectURL="https://github.com/BEAST2-Dev/substmodels/">
