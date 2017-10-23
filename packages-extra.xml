@@ -18,6 +18,12 @@
         <depends on='beast2' atleast='2.4.3'/>
         <depends on='BEASTLabs' atleast='1.6.0'/>
     </package>
+    <package name='Babel' version='0.1.5'
+           url="https://github.com/rbouckaert/Babel/releases/download/0.0.1/Babel.addon.v0.1.5.zip"
+           description="BABEL = BEAST analysis backing effective linguistics">
+        <depends on='beast2' atleast='2.4.3'/>
+        <depends on='BEASTLabs' atleast='1.6.0'/>
+    </package>
 
     <package name='LanguageSequenceGen' version='0.1.0'
             url="https://github.com/lutrasdebtra/Beast-Borrowing-Plugin/releases/download/v0.1.0/LanguageSequenceGen.addon.v0.1.0.zip"
