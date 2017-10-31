@@ -126,6 +126,13 @@
            projectURL="http://tgvaughan.github.io/bacter" >
         <depends on='BEAST' atleast='2.4'/>
     </package>
+	
+    <package name='bacter' version='1.2.3'
+           url="https://github.com/tgvaughan/bacter/releases/download/v1.2.3/bacter.v1.2.3.zip"
+           description="Bacterial ARG inference."
+           projectURL="http://tgvaughan.github.io/bacter" >
+        <depends on='BEAST' atleast='2.4'/>
+    </package>
 
     <package name='EpiInf' version='5.0.1'
            url="https://github.com/tgvaughan/epiinf/releases/download/v5.0.1/EpiInf.v5.0.1.zip"
