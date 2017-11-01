@@ -450,7 +450,7 @@
     	url="https://github.com/BEAST2-Dev/codonmodels/releases/download/v1.0.0/CodonModels.v1.0.0.zip"
 	    description="Codon substitution models for DNA"
     	projectURL="https://github.com/BEAST2-Dev/codonmodels/">
-    	<depends on='beast2' atleast='2.4.8'/>
+    	<depends on='beast2' atleast='2.4.7'/>
     </package>
 
 </packages>
