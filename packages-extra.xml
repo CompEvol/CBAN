@@ -122,4 +122,12 @@
     </package>
 	     
 	
+    <package name="NS" version="0.0.1"
+	url="https://github.com/BEAST2-Dev/nested-sampling/releases/download/v0.0.1/NS.addon.v0.0.1.zip"
+	description="Nested sampling for model selection and posterior inference"
+	projectURL="https://github.com/BEAST2-Dev/nested-sampling/wiki">
+	<depends on='beast2' atleast='2.4.0'/>
+    </package>
+
+	
 </packages>
