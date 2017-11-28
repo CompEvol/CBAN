@@ -387,6 +387,12 @@
 	    projectURL="https://bitbucket.org/nicofmay/pomo-beast">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
+    <package name='PoMo' version='1.0.0'
+            url="https://bitbucket.org/nicofmay/pomo-beast/raw/cac21afdabbeb36d1b7e604d2e32db9ed81116a9/dist/PoMo.v1.0.0.zip"
+            description="PoMo, a substitution model that separates mutation and drift processes"
+	    projectURL="https://bitbucket.org/nicofmay/pomo-beast">
+        <depends on='beast2' atleast='2.4.0'/>
+    </package>
 
 
     <package name='StarBEAST2' version='0.13.0'
