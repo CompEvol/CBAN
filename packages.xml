@@ -119,6 +119,14 @@
            projectURL="http://tgvaughan.github.io/MultiTypeTree" >
         <depends on='BEAST' atleast='2.4.0' />
     </package>
+	
+    <package name='MultiTypeTree' version='6.3.1'
+           url="https://github.com/tgvaughan/MultiTypeTree/releases/download/v6.3.1/MultiTypeTree.v6.3.1.zip"
+           description="Structured coalescent inference"
+           projectURL="http://tgvaughan.github.io/MultiTypeTree" >
+        <depends on='BEAST' atleast='2.4.0' />
+    </package>
+
 
     <package name='bacter' version='1.2.1'
            url="https://github.com/tgvaughan/bacter/releases/download/v1.2.1/bacter.v1.2.1.zip"
