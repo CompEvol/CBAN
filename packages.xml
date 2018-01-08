@@ -409,6 +409,11 @@
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
+    <package name='SpeciesNetwork' version='0.12.1'
+            url="https://github.com/zhangchicool/speciesnetwork/releases/download/v0.12.1/SpeciesNetwork.zip"
+            description="Multispecies network coalescent (MSNC) inference of introgression and hybridization">
+        <depends on='beast2' atleast='2.4.6'/>
+    </package>
 
     <package name='StarBEAST2' version='0.13.0'
             url="https://github.com/genomescale/starbeast2/releases/download/v0.13.0/starbeast2.zip"
