@@ -49,6 +49,13 @@
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.4.0'/>
     </package>
+    <package name='BEAST_CLASSIC' version='1.3.2'
+           url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.3.0/BEAST_CLASSIC.addon.v1.3.2.zip"
+           description="BEAST classes ported from BEAST 1 in wrappers" >
+        <depends on='beast2' atleast='2.4.0'/>
+        <depends on='BEASTLabs' atleast='1.4.0'/>
+    </package>
+
 
 	
     <package name='GEO_SPHERE' version='0.2.0'
