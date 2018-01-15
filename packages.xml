@@ -491,7 +491,7 @@
            url="https://github.com/mrc-ide/PhyDyn/files/1186078/PhyDyn.v1.0.0.zip"
            description="PhyDyn: Epidemiological modelling with BEAST"
            projectURL="https://github.com/mrc-ide/PhyDyn">
-	  <depends on="BEAST" atleast="2.4.0"/>
+	  <depends on="BEAST" atleast="2.4.7"/>
 	</package>
 	
 	<package name='CodonModels' version='1.0.1' 
