@@ -119,6 +119,14 @@
 	projectURL="https://bitbucket.org/nicofmay/badtrip">
 	<depends on='beast2' atleast='2.4.3'/>
     </package>
+    <package name="BADTRIP" version="0.1.1"
+	url="https://bitbucket.org/nicofmay/badtrip/raw/14550c0e70a50374a1ac9a527f885283d727fdf7/dist/BADTRIP.v0.1.1.zip"
+	description="Infer transmission time for non-haplotype data and epi data"
+	projectURL="https://bitbucket.org/nicofmay/badtrip">
+	<depends on='beast2' atleast='2.4.3'/>
+    </package>
+	
+	
 
     <package name="AlmostDistributions" version="0.0.1"
 	url="https://github.com/rbouckaert/AlmostDistributions/releases/download/v0.0.1/AlmostDistributions.v0.0.1.zip"
