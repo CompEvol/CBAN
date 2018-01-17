@@ -3,8 +3,8 @@
 <!-- used in the original analysis. -->
 
 <packages>
-    <package name='BEAST' version='2.4.7'
-        url="https://github.com/CompEvol/beast2/releases/download/v2.4.7/BEAST.addon.v2.4.7.zip"
+    <package name='BEAST' version='2.4.8'
+        url="https://github.com/CompEvol/beast2/releases/download/v2.4.8/BEAST.v2.4.8.addon.zip"
         projectURL="http://beast2.org"
         description="BEAST core"/>
 
