@@ -10,11 +10,13 @@
 
     <package name='BDSKY' version='1.3.2'
            url="https://github.com/BEAST2-Dev/bdsky/releases/download/1.3.2/BDSKY.addon.1.3.2.zip"
+           projectURL="https://github.com/BEAST2-Dev/bdsky/"
            description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     <package name='BDSKY' version='1.3.3'
            url="https://github.com/BEAST2-Dev/bdsky/releases/download/1.3.3/BDSKY.addon.1.3.3.zip"
+           projectURL="https://github.com/BEAST2-Dev/bdsky/"
            description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
         <depends on='beast2' atleast='2.4.0'/>
         <package name='SA' version='1.1.7'/>
@@ -22,16 +24,19 @@
 
     <package name='BEASTLabs' version='1.5.3'
            url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.5.0/BEASTlabs.addon.v1.5.3.zip"
+           projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
            description="BEAST utilities, such as Script, multi monophyletic constraints">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     <package name='BEASTLabs' version='1.7.0'
            url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.7.0/BEASTlabs.addon.v1.7.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
            description="BEAST utilities, such as Script, multi monophyletic constraints">
         <depends on='beast2' atleast='2.4.3'/>
     </package>
     <package name='BEASTLabs' version='1.7.1'
            url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.7.0/BEASTlabs.addon.v1.7.1.zip"
+           projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
            description="BEAST utilities, such as Script, multi monophyletic constraints">
         <depends on='beast2' atleast='2.4.3'/>
     </package>
@@ -39,18 +44,21 @@
 
     <package name='BEAST_CLASSIC' version='1.3.0'
            url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.3.0/BEAST_CLASSIC.addon.v1.3.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/beast-classic/"
            description="BEAST classes ported from BEAST 1 in wrappers" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.4.0'/>
     </package>
     <package name='BEAST_CLASSIC' version='1.3.1'
            url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.3.0/BEAST_CLASSIC.addon.v1.3.1.zip"
+           projectURL="https://github.com/BEAST2-Dev/beast-classic/"
            description="BEAST classes ported from BEAST 1 in wrappers" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.4.0'/>
     </package>
     <package name='BEAST_CLASSIC' version='1.3.2'
            url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.3.0/BEAST_CLASSIC.addon.v1.3.2.zip"
+           projectURL="https://github.com/BEAST2-Dev/beast-classic/"
            description="BEAST classes ported from BEAST 1 in wrappers" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.4.0'/>
@@ -60,12 +68,14 @@
 	
     <package name='GEO_SPHERE' version='0.2.0'
            url="https://github.com/BEAST2-Dev/beast-geo/releases/download/v0.2.0/GEO_SPHERE.addon.v0.2.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/beast-geo/"
            description="Whole world phylogeography" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.4.0' atmost='1.4.0'/>
     </package>
     <package name='GEO_SPHERE' version='1.0.0'
            url="https://github.com/BEAST2-Dev/beast-geo/releases/download/v1.0.0/GEO_SPHERE.addon.v1.0.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/beast-geo/"
            description="Whole world phylogeography" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.5.3'/>
@@ -88,6 +98,7 @@
 
     <package name='CA' version='1.2.1'
            url="https://github.com/BEAST2-Dev/cladeage/releases/download/v1.2.0/CA.addon.v1.2.1.zip"
+           projectURL="https://github.com/BEAST2-Dev/cladeage/"
            description="CladeAge aPackage for fossil calibrations">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
@@ -181,11 +192,13 @@
 -->
     <package name='STACEY' version='1.2.2'
              url="http://www.indriid.com/2016/STACEY.addon.v1.2.2.zip"
+             projectURL="http://www.indriid.com"
              description="Species delimitation and species tree estimation">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     <package name='STACEY' version='1.2.3'
              url="http://indriid.com/2017/STACEY.addon.v1.2.3.zip"
+             projectURL="http://www.indriid.com"
              description="Species delimitation and species tree estimation">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
@@ -205,11 +218,13 @@
 
     <package name="MODEL_SELECTION" version="1.2.0"
             url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.2.0/MODEL_SELECTION.addon.v1.2.0.zip"
+            projectURL="https://github.com/BEAST2-Dev/model-selection"
             description="Select models through path sampling/stepping stone analysis">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     <package name="MODEL_SELECTION" version="1.3.1"
             url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.3.0/MODEL_SELECTION.addon.v1.3.1.zip"
+            projectURL="https://github.com/BEAST2-Dev/model-selection"
             description="Select models through path sampling/stepping stone analysis">
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.5.0'/>
@@ -224,12 +239,14 @@
 
     <package name='phylodynamics' version='1.2.0'
            url="https://github.com/BEAST2-Dev/phylodynamics/releases/download/1.2.0/phylodynamics.addon.1.2.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/phylodynamics"
            description="BDSIR and Stochastic Coalescent" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BDSKY' atleast='1.3.0' atmost='1.3.2'/>
     </package>
     <package name='phylodynamics' version='1.2.1'
            url="https://github.com/BEAST2-Dev/phylodynamics/releases/download/1.2.0/phylodynamics.addon.1.2.1.zip"
+           projectURL="https://github.com/BEAST2-Dev/phylodynamics"
            description="BDSIR and Stochastic Coalescent" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BDSKY' atleast='1.3.3'/>
@@ -245,29 +262,34 @@
 
     <package name='RBS' version='1.3.1'
            url="https://github.com/BEAST2-Dev/rb-beast/releases/download/v1.3.0/RBS.addon.v1.3.1.zip"
+           projectURL="https://github.com/BEAST2-Dev/rb-beast"
            description="Reversible-jump Based substitution model" >
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
     <package name='SA' version='1.1.4'
            url="https://github.com/CompEvol/sampled-ancestors/releases/download/v1.1.4/SA.addon.v1.1.4.zip"
+           projectURL="https://github.com/CompEvol/sampled-ancestors"
            description="Sampled ancestor trees" >
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     <package name='SA' version='1.1.5'
            url="https://github.com/CompEvol/sampled-ancestors/releases/download/v1.1.4/SA.addon.v1.1.5.zip"
+           projectURL="https://github.com/CompEvol/sampled-ancestors"
            description="Sampled ancestor trees" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.5.3'/>
     </package>
     <package name='SA' version='1.1.6'
            url="https://github.com/CompEvol/sampled-ancestors/releases/download/v1.1.6/SA.addon.v1.1.6.zip"
+           projectURL="https://github.com/CompEvol/sampled-ancestors"
            description="Sampled ancestor trees" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.5.3'/>
     </package>
     <package name='SA' version='1.1.7'
            url="https://github.com/CompEvol/sampled-ancestors/releases/download/v1.1.7/SA.addon.v1.1.7.zip"
+           projectURL="https://github.com/CompEvol/sampled-ancestors"
            description="Sampled ancestor trees" >
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.5.3'/>
@@ -282,24 +304,28 @@
 
     <package name="substBMA" version="1.2.2"
             url="https://github.com/jessiewu/substBMA/releases/download/v1.2.2/substBMA.v1.2.2.zip"
+            projectURL="https://github.com/jessiewu/substBMA"
             description="Substitution Bayesian Model Averaging">
         <depends on="BEAST" atleast="2.4.0"/>
     </package>
 
     <package name='BEASTShell' version='1.3.0'
            url="https://github.com/CompEvol/beastshell/releases/download/v1.3.0/BEASTShell.addon.v1.3.0.zip"
+           projectURL="https://github.com/CompEvol/beastshell"
            description="BEAST Shell - BeanShell scripting for BEAST">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
  
     <package name='MM' version='1.0.4'
             url="https://github.com/CompEvol/morph-models/releases/download/1.0.4/MM.addon.v1.0.4.zip"
+            projectURL="https://github.com/CompEvol/morph-models"
             description="Enables models of morphological chatacter evolution">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     
     <package name='MM' version='1.0.5'
             url="https://github.com/CompEvol/morph-models/releases/download/1.0.5/MM.addon.v1.0.5.zip"
+            projectURL="https://github.com/CompEvol/morph-models"
             description="Enables models of morphological chatacter evolution">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
@@ -313,17 +339,20 @@
         
     <package name='bModelTest' version='0.2.0'
             url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v0.2.0/bModelTest.addon.v0.2.0.zip"
+            projectURL="https://github.com/BEAST2-Dev/bModelTest/wiki"
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     <package name='bModelTest' version='1.0.0'
             url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v1.0.0/bModelTest.addon.v1.0.0.zip"
+            projectURL="https://github.com/BEAST2-Dev/bModelTest/wiki"
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.5.3'/>
     </package>
     <package name='bModelTest' version='1.0.1'
             url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v1.0.0/bModelTest.addon.v1.0.1.zip"
+            projectURL="https://github.com/BEAST2-Dev/bModelTest/wiki"
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites">
         <depends on='beast2' atleast='2.4.0'/>
         <depends on='BEASTLabs' atleast='1.5.3'/>
@@ -400,6 +429,7 @@
 	
     <package name='PoMo' version='0.2.0'
             url="https://bitbucket.org/nicofmay/pomo-beast/raw/e9aa31db0d9573276591960d6e082be079ee311d/dist/PoMo.v0.2.0.zip"
+            projectURL="https://bitbucket.org/nicofmay/pomo-beast"
             description="PoMo, a substitution model that separates mutation and drift processes">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
@@ -418,42 +448,49 @@
 
     <package name='SpeciesNetwork' version='0.12.1'
             url="https://github.com/zhangchicool/speciesnetwork/releases/download/v0.12.1/SpeciesNetwork.zip"
+            projectURL="https://github.com/zhangchicool/speciesnetwork"
             description="Multispecies network coalescent (MSNC) inference of introgression and hybridization">
         <depends on='beast2' atleast='2.4.6'/>
     </package>
 
     <package name='StarBEAST2' version='0.13.0'
             url="https://github.com/genomescale/starbeast2/releases/download/v0.13.0/starbeast2.zip"
+            projectURL="https://github.com/genomescale/starbeast2"
             description="Faster multi-species coalescent inference using multi-locus data">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
     <package name='StarBEAST2' version='0.13.1'
             url="https://github.com/genomescale/starbeast2/releases/download/v0.13.1/StarBEAST2.zip"
+            projectURL="https://github.com/genomescale/starbeast2"
             description="Faster multi-species coalescent inference using multi-locus data">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
     <package name='StarBEAST2' version='0.13.2'
             url="https://github.com/genomescale/starbeast2/releases/download/v0.13.2/StarBEAST2.zip"
+            projectURL="https://github.com/genomescale/starbeast2"
             description="Faster multi-species coalescent inference using multi-locus data">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     
     <package name='StarBEAST2' version='0.13.3'
             url="https://github.com/genomescale/starbeast2/releases/download/v0.13.3/StarBEAST2.zip"
+            projectURL="https://github.com/genomescale/starbeast2"
             description="Faster multi-species coalescent inference using multi-locus data">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
 
     <package name='StarBEAST2' version='0.13.5'
             url="https://github.com/genomescale/starbeast2/releases/download/v0.13.5/StarBEAST2.zip"
+            projectURL="https://github.com/genomescale/starbeast2"
             description="Faster multi-species coalescent inference using multi-locus data">
         <depends on='beast2' atleast='2.4.5'/>
     </package>
 
     <package name='StarBEAST2' version='0.14.0'
             url="https://github.com/genomescale/starbeast2/releases/download/v0.14.0/StarBEAST2.zip"
+            projectURL="https://github.com/genomescale/starbeast2"
             description="Multispecies coalescent inference using multi-locus and fossil data">
 	<depends on="beast2" atleast="2.4.7"/>
 	<depends on="SA" atleast="1.1.7"/>
