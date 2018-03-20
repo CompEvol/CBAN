@@ -1,0 +1,9 @@
+<!-- package file for testing v2.5.0 packages -->
+<packages>
+    <package name='BEASTLabs' version='1.8.0'
+           url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.8.0/BEASTlabs.addon.v1.8.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
+           description="BEAST utilities, such as Script, multi monophyletic constraints">
+        <depends on='beast2' atleast='2.5.0'/>
+    </package>
+</packages>
