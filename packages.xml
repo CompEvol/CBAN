@@ -306,7 +306,7 @@
             url="https://github.com/jessiewu/substBMA/releases/download/v1.2.2/substBMA.v1.2.2.zip"
             projectURL="https://github.com/jessiewu/substBMA"
             description="Substitution Bayesian Model Averaging">
-        <depends on="BEAST" atleast="2.4.0"/>
+        <depends on="BEAST" atleast="2.4.0" atmost="2.4.4"/>
     </package>
 
     <package name='BEASTShell' version='1.3.0'
