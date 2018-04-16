@@ -185,7 +185,7 @@
     </package>
     
     <package name='BEASTvntr' version='0.1.2'
-            url="https://github.com/rbouckaert/BEASTvntr/releases/download/v0.1.2/BEASTvntr.addon.v0.1.2.zip"
+            url="https://github.com/arjun-1/BEASTvntr/releases/download/v0.1.2/BEASTvntr.addon.v0.1.2.zip"
             description="Variable Number of Tandem Repeat data, such as microsattelites"
             projectURL="https://github.com/arjun-1/BEASTvntr">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
