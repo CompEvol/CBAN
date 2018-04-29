@@ -215,7 +215,7 @@
            url="https://github.com/BEAST2-Dev/bdsky/releases/download/1.4.0/BDSKY.addon.1.4.0.zip"
            projectURL="https://github.com/BEAST2-Dev/bdsky/"
            description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
-        <depends on='beast2' atleast='2.5.0'/>
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
 	
 	
@@ -223,8 +223,38 @@
            url="https://github.com/denisekuehnert/bdmm/releases/download/0.3.0/BDMM.addon.0.3.0.zip"
            description="pre-release of multitype birth-death model (aka birth-death-migration model)"
            projectURL="https://github.com/denisekuehnert/bdmm" >
-        <depends on='beast2' atleast='2.5.0'/>
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
         <depends on='MultiTypeTree' atleast='6.0.0'/>
     </package>
-	
+
+
+    <package name='BASTA' version='3.0.0'
+            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/5a86f26eda5ebdaacc9698752c575c32c3362ec4/dist/BASTA.v3.0.0.zip"
+            description="Bayesian structured coalescent approximation"
+            projectURL="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation">
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+    </package>
+
+    <package name='SCOTTI' version='2.0.0'
+            url="https://bitbucket.org/nicofmay/scotti/raw/8a6cbbdcf19866759896a2cf40c4a937e50963ce/SCOTTI/dist/SCOTTI.v2.0.0.zip"
+            description="Structured COalescent Transmission Tree Inference"
+	     projectURL="https://bitbucket.org/nicofmay/scotti">
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+    </package>
+
+    <package name="BADTRIP" version="1.0.0"
+        url="https://bitbucket.org/nicofmay/badtrip/raw/4a69ce6b2ee092e451c72a291a54ae450ac90fc6/dist/BADTRIP.v1.0.0.zip"
+        description="Infer transmission time for non-haplotype data and epi data"
+        projectURL="https://bitbucket.org/nicofmay/badtrip">
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+    </package>
+
+    <package name='PoMo' version='1.0.1'
+            url="https://bitbucket.org/nicofmay/pomo-beast/raw/8eaa20892c8f3b3ce7f428a8a144b8d817838ad8/dist/PoMo.v1.0.1.zip"
+            description="PoMo, a substitution model that separates mutation and drift processes"
+	    projectURL="https://bitbucket.org/nicofmay/pomo-beast">
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+    </package>
+
+
 </packages>

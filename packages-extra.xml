@@ -179,5 +179,12 @@
 	<depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
 
-
+    <package name="Plasmid" version="0.1.1"
+	url="https://bitbucket.org/nicofmay/plasmidtree/raw/72a4d4f35b368cce2c7f8f9945257e5fc50a91e6/dist/plasmidTree.v0.1.1.zip"
+	description="plasmid trees are variants of the clonal frame through losses and recombinations/gains"
+	projectURL="https://bitbucket.org/nicofmay/plasmidtree"
+	<depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+    </package>
+	
+	
 </packages>
