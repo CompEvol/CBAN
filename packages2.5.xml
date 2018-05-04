@@ -264,5 +264,12 @@
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
 
+    <package name="PhyDyn" version="1.2.0"
+        url="https://github.com/mrc-ide/PhyDyn/releases/download/v1.2.0/PhyDyn.v1.2.0.zip"
+        description="PhyDyn: Epidemiological modelling with BEAST"
+        projectURL="https://github.com/mrc-ide/PhyDyn">
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+    </package>
+
 
 </packages>
