@@ -182,6 +182,14 @@
       		<depends on="beast2" atleast="2.5.0"/>
 	</package>
 	
+	<package name="Mascot" version="1.0.0"
+           url="https://github.com/nicfel/Mascot/releases/download/v1.0.0/Mascot.v1.0.0.zip"
+           description="Marginal approximation of the structured coalescent"
+           projectURL="https://github.com/nicfel/Mascot-Tutorial">
+      		<depends on="beast2" atleast="2.5.0"/>
+	</package>
+
+	
 	<package name='SA' version='2.0.0'
            url="https://github.com/CompEvol/sampled-ancestors/releases/download/2.0.0/SA.v2.0.0.zip"
            projectURL="https://github.com/CompEvol/sampled-ancestors"
