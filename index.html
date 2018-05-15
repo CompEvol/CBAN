@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'></meta>
+    <title>Package Viewer</title>
+<!--     <script type="text/javascript" src='cytoscape/cytoscape.js'></script> -->
+    <script type="text/javascript" src='main/cban.js'></script>   
+    <!-- "GET /favicon.ico HTTP/1.1" 404 -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo="> 
+</head>
+<!-- 
+<style>
+    #cy {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+</style>
+ -->
+<body onload="javascript:printTable('packages');">
+    <h1>Package Viewer</h1>
+    
+    <p>CBAN XML : 
+	<select onchange="printTable('packages');" id="xml">
+	  <option selected="selected">packages2.5.xml</option>
+	  <option>packages.xml</option>
+	</select>
+	&nbsp;(<input type="radio" name="latest" id="latest" value="true" checked="checked" onclick="printTable('packages');" />latest version&nbsp; 
+    <input type="radio" name="latest" id="all" value="false" onclick="printTable('packages');">all) packages
+    </p>
+    
+    
+    <div id="packages"></div>
+    
+    <!-- Date::toLocaleDateString -->
+    <p><a href="https://github.com/CompEvol/CBAN" class="btn">View on GitHub</a>
+     on <script> document.write(new Date().toLocaleDateString()); </script></p>
+    <p></p>
+
+<!--     <div id='cy'></div> -->
+
+</body>
+</html>
