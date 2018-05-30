@@ -174,6 +174,13 @@
 	    projectURL="http://indriid.com/software.html">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
+   <package name='DENIM' version='0.3.1'
+            url="http://indriid.com/2018/DENIM.addon.v0.3.1.zip"
+            description="Divergence Estimation Notwithstanding ILS and Migration"
+	    projectURL="http://indriid.com/software.html">
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+    </package>
+
 
 	<package name="Mascot" version="0.0.5"
            url="https://github.com/nicfel/Mascot/releases/download/v0.0.5/Mascot.v0.0.5.zip"
