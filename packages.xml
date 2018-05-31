@@ -214,6 +214,12 @@
 	    projectURL="http://indriid.com/software.html">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
+   <package name='DENIM' version='0.3.1'
+            url="http://indriid.com/2018/DENIM.addon.v0.3.1.zip"
+            description="Divergence Estimation Notwithstanding ILS and Migration"
+	    projectURL="http://indriid.com/software.html">
+        <depends on='beast2' atleast='2.4.0'/>
+    </package>
 
     <package name="MODEL_SELECTION" version="1.2.0"
             url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.2.0/MODEL_SELECTION.addon.v1.2.0.zip"
