@@ -218,6 +218,14 @@
            projectURL="https://github.com/nicfel/Mascot-Tutorial">
       		<depends on="beast2" atleast="2.5.0"/>
 	</package>
+	
+	<package name="Mascot" version="1.0.1"
+           url="https://github.com/nicfel/Mascot/releases/download/v1.0.1/Mascot.v1.0.1.zip"
+           description="Marginal approximation of the structured coalescent"
+           projectURL="https://github.com/nicfel/Mascot-Tutorial">
+      		<depends on="beast2" atleast="2.5.0"/>
+	</package>
+
 
 	
 	<package name='SA' version='2.0.0'
