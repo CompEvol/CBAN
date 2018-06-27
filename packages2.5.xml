@@ -101,9 +101,8 @@
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
     
-    <package name='MM' version='1.1.0'
+    <package name='MM' version='1.1.1'
 	    url="https://github.com/CompEvol/morph-models/releases/download/untagged-74152ea8507b4e08d3ad/MM.addon.v1.1.1.zip"
-            url="https://github.com/CompEvol/morph-models/releases/download/v1.1.0/MM.addon.v1.1.0.zip"
             projectURL="https://github.com/CompEvol/morph-models"
             description="Enables models of morphological chatacter evolution">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
