@@ -55,22 +55,6 @@
         <depends on='beast2' atleast='2.5.0'/>
         <depends on='BEASTLabs' atleast='1.8.0'/>
     </package>
-    <package name="MODEL_SELECTION" version="1.4.1"
-            url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.4.0/MODEL_SELECTION.addon.v1.4.1.zip"
-            description="Select models through path sampling/stepping stone analysis"
-            projectURL="https://github.com/BEAST2-Dev/model-selection">
-        <depends on='beast2' atleast='2.5.0'/>
-        <depends on='BEASTLabs' atleast='1.8.0'/>
-    </package>
-
-    <package name="NS" version="1.0.0"
-        url="https://github.com/BEAST2-Dev/nested-sampling/releases/download/v1.0.0/NS.addon.v1.0.0.zip"
-        description="Nested sampling for model selection and posterior inference"
-        projectURL="https://github.com/BEAST2-Dev/nested-sampling/wiki">
-        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
-        <depends on='BEASTLabs' atleast='1.8.0'/>
-        <depends on='MODEL_SELECTION' atleast='1.4.1'/>
-    </package>
 
     <package name='GEO_SPHERE' version='1.2.0'
            url="https://github.com/BEAST2-Dev/beast-geo/releases/download/v1.2.0/GEO_SPHERE.addon.v1.2.0.zip"
@@ -101,8 +85,8 @@
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
     
-    <package name='MM' version='1.1.1'
-	    url="https://github.com/CompEvol/morph-models/releases/download/untagged-74152ea8507b4e08d3ad/MM.addon.v1.1.1.zip"
+    <package name='MM' version='1.1.0'
+            url="https://github.com/CompEvol/morph-models/releases/download/v1.1.0/MM.addon.v1.1.0.zip"
             projectURL="https://github.com/CompEvol/morph-models"
             description="Enables models of morphological chatacter evolution">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
@@ -133,17 +117,7 @@
 	<depends on="SA" atleast="1.1.7"/>
 	<depends on="MM" atleast="1.1.0"/>
     </package>
-
-    <package name='StarBEAST2' version='0.15.0'
-            url="https://github.com/genomescale/starbeast2/releases/download/v0.15.0/StarBEAST2.zip"
-            projectURL="https://github.com/genomescale/starbeast2"
-            description="Multispecies coalescent inference using multi-locus and fossil data">
-	<depends on="beast2" atleast="2.5.0" atmost="2.5.9"/>
-	<depends on="SA" atleast="2.0.0"/>
-	<depends on="MM" atleast="1.1.0"/>
-	<depends on="Mascot" atleast="1.0.0"/>
-    </package>
-
+	
     <package name='MASTER' version='6.0.0'
 	     url="https://github.com/tgvaughan/MASTER/releases/download/v6.0.0/MASTER.package.v6.0.0.zip"
 	     description="Stochastic population dynamics simulation"
@@ -178,13 +152,6 @@
              projectURL="http://tgvaughan.github.io/bacter" >
       <depends on='BEAST' atleast='2.5.0' atmost="2.5.9"/>
     </package>
-	
-    <package name='bacter' version='2.1.1'
-             url="https://github.com/tgvaughan/bacter/releases/download/v2.1.1/bacter.v2.1.1.zip"
-             description="Bacterial ARG inference."
-             projectURL="http://tgvaughan.github.io/bacter" >
-      <depends on='BEAST' atleast='2.5.0' atmost="2.5.9"/>
-    </package>
 
     <package name='EpiInf' version='7.0.0'
            url="https://github.com/tgvaughan/epiinf/releases/download/v7.0.0/EpiInf.v7.0.0.zip"
@@ -194,22 +161,6 @@
 	<depends on='SA' atleast='2.0.0'/>
     </package>
 
-    <package name='EpiInf' version='7.0.1'
-           url="https://github.com/tgvaughan/epiinf/releases/download/v7.0.1/EpiInf.v7.0.1.zip"
-           description="BD/SIR/SIS epidemic trajectory inference."
-           projectURL="http://tgvaughan.github.io/EpiInf" >
-        <depends on='BEAST' atleast='2.5.0' atmost="2.5.9"/>
-	<depends on='SA' atleast='2.0.0'/>
-    </package>
-	
-    <package name='EpiInf' version='7.0.2'
-           url="https://github.com/tgvaughan/epiinf/releases/download/v7.0.2/EpiInf.v7.0.2.zip"
-           description="BD/SIR/SIS epidemic trajectory inference."
-           projectURL="http://tgvaughan.github.io/EpiInf" >
-        <depends on='BEAST' atleast='2.5.0' atmost="2.5.9"/>
-	<depends on='SA' atleast='2.0.0'/>
-    </package>	
-	
     <package name='STACEY' version='1.2.4'
             url="http://indriid.com/2017/STACEY.addon.v1.2.4.zip"
             description="Species delimitation and species tree estimation"
@@ -223,13 +174,6 @@
 	    projectURL="http://indriid.com/software.html">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
-   <package name='DENIM' version='0.3.1'
-            url="http://indriid.com/2018/DENIM.addon.v0.3.1.zip"
-            description="Divergence Estimation Notwithstanding ILS and Migration"
-	    projectURL="http://indriid.com/software.html">
-        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
-    </package>
-
 
 	<package name="Mascot" version="0.0.5"
            url="https://github.com/nicfel/Mascot/releases/download/v0.0.5/Mascot.v0.0.5.zip"
@@ -244,22 +188,6 @@
            projectURL="https://github.com/nicfel/Mascot-Tutorial">
       		<depends on="beast2" atleast="2.5.0"/>
 	</package>
-	
-	<package name="Mascot" version="1.0.1"
-           url="https://github.com/nicfel/Mascot/releases/download/v1.0.1/Mascot.v1.0.1.zip"
-           description="Marginal approximation of the structured coalescent"
-           projectURL="https://github.com/nicfel/Mascot-Tutorial">
-      		<depends on="beast2" atleast="2.5.0"/>
-	</package>
-	
-	<package name="Mascot" version="1.0.2"
-           url="https://github.com/nicfel/Mascot/releases/download/v1.0.2/Mascot.v1.0.2.zip"
-           description="Marginal approximation of the structured coalescent"
-           projectURL="https://github.com/nicfel/Mascot-Tutorial">
-      		<depends on="beast2" atleast="2.5.0"/>
-	</package>
-
-
 
 	
 	<package name='SA' version='2.0.0'
@@ -298,14 +226,6 @@
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
 	
-    <package name='bdmm' version='0.3.1'
-           url="https://github.com/denisekuehnert/bdmm/releases/download/0.3.1/BDMM.v0.3.1.zip"
-           description="pre-release of multitype birth-death model (aka birth-death-migration model)"
-           projectURL="https://github.com/denisekuehnert/bdmm" >
-        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
-	<depends on='MASTER' atleast='6.0.0'/>
-        <depends on='MultiTypeTree' atleast='7.0.0'/>
-    </package>	
 	
     <package name='bdmm' version='0.3.0'
            url="https://github.com/denisekuehnert/bdmm/releases/download/0.3.0/BDMM.addon.0.3.0.zip"
@@ -329,21 +249,9 @@
             projectURL="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
-    <package name='BASTA' version='3.0.1'
-            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/dc8bee43b5a792a860d6fbc4d10ba39503e17c54/dist/BASTA.v3.0.1.zip"
-            description="Bayesian structured coalescent approximation"
-            projectURL="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation">
-        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
-    </package>
 
     <package name='SCOTTI' version='2.0.0'
             url="https://bitbucket.org/nicofmay/scotti/raw/8a6cbbdcf19866759896a2cf40c4a937e50963ce/SCOTTI/dist/SCOTTI.v2.0.0.zip"
-            description="Structured COalescent Transmission Tree Inference"
-	     projectURL="https://bitbucket.org/nicofmay/scotti">
-        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
-    </package>
-    <package name='SCOTTI' version='2.0.1'
-            url="https://bitbucket.org/nicofmay/scotti/raw/3db8fa07d32287922240324064dd8e6ab030a4cd/SCOTTI/dist/SCOTTI.v2.0.1.zip"
             description="Structured COalescent Transmission Tree Inference"
 	     projectURL="https://bitbucket.org/nicofmay/scotti">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
@@ -369,12 +277,12 @@
         projectURL="https://github.com/mrc-ide/PhyDyn">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
-    <package name="PhyDyn" version="1.2.2"
-        url="https://github.com/mrc-ide/PhyDyn/releases/download/v1.2.2/PhyDyn.v1.2.2.zip"
-        description="PhyDyn: Epidemiological modelling with BEAST"
-        projectURL="https://github.com/mrc-ide/PhyDyn">
-        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
-    </package>
 
+    <package name="substBMA" version="1.2.2"
+            url="https://github.com/jessiewu/substBMA/releases/download/v1.2.2/substBMA.v1.2.2.zip"
+            projectURL="https://github.com/jessiewu/substBMA"
+            description="Substitution Bayesian Model Averaging">
+        <depends on='beast2' atleast='2.5.0'/>
+    </package>
 
 </packages>
