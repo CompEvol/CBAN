@@ -164,6 +164,13 @@
 	<depends on='beast2' atleast='2.4.0' atmost='2.4.9'/>
     </package>
 	     
+    <package name="AlmostDistributions" version="0.0.2"
+	url="https://github.com/rbouckaert/AlmostDistributions/releases/download/v0.0.1/AlmostDistributions.v0.0.2.zip"
+	description="Almost-distributions"
+	projectURL="https://github.com/rbouckaert/AlmostDistributions">
+	<depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+    </package>
+	     
 	
     <package name="NS" version="0.0.1"
 	url="https://github.com/BEAST2-Dev/nested-sampling/releases/download/v0.0.1/NS.addon.v0.0.1.zip"
