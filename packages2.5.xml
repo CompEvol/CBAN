@@ -31,6 +31,13 @@
            projectURL="http://beast2.org/snapp/">
         <depends on='beast2' atleast='2.5.0'/>
     </package>
+    <package name='SNAPP' version='1.4.1'
+           url="https://github.com/BEAST2-Dev/SNAPP/releases/download/v1.4.0/SNAPP.addon.v1.4.1.zip"
+           description="SNP and AFLP Phylogenies"
+           projectURL="http://beast2.org/snapp/">
+        <depends on='beast2' atleast='2.5.0'/>
+    </package>
+
 
    <package name='bModelTest' version='1.1.0'
             url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v1.1.0/bModelTest.addon.v1.1.0.zip"
