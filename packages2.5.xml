@@ -396,4 +396,23 @@
         <depends on='beast2' atleast='2.5.0'/>
     </package>
 
+    <package name="TreeStat2" version="0.0.1"
+	url="https://github.com/alexeid/TreeStat2/releases/download/v0.0.1/TreeStat2.v0.0.1.zip"
+       	description="Utility for calculating tree statistics from tree log file"
+       	projectURL="https://github.com/alexeid/TreeStat2/">
+    	<depends on='beast2' atleast='2.4.0' atmost='2.4.9'/>
+    </package>
+
+    <package name="TMA" version="1.0.0"
+	url="https://github.com/sebastianduchene/tree_model_adequacy/releases/download/v1.0.0/TMA.v1.0.0.zip"
+	description="Tree model adequacy: test whether the tree prior used is adequate for your data"
+	projectURL="https://github.com/sebastianduchene/tree_model_adequacy/">
+		<depends on='beast2' atleast='2.5.0'/>
+		<depends on='MASTER' atleast='6.0.0'/>
+		<depends on='BEASTLabs' atleast='1.8.0'/>
+		<depends on='phylodynamics' atleast='1.3.0'/>
+		<depends on='BDSKY' atleast='1.4.0'/>
+		<depends on='TreeStat2' atleast='0.0.2'/>	
+    </package>
+
 </packages>
