@@ -148,7 +148,7 @@
 	<depends on="beast2" atleast="2.5.0" atmost="2.5.9"/>
 	<depends on="SA" atleast="2.0.0"/>
 	<depends on="MM" atleast="1.1.0"/>
-	<depends on="Mascot" atleast="1.0.0"/>
+	<depends on="Mascot" atleast="1.0.0" atmost="1.0.2"/>
     </package>
 
     <package name='MASTER' version='6.0.0'
