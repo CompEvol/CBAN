@@ -78,6 +78,14 @@
         <depends on='BEASTLabs' atleast='1.8.0'/>
         <depends on='MODEL_SELECTION' atleast='1.4.1'/>
     </package>
+    <package name="NS" version="1.0.1"
+        url="https://github.com/BEAST2-Dev/nested-sampling/releases/download/v1.0.0/NS.addon.v1.0.1.zip"
+        description="Nested sampling for model selection and posterior inference"
+        projectURL="https://github.com/BEAST2-Dev/nested-sampling/wiki">
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+        <depends on='BEASTLabs' atleast='1.8.0'/>
+        <depends on='MODEL_SELECTION' atleast='1.4.1'/>
+    </package>
 
     <package name='GEO_SPHERE' version='1.2.0'
            url="https://github.com/BEAST2-Dev/beast-geo/releases/download/v1.2.0/GEO_SPHERE.addon.v1.2.0.zip"
