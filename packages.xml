@@ -324,7 +324,7 @@
     <package name='MM' version='1.0.4'
             url="https://github.com/CompEvol/morph-models/releases/download/1.0.4/MM.addon.v1.0.4.zip"
             projectURL="https://github.com/CompEvol/morph-models"
-            description="Enables models of morphological chatacter evolution">
+            description="Enables models of morphological character evolution">
         <depends on='beast2' atleast='2.4.0'/>
     </package>
     
