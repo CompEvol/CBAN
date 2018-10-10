@@ -53,6 +53,14 @@
         <depends on='beast2' atleast='2.5.0'/>
         <depends on='BEASTLabs' atleast='1.8.0'/>
     </package>
+   <package name='bModelTest' version='1.1.2'
+            url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v1.1.0/bModelTest.addon.v1.1.2.zip"
+            description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites"
+            projectURL="https://github.com/BEAST2-Dev/bModelTest/wiki">
+        <depends on='beast2' atleast='2.5.0'/>
+        <depends on='BEASTLabs' atleast='1.8.0'/>
+    </package>
+
 
 
     <package name='BEAST_CLASSIC' version='1.4.0'
