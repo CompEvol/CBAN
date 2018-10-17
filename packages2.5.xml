@@ -347,6 +347,14 @@
            projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/">
       		<depends on="beast2" atleast="2.5.0"/>
 	</package>
+	
+	<package name="Mascot" version="1.1.2"
+           url="https://github.com/nicfel/Mascot/releases/download/v1.1.2/Mascot.v1.1.2.zip"
+           description="Marginal approximation of the structured coalescent"
+           projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/">
+      		<depends on="beast2" atleast="2.5.0"/>
+	</package>
+
 
 
 
