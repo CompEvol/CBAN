@@ -91,6 +91,16 @@
 	<depends on='NS' atleast='0.0.1'/>
 	<depends on='Babel' atleast='0.2.0'/>	    
     </package>
+    <package name="TreeSetAnalyser" version="0.0.3"
+       url="https://github.com/rbouckaert/TreeSetAnalyser/releases/download/v0.0.1/TreeSetAnalyser.addon.v0.0.3.zip"
+       description="analyses with a fixed tree or set of trees"
+       projectURL="https://github.com/rbouckaert/TreeSetAnalyser">
+	<depends on='beast2' atleast='2.5.0'/>
+	<depends on='BEASTLabs' atleast='1.7.0'/>
+	<depends on='BEAST_CLASSIC' atleast='1.3.0'/>
+	<depends on='NS' atleast='0.0.1'/>
+	<depends on='Babel' atleast='0.2.0'/>	    
+    </package>
 
 
     <package name="EpochClockModel" version="0.0.1"
