@@ -6,10 +6,10 @@
 
 <packages>
 
-<package name='BEAST' version='2.5.1'
+<!--package name='BEAST' version='2.5.1'
         url="https://github.com/CompEvol/beast2/releases/download/v2.5.1/BEAST.package.v2.5.1.zip"
         projectURL="http://beast2.org"
-		description="BEAST core"/>
+		description="BEAST core"/-->
 	
 	<package name='BEAST' version='2.5.0'
         url="https://github.com/CompEvol/beast2/releases/download/v2.5.0/BEAST.v2.5.0.package.zip"
