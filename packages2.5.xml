@@ -396,8 +396,8 @@
 
 
 	
-	<package name='SA' version='2.0.0'
-           url="https://github.com/CompEvol/sampled-ancestors/releases/download/2.0.0/SA.v2.0.0.zip"
+	<package name='SA' version='2.0.1'
+           url="https://github.com/CompEvol/sampled-ancestors/releases/download/v2.0.1/SA.v2.0.1.zip"
            projectURL="https://github.com/CompEvol/sampled-ancestors"
            description="Sampled ancestor trees" >
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
