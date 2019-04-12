@@ -371,15 +371,28 @@
 	    projectURL="http://indriid.com/software.html">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
+    <package name='STACEY' version='1.2.5'
+            url="http://indriid.com/2019/STACEY.addon.v1.2.5.zip"
+            description="Species delimitation and species tree estimation"
+	    projectURL="http://indriid.com/software.html">
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+    </package>
 
+	
    <package name='DENIM' version='0.3.0'
             url="http://indriid.com/2017/DENIM.addon.v0.3.0.zip"
             description="Divergence Estimation Notwithstanding ILS and Migration"
 	    projectURL="http://indriid.com/software.html">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
-   <package name='DENIM' version='0.3.1'
+    <package name='DENIM' version='0.3.1'
             url="http://indriid.com/2018/DENIM.addon.v0.3.1.zip"
+            description="Divergence Estimation Notwithstanding ILS and Migration"
+	    projectURL="http://indriid.com/software.html">
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+    </package>
+    <package name='DENIM' version='1.0.0'
+            url="http://indriid.com/2019/DENIM.addon.v1.0.0.zip"
             description="Divergence Estimation Notwithstanding ILS and Migration"
 	    projectURL="http://indriid.com/software.html">
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
