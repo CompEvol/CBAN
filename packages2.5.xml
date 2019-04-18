@@ -526,6 +526,13 @@
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
     
+   <package name='CodonSubstModels' version='1.1.2'
+           url="https://github.com/BEAST2-Dev/codonsubstmodels/releases/download/v1.1.1/CodonSubstModels.v1.1.2.zip"
+           description="Codon substitution models"
+           projectURL="https://github.com/BEAST2-Dev/codonsubstmodels/">
+        <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
+   </package>
+
    <package name='CodonSubstModels' version='1.1.1'
            url="https://github.com/BEAST2-Dev/codonsubstmodels/releases/download/v1.1.1/CodonSubstModels.v1.1.1.zip"
            description="Codon substitution models"
