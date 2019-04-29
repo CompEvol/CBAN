@@ -487,15 +487,14 @@
            projectURL="https://github.com/nicfel/CoupledMCMC/">
       		<depends on="beast2" atleast="2.5.2"/>
 	</package>
-
-
-
-
-
-
-
-
-
+	
+	<package name="CoupledMCMC" version="0.1.5"
+           url="https://github.com/nicfel/CoupledMCMC/releases/download/v0.1.5/CoupledMCMC.v0.1.5.zip"
+           description="Coupled MCMC (parallel Tempering or MC3)"
+           projectURL="https://github.com/nicfel/CoupledMCMC/">
+	<depends on="beast2" atleast="2.5.2"/>
+	<depends on="BEASTLabs" atleast="1.8.2"/>
+	</package>
 
 	
 	<package name='SA' version='2.0.1'
