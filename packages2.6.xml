@@ -13,5 +13,19 @@
         projectURL="http://beast2.org"
 		description="BEAST core"/>
 
+    <package name='BEASTLabs' version='1.9.0'
+           url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.9.0/BEASTlabs.addon.v1.9.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
+           description="BEAST utilities, such as Script, multi monophyletic constraints">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
+
+    <package name='Beasy' version='0.0.2'
+           url="https://github.com/rbouckaert/beasy/releases/download/v0.0.1/Beasy.v0.0.2.zip"
+           projectURL="https://github.com/rbouckaert/beasy"
+           description="Makes it easier to construct models: Automatic methods text generator, Beasy XML generator, and more">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+        <depends on='BEASTLabs' atleast='1.9.0'/>
+    </package>
 	
 </packages>
