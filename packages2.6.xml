@@ -104,6 +104,13 @@
            projectURL="http://tgvaughan.github.io/EpiInf" >
         <depends on='BEAST' atleast='2.5.0' atmost="2.6.9"/>
 	<depends on='SA' atleast='2.0.0'/>
-    </package>	
+    </package>
+	
+    <package name='MASTER' version='6.1.0'
+	     url="https://github.com/tgvaughan/MASTER/releases/download/v6.1.0/MASTER.package.v6.1.0.zip"
+	     description="Stochastic population dynamics simulation"
+             projectURL="http://tgvaughan.github.io/MASTER" >
+        <depends on='beast2' atleast='2.5.0' atmost="2.5.9"/>
+    </package>
 
 </packages>
