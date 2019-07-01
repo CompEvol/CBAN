@@ -106,11 +106,11 @@
 	<depends on='SA' atleast='2.0.0'/>
     </package>
 	
-    <package name='MASTER' version='6.1.0'
-	     url="https://github.com/tgvaughan/MASTER/releases/download/v6.1.0/MASTER.package.v6.1.0.zip"
+    <package name='MASTER' version='6.1.1'
+	     url="https://github.com/tgvaughan/MASTER/releases/download/v6.1.1/MASTER.package.v6.1.1.zip"
 	     description="Stochastic population dynamics simulation"
              projectURL="http://tgvaughan.github.io/MASTER" >
-        <depends on='beast2' atleast='2.5.0' atmost="2.6.9"/>
+        <depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
     </package>
 	
     <package name='MultiTypeTree' version='7.0.0'
