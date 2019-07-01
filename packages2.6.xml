@@ -98,8 +98,8 @@
       <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
     </package>
 	
-    <package name='EpiInf' version='7.1.2'
-           url="https://github.com/tgvaughan/epiinf/releases/download/v7.1.2/EpiInf.v7.1.2.zip"
+    <package name='EpiInf' version='7.1.3'
+           url="https://github.com/tgvaughan/epiinf/releases/download/v7.1.3/EpiInf.v7.1.3.zip"
            description="BD/SIR/SIS epidemic trajectory inference."
            projectURL="http://tgvaughan.github.io/EpiInf" >
         <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
