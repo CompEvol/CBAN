@@ -91,8 +91,8 @@
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
     </package>
     
-    <package name='bacter' version='2.2.2'
-             url="https://github.com/tgvaughan/bacter/releases/download/v2.2.2/bacter.v2.2.2.zip"
+    <package name='bacter' version='2.2.3'
+             url="https://github.com/tgvaughan/bacter/releases/download/v2.2.3/bacter.v2.2.3.zip"
              description="Bacterial ARG inference."
              projectURL="http://tgvaughan.github.io/bacter" >
       <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
