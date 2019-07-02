@@ -694,8 +694,8 @@
         <depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
     
-    <package name="substBMA" version="1.2.2"
-            url="https://github.com/jessiewu/substBMA/releases/download/v1.2.2/substBMA.v1.2.2.zip"
+    <package name="substBMA" version="1.2.3"
+            url="https://github.com/jessiewu/substBMA/releases/download/v1.2.3/substBMA.v1.2.3.zip"
             projectURL="https://github.com/jessiewu/substBMA"
             description="Substitution Bayesian Model Averaging">
         <depends on='beast2' atleast='2.5.0'/>
