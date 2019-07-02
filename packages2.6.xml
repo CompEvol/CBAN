@@ -120,4 +120,13 @@
         <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
     </package>
 
+    <package name='bdmm' version='0.3.3'
+           url="https://github.com/denisekuehnert/bdmm/releases/download/0.3.5/BDMM.v0.3.5.zip"
+           description="pre-release of multitype birth-death model (aka birth-death-migration model)"
+           projectURL="https://github.com/denisekuehnert/bdmm" >
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+	<depends on='MASTER' atleast='6.0.1'/>
+        <depends on='MultiTypeTree' atleast='7.0.1'/>
+    </package> 
+
 </packages>
