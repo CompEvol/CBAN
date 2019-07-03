@@ -135,5 +135,21 @@
             description="Substitution Bayesian Model Averaging">
         <depends on='beast2' atleast='2.5.0' atmost="2.6.9"/>
     </package>
+
+    <package name='BDSKY' version='1.4.5'
+           url="https://github.com/BEAST2-Dev/bdsky/releases/download/1.4.5/BDSKY.addon.v1.4.5.zip"
+           projectURL="https://github.com/BEAST2-Dev/bdsky/"
+           description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
+        <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
+    </package>
 	
+    <package name='phylodynamics' version='1.3.0'
+           url="https://github.com/BEAST2-Dev/phylodynamics/releases/download/1.3.0/phylodynamics.addon.1.3.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/phylodynamics"
+           description="BDSIR and Stochastic Coalescent" >
+        <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
+        <depends on='BDSKY' atleast='1.4.0' atmost='1.4.9'/>
+    </package>
+
+
 </packages>
