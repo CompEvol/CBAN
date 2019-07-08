@@ -363,7 +363,15 @@
            projectURL="http://tgvaughan.github.io/EpiInf" >
         <depends on='BEAST' atleast='2.5.0' atmost="2.5.9"/>
 	<depends on='SA' atleast='2.0.0'/>
-    </package>	
+    </package>
+	
+    <package name='EpiInf' version='7.1.4'
+           url="https://github.com/tgvaughan/epiinf/releases/download/v7.1.4/EpiInf.v7.1.4.zip"
+           description="BD/SIR/SIS epidemic trajectory inference."
+           projectURL="http://tgvaughan.github.io/EpiInf" >
+        <depends on='BEAST' atleast='2.5.0' atmost="2.6.9"/>
+	<depends on='SA' atleast='2.0.0'/>
+    </package>
 	
     <package name='STACEY' version='1.2.4'
             url="http://indriid.com/2017/STACEY.addon.v1.2.4.zip"
