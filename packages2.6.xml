@@ -256,5 +256,18 @@
 	<depends on="SA" atleast="2.0.0"/>
 	<depends on="MM" atleast="1.1.0"/>
     </package>
-	
+
+    <package name="BADTRIP" version="1.0.0"
+        url="https://bitbucket.org/nicofmay/badtrip/raw/4a69ce6b2ee092e451c72a291a54ae450ac90fc6/dist/BADTRIP.v1.0.0.zip"
+        description="Infer transmission time for non-haplotype data and epi data"
+        projectURL="https://bitbucket.org/nicofmay/badtrip">
+        <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
+    </package>
+
+    <package name='PoMo' version='1.0.1'
+            url="https://bitbucket.org/nicofmay/pomo-beast/raw/8eaa20892c8f3b3ce7f428a8a144b8d817838ad8/dist/PoMo.v1.0.1.zip"
+            description="PoMo, a substitution model that separates mutation and drift processes"
+	    projectURL="https://bitbucket.org/nicofmay/pomo-beast">
+        <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
+    </package>
 </packages>
