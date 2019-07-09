@@ -270,4 +270,12 @@
 	    projectURL="https://bitbucket.org/nicofmay/pomo-beast">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
     </package>
+
+    <package name='CA' version='2.0.0'
+            url="https://github.com/BEAST2-Dev/cladeage/releases/download/v.2.0.0/CA.addon.v2.0.0.zip"
+            description="Bayesian estimation of clade ages based on probabilities of fossil sampling"
+            projectURL="https://github.com/BEAST2-Dev/cladeage">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
+
 </packages>
