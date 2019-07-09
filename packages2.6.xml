@@ -224,5 +224,21 @@
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
         <depends on='BEASTLabs' atleast='1.8.0'/>
     </package>
+	
+    <package name="Mascot" version="1.2.2"
+	   url="https://github.com/nicfel/Mascot/releases/download/v1.2.2/Mascot.v1.2.2.zip"
+	   description="Marginal approximation of the structured coalescent"
+	   projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/">
+		<depends on="beast2" atleast="2.5.0" atmost='2.6.9'/>
+    </package>
+	
+    <package name="CoupledMCMC" version="0.1.7"
+           url="https://github.com/nicfel/CoupledMCMC/releases/download/v0.1.7/CoupledMCMC.v0.1.7.zip"
+           description="Coupled MCMC (parallel Tempering or MC3)"
+           projectURL="https://github.com/nicfel/CoupledMCMC/">
+	<depends on="beast2" atleast="2.5.2"  atmost='2.6.9'/>
+	<depends on="BEASTLabs" atleast="1.8.2"/>
+    </package>
+
      
 </packages>
