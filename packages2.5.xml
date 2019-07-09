@@ -265,6 +265,15 @@
 	<depends on="MM" atleast="1.1.0"/>
     </package>
 
+    <package name='StarBEAST2' version='0.15.5'
+            url="https://github.com/genomescale/starbeast2/releases/download/v0.15.5/StarBEAST2.zip"
+            projectURL="https://github.com/genomescale/starbeast2"
+            description="Multispecies coalescent inference using multi-locus and fossil data">
+	<depends on="beast2" atleast="2.5.0" atmost="2.5.9"/>
+	<depends on="SA" atleast="2.0.0"/>
+	<depends on="MM" atleast="1.1.0"/>
+    </package>
+
 
     <package name='MASTER' version='6.1.0'
 	     url="https://github.com/tgvaughan/MASTER/releases/download/v6.1.0/MASTER.package.v6.1.0.zip"
