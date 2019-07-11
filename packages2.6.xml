@@ -257,6 +257,20 @@
 	<depends on="MM" atleast="1.1.0"/>
     </package>
 
+    <package name='BASTA' version='3.0.1'
+            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/dc8bee43b5a792a860d6fbc4d10ba39503e17c54/dist/BASTA.v3.0.1.zip"
+            description="Bayesian structured coalescent approximation"
+            projectURL="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation">
+        <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
+    </package>
+
+    <package name='SCOTTI' version='2.0.1'
+            url="https://bitbucket.org/nicofmay/scotti/raw/3db8fa07d32287922240324064dd8e6ab030a4cd/SCOTTI/dist/SCOTTI.v2.0.1.zip"
+            description="Structured COalescent Transmission Tree Inference"
+	     projectURL="https://bitbucket.org/nicofmay/scotti">
+        <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
+    </package>
+
     <package name="BADTRIP" version="1.0.0"
         url="https://bitbucket.org/nicofmay/badtrip/raw/4a69ce6b2ee092e451c72a291a54ae450ac90fc6/dist/BADTRIP.v1.0.0.zip"
         description="Infer transmission time for non-haplotype data and epi data"
@@ -282,7 +296,7 @@
             url="https://bitbucket.org/bjoelle/msbd/raw/a20abf3c5dfd9f30041d4c9f2b57dcaf2e430189/dist/MSBD.v1.1.0.zip"
             description="Multi-state birth-death prior with state-specific birth and death rates"
             projectURL="https://bitbucket.org/bjoelle/msbd">
-        <depends on='beast2' atleast='2.6.0'/>
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
 
 </packages>
