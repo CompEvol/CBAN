@@ -757,6 +757,11 @@
         <depends on='beast2' atleast='2.5.0'/>
     </package>
 	
-	
+    <package name='CoalRe' version='0.0.2'
+            url="https://github.com/nicfel/CoalRe/releases/tag/v0.0.2"
+            description="Infer viral reassortment networks"
+            projectURL="https://taming-the-beast.org/tutorials/Reassortment-Tutorial/">
+        <depends on='beast2' atleast='2.5.0'/>
+    </package>
 	
 </packages>
