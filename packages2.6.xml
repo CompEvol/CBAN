@@ -334,7 +334,7 @@
     </package>
 	
     <package name='CoalRe' version='0.0.2'
-            url="https://github.com/nicfel/CoalRe/releases/tag/v0.0.2"
+            url="https://github.com/nicfel/CoalRe/releases/download/v0.0.2/CoalRe.v0.0.2.zip"
             description="Infer viral reassortment networks"
             projectURL="https://taming-the-beast.org/tutorials/Reassortment-Tutorial/">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
