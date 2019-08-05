@@ -8,7 +8,7 @@
 
 <packages>
 	
-	<package name='BEAST' version='2.6.0'
+    <package name='BEAST' version='2.6.0'
         url="https://github.com/CompEvol/beast2/releases/download/v2.6.0/BEAST.v2.6.0.package.zip"
         projectURL="http://beast2.org"
 		description="BEAST core"/>
@@ -108,6 +108,14 @@
 	
     <package name='EpiInf' version='7.1.4'
            url="https://github.com/tgvaughan/epiinf/releases/download/v7.1.4/EpiInf.v7.1.4.zip"
+           description="BD/SIR/SIS epidemic trajectory inference."
+           projectURL="http://tgvaughan.github.io/EpiInf" >
+        <depends on='BEAST' atleast='2.5.0' atmost="2.6.9"/>
+	<depends on='SA' atleast='2.0.0'/>
+    </package>
+
+    <package name='EpiInf' version='7.1.5'
+           url="https://github.com/tgvaughan/epiinf/releases/download/v7.1.5/EpiInf.v7.1.5.zip"
            description="BD/SIR/SIS epidemic trajectory inference."
            projectURL="http://tgvaughan.github.io/EpiInf" >
         <depends on='BEAST' atleast='2.5.0' atmost="2.6.9"/>
