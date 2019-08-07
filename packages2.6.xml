@@ -12,6 +12,10 @@
         url="https://github.com/CompEvol/beast2/releases/download/v2.6.0/BEAST.v2.6.0.package.zip"
         projectURL="http://beast2.org"
 		description="BEAST core"/>
+    <package name='BEAST' version='2.6.1'
+        url="https://github.com/CompEvol/beast2/releases/download/v2.6.1/BEAST.package.v2.6.1.zip"
+        projectURL="http://beast2.org"
+		description="BEAST core"/>
 
     <package name='BEASTLabs' version='1.9.0'
            url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.9.0/BEASTlabs.addon.v1.9.0.zip"
