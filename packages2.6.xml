@@ -85,6 +85,14 @@
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
         <depends on='BEASTLabs' atleast='1.9.0'/>
     </package>
+    <package name="MODEL_SELECTION" version="1.5.2"
+            url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.5.0/MODEL_SELECTION.addon.v1.5.2.zip"
+            description="Select models through path sampling/stepping stone analysis"
+            projectURL="https://github.com/BEAST2-Dev/model-selection">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+        <depends on='BEASTLabs' atleast='1.9.0'/>
+    </package>
+
 
     <package name="NS" version="1.1.0"
         url="https://github.com/BEAST2-Dev/nested-sampling/releases/download/v1.1.0/NS.addon.v1.1.0.zip"
