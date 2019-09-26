@@ -363,6 +363,13 @@
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
 
+    <package name='MSBD' version='1.1.2'
+            url="https://bitbucket.org/bjoelle/msbd/raw/e5d1afeaaad6f2bcb805bbd7b585fd5a30e9fe6d/dist/MSBD.v1.1.2.zip"
+            description="Multi-state birth-death prior with state-specific birth and death rates"
+            projectURL="https://bitbucket.org/bjoelle/msbd">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
+
     <package name="TreeStat2" version="0.0.2"
 		url="https://github.com/alexeid/TreeStat2/releases/download/v0.0.1/TreeStat2.v0.0.2.zip"
        	description="Utility for calculating tree statistics from tree log file"
