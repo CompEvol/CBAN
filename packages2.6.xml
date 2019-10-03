@@ -111,11 +111,11 @@
         <depends on='BEASTLabs' atleast='1.9.0'/>
     </package>
     
-    <package name='SpeciesNetwork' version='0.12.2'
-            url="https://github.com/zhangchicool/speciesnetwork/releases/download/v0.12.2/SpeciesNetwork.zip"
+    <package name='SpeciesNetwork' version='0.13.0'
+            url="https://github.com/zhangchicool/speciesnetwork/releases/download/v0.13.0/SpeciesNetwork.zip"
             description="Multispecies network coalescent (MSNC) inference of introgression and hybridization"
             projectURL="https://github.com/zhangchicool/speciesnetwork">
-        <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
     
     <package name='bacter' version='2.2.3'
