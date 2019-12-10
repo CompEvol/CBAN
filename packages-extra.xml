@@ -134,6 +134,14 @@
         <depends on='bModelTest' atleast='1.1.0'/>
         <depends on='BEASTLabs' atleast='1.8.0'/>
    </package>
+   <package name='OBAMA' version='0.2.0' 
+	url="https://github.com/rbouckaert/obama/releases/download/v0.2.0/OBAMA.addon.v0.2.0.zip"
+	description="OBAMA for Bayesian Amino-acid Model Averaging"
+	projectURL="https://github.com/rbouckaert/obama/">
+	<depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+        <depends on='bModelTest' atleast='1.2.1'/>
+        <depends on='BEASTLabs' atleast='1.9.1'/>
+   </package>
 
 	
     <package name="TreeStat2" version="0.0.1"
