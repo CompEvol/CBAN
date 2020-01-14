@@ -308,6 +308,16 @@
 	<depends on="beast2" atleast="2.6.0"  atmost='2.6.9'/>
 	<depends on="BEASTLabs" atleast="1.9.0"/>
     </package>
+	
+    <package name="CoupledMCMC" version="1.0.1"
+         url="https://github.com/nicfel/CoupledMCMC/releases/download/v1.0.1/CoupledMCMC.v1.0.1.zip"
+         description="adaptive parallel tempering"
+         projectURL="https://github.com/nicfel/CoupledMCMC/">
+  	<depends on="beast2" atleast="2.6.0"  atmost='2.6.9'/>
+	<depends on="BEASTLabs" atleast="1.9.0"/>
+    </package>
+
+	
 
     <package name='MM' version='1.1.1'
 	    url="https://github.com/CompEvol/morph-models/releases/download/untagged-74152ea8507b4e08d3ad/MM.addon.v1.1.1.zip"
