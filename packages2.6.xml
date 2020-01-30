@@ -423,4 +423,12 @@
             projectURL="https://taming-the-beast.org/tutorials/Reassortment-Tutorial/">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
     </package>
+
+    <package name="besp" version="0.2.0" 
+	     url="https://github.com/laduplessis/besp/releases/download/0.2.0/besp.v0.2.0.zip" 
+	     projectURL="https://github.com/laduplessis/besp/" 
+	     description="The Bayesian Epoch Sampling Skyline Plot">
+	<depends on="beast2" atleast="2.5" atmost="2.6.9"/>
+    </package>
+	
 </packages>
