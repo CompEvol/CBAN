@@ -475,5 +475,15 @@
 	     description="The Bayesian Epoch Sampling Skyline Plot">
 	<depends on="beast2" atleast="2.5" atmost="2.6.9"/>
     </package>
-	
+
+
+    <package name="FastRelaxedClockLogNormal" version="1.0.0" 
+	     url="https://github.com/Rong419/ConstantDistanceOperator/releases/download/V1.0.0/FastRelaxedClockLogNormal.addon.v1.0.0.zip	" 
+	     projectURL="https://github.com/Rong419/ConstantDistanceOperator" 
+	     description="Relaxed clock that works well with large data">
+	  <depends on="beast2" atleast="2.6" atmost="2.6.9"/>
+      <depends on='BEASTLabs' atleast='1.9.2'/>
+    </package>
+
+
 </packages>
