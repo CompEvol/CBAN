@@ -37,6 +37,12 @@
            description="BEAST utilities, such as Script, multi monophyletic constraints">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
+    <package name='BEASTLabs' version='1.9.3'
+           url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.9.0/BEASTlabs.addon.v1.9.3.zip"
+           projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
+           description="BEAST utilities, such as Script, multi monophyletic constraints">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
 	
     <package name='Beasy' version='0.0.2'
            url="https://github.com/rbouckaert/beasy/releases/download/v0.0.1/Beasy.v0.0.2.zip"
@@ -53,6 +59,14 @@
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
         <depends on='BEASTLabs' atleast='1.8.0'/>
     </package>
+    <package name='Babel' version='0.3.1'
+           url="https://github.com/rbouckaert/Babel/releases/download/v0.3.0/Babel.addon.v0.3.1.zip"
+           description="BABEL = BEAST analysis backing effective linguistics"
+           projectURL="https://github.com/rbouckaert/Babel">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+        <depends on='BEASTLabs' atleast='1.9.0'/>
+    </package>
+
 
    <package name='bModelTest' version='1.2.0'
             url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v1.2.0/bModelTest.addon.v1.2.0.zip"
