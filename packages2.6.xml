@@ -43,6 +43,12 @@
            description="BEAST utilities, such as Script, multi monophyletic constraints">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
+    <package name='BEASTLabs' version='1.9.4'
+           url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.9.0/BEASTlabs.addon.v1.9.4.zip"
+           projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
+           description="BEAST utilities, such as Script, multi monophyletic constraints">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
 	
     <package name='Beasy' version='0.0.2'
            url="https://github.com/rbouckaert/beasy/releases/download/v0.0.1/Beasy.v0.0.2.zip"
