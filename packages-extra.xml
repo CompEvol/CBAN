@@ -250,5 +250,11 @@
 	<depends on='beast2' atleast='2.5.0' atmost='2.5.9'/>
     </package>
 	
+    <package name='PoMoCoV' version='0.1.0'
+            url="http://indriid.com/2020/PoMoCoV.addon.v0.1.0.zip"
+            description="Polymorphism-aware phylodynamic analysis for SARS-CoV-2"
+            projectURL="http://indriid.com/software.html">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
 	
 </packages>
