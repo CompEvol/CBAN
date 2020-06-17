@@ -526,6 +526,14 @@
 	  <depends on="beast2" atleast="2.6" atmost="2.6.9"/>
       <depends on='BEASTLabs' atleast='1.9.2'/>
     </package>
+    
+    <package name="PIQMEE" version="1.0.0" 
+	     url="https://github.com/boskovav/piqmee/releases/download/1.0.0/PIQMEE.v1.0.0.zip" 
+	     projectURL="https://github.com/boskovav/piqmee" 
+	     description="Birth-death skyline-based method efficiently dealing with duplicate sequences">
+	  <depends on="beast2" atleast="2.5.0" atmost="2.6.9"/>
+      <depends on='BDSKY' atleast='1.4.0'/>
+    </package>
 
 
 </packages>
