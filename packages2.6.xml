@@ -232,6 +232,13 @@
            projectURL="http://tgvaughan.github.io/MultiTypeTree" >
         <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
     </package>
+	
+    <package name='MultiTypeTree' version='7.0.2'
+           url="https://github.com/tgvaughan/MultiTypeTree/releases/download/v7.0.2/MultiTypeTree.v7.0.2.zip"
+           description="Structured coalescent inference"
+           projectURL="http://tgvaughan.github.io/MultiTypeTree" >
+        <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
+    </package>
 
     <package name='bdmm' version='0.3.5'
            url="https://github.com/denisekuehnert/bdmm/releases/download/0.3.5/BDMM.v0.3.5.zip"
