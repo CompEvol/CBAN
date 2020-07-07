@@ -226,6 +226,13 @@
         <depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
     </package>
 	
+    <package name='MASTER' version='6.1.2'
+	     url="https://github.com/tgvaughan/MASTER/releases/download/v6.1.2/MASTER.package.v6.1.2.zip"
+	     description="Stochastic population dynamics simulation"
+             projectURL="http://tgvaughan.github.io/MASTER" >
+        <depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
+    </package>
+	
     <package name='MultiTypeTree' version='7.0.1'
            url="https://github.com/tgvaughan/MultiTypeTree/releases/download/v7.0.1/MultiTypeTree.v7.0.1.zip"
            description="Structured coalescent inference"
