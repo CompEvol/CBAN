@@ -96,6 +96,21 @@
            projectURL="http://beast2.org/snapp/">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
+    <package name='SNAPP' version='1.5.1'
+           url="https://github.com/BEAST2-Dev/SNAPP/releases/download/v1.5.0/SNAPP.addon.v1.5.1.zip"
+           description="SNP and AFLP Phylogenies"
+           projectURL="http://beast2.org/snapp/">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
+	
+    <package name='snapper' version='1.0.0'
+           url="https://github.com/rbouckaert/snapper/releases/download/v1.0.0/snapper.addon.v1.0.0.zip"
+           description="Diffusion based SNP and AFLP Phylogenies"
+           projectURL="https://github.com/rbouckaert/snapper">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+        <depends on='SNAPP' atleast='1.5.1'/>
+    </package>
+	
 
     <package name='BEAST_CLASSIC' version='1.5.0'
            url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.5.0/BEAST_CLASSIC.addon.v1.5.0.zip"
