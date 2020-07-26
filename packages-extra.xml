@@ -110,6 +110,17 @@
 	<depends on='Babel' atleast='0.2.0'/>	    
     </package>
 
+    <package name="TreeSetAnalyser" version="0.0.4"
+       url="https://github.com/rbouckaert/TreeSetAnalyser/releases/download/v0.0.1/TreeSetAnalyser.addon.v0.0.4.zip"
+       description="analyses with a fixed tree or set of trees"
+       projectURL="https://github.com/rbouckaert/TreeSetAnalyser">
+	<depends on='beast2' atleast='2.6.3'/>
+	<depends on='BEASTLabs' atleast='1.9.4'/>
+	<depends on='BEAST_CLASSIC' atleast='1.5.0'/>
+	<depends on='NS' atleast='0.0.1'/>
+	<depends on='Babel' atleast='0.3.1'/>	    
+    </package>
+
 
     <package name="EpochClockModel" version="0.0.1"
 	url="https://github.com/rbouckaert/EpochClockModel/releases/download/v0.0.1/EpochClockModel.v0.0.1.zip"
@@ -262,5 +273,20 @@
             projectURL="http://indriid.com/software.html">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
-	
+
+
+
+    <package name='BEAST' version='2.6.3'
+        url="https://github.com/CompEvol/beast2/releases/download/v2.6.3/BEAST.package.v2.6.3.zip"
+        projectURL="http://beast2.org"
+        description="BEAST package"/>
+                
+<package name='FixedTreeAnalysis' version='0.0.1'
+	url="https://github.com/rbouckaert/FixedTreeAnalysis/releases/download/v0.0.1/FixedTreeAnalysis.addon.v0.0.1.zip"
+	description="Fixed tree and posterior tree set analysis"
+	projectURL="https://github.com/rbouckaert/FixedTreeAnalysis">
+	<depends on='beast2' atleast='2.6.3' atmost="2.6.9"/>
+</package>
+
+
 </packages>
