@@ -281,12 +281,20 @@
         projectURL="http://beast2.org"
         description="BEAST package"/>
                 
-<package name='FixedTreeAnalysis' version='0.0.1'
-	url="https://github.com/rbouckaert/FixedTreeAnalysis/releases/download/v0.0.1/FixedTreeAnalysis.addon.v0.0.1.zip"
-	description="Fixed tree and posterior tree set analysis"
-	projectURL="https://github.com/rbouckaert/FixedTreeAnalysis">
-	<depends on='beast2' atleast='2.6.3' atmost="2.6.9"/>
-</package>
+	<package name='FixedTreeAnalysis' version='0.0.1'
+		url="https://github.com/rbouckaert/FixedTreeAnalysis/releases/download/v0.0.1/FixedTreeAnalysis.addon.v0.0.1.zip"
+		description="Fixed tree and posterior tree set analysis"
+		projectURL="https://github.com/rbouckaert/FixedTreeAnalysis">
+		<depends on='beast2' atleast='2.6.3' atmost="2.6.9"/>
+	</package>
 
 
+	<package name='starbeast3' version='0.0.1'
+		url="https://github.com/rbouckaert/starbeast3/releases/download/v0.0.1/starbeast3.addon.v0.0.1.zip"
+		description="StarBeast3 multi species coalescent using smart MCMC operators"
+		projectURL="https://github.com/rbouckaert/starbeast3">
+		<depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
+		<depends on='BEASTLabs' atleast='1.9.4'/>
+		<depends on='FastRelaxedClockLogNormal' atleast='1.0.0'/>
+	</package>
 </packages>
