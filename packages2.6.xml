@@ -53,6 +53,12 @@
            description="BEAST utilities, such as Script, multi monophyletic constraints">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
+    <package name='BEASTLabs' version='1.9.5'
+           url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.9.0/BEASTlabs.addon.v1.9.5.zip"
+           projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
+           description="BEAST utilities, such as Script, multi monophyletic constraints">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
 	
     <package name='Beasy' version='0.0.2'
            url="https://github.com/rbouckaert/beasy/releases/download/v0.0.1/Beasy.v0.0.2.zip"
@@ -584,11 +590,18 @@
 
 
     <package name="FastRelaxedClockLogNormal" version="1.0.0" 
-	     url="https://github.com/Rong419/ConstantDistanceOperator/releases/download/V1.0.0/FastRelaxedClockLogNormal.addon.v1.0.0.zip	" 
+	     url="https://github.com/Rong419/ConstantDistanceOperator/releases/download/V1.0.0/FastRelaxedClockLogNormal.addon.v1.0.0.zip" 
 	     projectURL="https://github.com/Rong419/ConstantDistanceOperator" 
 	     description="Relaxed clock that works well with large data">
 	  <depends on="beast2" atleast="2.6" atmost="2.6.9"/>
       <depends on='BEASTLabs' atleast='1.9.2'/>
+    </package>
+    <package name="FastRelaxedClockLogNormal" version="1.1.0" 
+	     url="https://github.com/Rong419/ConstantDistanceOperator/releases/download/v1.1.0/FastRelaxedClockLogNormal.addon.v1.1.0.zip"
+	     projectURL="https://github.com/Rong419/ConstantDistanceOperator" 
+	     description="Relaxed clock that works well with large data">
+	  <depends on="beast2" atleast="2.6" atmost="2.6.9"/>
+      <depends on='BEASTLabs' atleast='1.9.5'/>
     </package>
     
     <package name="PIQMEE" version="1.0.0" 
