@@ -545,8 +545,14 @@
             projectURL="https://bitbucket.org/bjoelle/msbd">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
-        <package name='MSBD' version='1.1.4'
+    <package name='MSBD' version='1.1.4'
             url="https://bitbucket.org/bjoelle/msbd/raw/489e8cc0515d637a58f1aa3c604b26977d4da848/dist/MSBD.v1.1.4.zip"
+            description="Multi-state birth-death prior with state-specific birth and death rates"
+            projectURL="https://bitbucket.org/bjoelle/msbd">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
+    <package name='MSBD' version='1.1.5'
+            url="https://bitbucket.org/bjoelle/msbd/raw/fea2429b9a035e4beac99b841cf7e1e0f87c0067/dist/MSBD.v1.1.5.zip"
             description="Multi-state birth-death prior with state-specific birth and death rates"
             projectURL="https://bitbucket.org/bjoelle/msbd">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
