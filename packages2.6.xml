@@ -639,4 +639,11 @@
       <depends on='BDSKY' atleast='1.4.0'/>
     </package>
 
+    <package name="outercore" version="0.0.1" 
+	     url="https://github.com/LinguaPhylo/beast-outercore/releases/download/0.0.1/outercore.v0.0.1.zip" 
+	     projectURL="https://github.com/LinguaPhylo/beast-outercore" 
+	     description="The BEAST 2 core features, but not in the core.">
+	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
+    </package>
+
 </packages>
