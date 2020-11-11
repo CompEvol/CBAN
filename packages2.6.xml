@@ -642,8 +642,15 @@
     <package name="outercore" version="0.0.3" 
 	     url="https://github.com/LinguaPhylo/beast-outercore/releases/download/0.0.3/outercore.v0.0.3.zip" 
 	     projectURL="https://github.com/LinguaPhylo/beast-outercore" 
-	     description="The BEAST 2 core features, but not in the core.">
+	     description="The BEAST 2 core features, but not in the core. (Java 11)">
 	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
     </package>
 
+    <package name="outercore" version="0.0.4" 
+	     url="https://github.com/LinguaPhylo/beast-outercore/releases/download/0.0.4/outercore.v0.0.4.zip" 
+	     projectURL="https://github.com/LinguaPhylo/beast-outercore" 
+	     description="The BEAST 2 core features, but not in the core.">
+	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
+    </package>
+    
 </packages>
