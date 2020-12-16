@@ -666,5 +666,11 @@
 	     description="Expands the flexibility of BEAST 2 XML.">
 	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
     </package>
-    
+ 	
+    <package name="feast" version="7.5.3" 
+	     url="https://github.com/tgvaughan/feast/releases/download/v7.5.3/feast.v7.5.3.zip" 
+	     projectURL="https://github.com/tgvaughan/feast" 
+	     description="Expands the flexibility of BEAST 2 XML.">
+	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
+    </package>   
 </packages>
