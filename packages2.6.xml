@@ -623,7 +623,14 @@
 	  <depends on="beast2" atleast="2.6" atmost="2.6.9"/>
       <depends on='BEASTLabs' atleast='1.9.5'/>
     </package>
-    
+    	<package name="FastRelaxedClockLogNormal" version="1.1.1"
+	     url="https://github.com/Rong419/ConstantDistanceOperator/releases/download/v1.1.0/FastRelaxedClockLogNormal.addon.v1.1.1.zip"
+	     projectURL="https://github.com/Rong419/ConstantDistanceOperator"
+	     description="Relaxed clock that works well with large data">
+	  <depends on="beast2" atleast="2.6" atmost="2.6.9"/>
+      <depends on='BEASTLabs' atleast='1.9.5'/>
+    </package>
+
     <package name="PIQMEE" version="1.0.0" 
 	     url="https://github.com/boskovav/piqmee/releases/download/1.0.0/PIQMEE.v1.0.0.zip" 
 	     projectURL="https://github.com/boskovav/piqmee" 
@@ -690,5 +697,13 @@
 		<depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
 		<depends on='BEASTLabs' atleast='1.9.5'/>
 		<depends on='FastRelaxedClockLogNormal' atleast='1.1.0'/>
+	</package>
+	<package name='ORC' version='1.0.2'
+		url="https://github.com/jordandouglas/ORC/releases/download/v1.0.0/ORC.addon.v1.0.2.zip"
+		description="Optimised Relaxed Clock model"
+		projectURL="https://github.com/jordandouglas/ORC/">
+		<depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
+		<depends on='BEASTLabs' atleast='1.9.5'/>
+		<depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
 	</package>
 </packages>
