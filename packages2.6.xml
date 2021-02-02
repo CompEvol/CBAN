@@ -19,7 +19,7 @@
         projectURL="http://beast2.org"
 		description="BEAST core"/>
     <package name='BEAST' version='2.6.3'
-        url="https://github.com/CompEvol/beast2/releases/download/v2.6.3/BEAST.package.v2.6.3.zip"
+        url="https://raw.githubusercontent.com/CompEvol/packages/main/BEAST/BEAST.package.v2.6.3.zip"
         projectURL="http://beast2.org"
         description="BEAST package"/>
 
@@ -54,14 +54,14 @@
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
     <package name='BEASTLabs' version='1.9.5'
-           url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v1.9.0/BEASTlabs.addon.v1.9.5.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/BEASTLabs/BEASTlabs.addon.v1.9.5.zip"
            projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
            description="BEAST utilities, such as Script, multi monophyletic constraints">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
 	
     <package name='Beasy' version='0.0.2'
-           url="https://github.com/rbouckaert/beasy/releases/download/v0.0.1/Beasy.v0.0.2.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/Beasy/Beasy.v0.0.2.zip"
            projectURL="https://github.com/rbouckaert/beasy"
            description="Makes it easier to construct models: Automatic methods text generator, Beasy XML generator, and more">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -76,7 +76,7 @@
         <depends on='BEASTLabs' atleast='1.8.0'/>
     </package>
     <package name='Babel' version='0.3.1'
-           url="https://github.com/rbouckaert/Babel/releases/download/v0.3.0/Babel.addon.v0.3.1.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/Babel/Babel.addon.v0.3.1.zip"
            description="BABEL = BEAST analysis backing effective linguistics"
            projectURL="https://github.com/rbouckaert/Babel">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -92,7 +92,7 @@
         <depends on='BEASTLabs' atleast='1.9.0'/>
     </package>
    <package name='bModelTest' version='1.2.1'
-            url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v1.2.0/bModelTest.addon.v1.2.1.zip"
+            url="https://raw.githubusercontent.com/CompEvol/packages/main/bModelTest/bModelTest.addon.v1.2.1.zip"
             description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites"
             projectURL="https://github.com/BEAST2-Dev/bModelTest/wiki">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -107,14 +107,14 @@
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
     <package name='SNAPP' version='1.5.1'
-           url="https://github.com/BEAST2-Dev/SNAPP/releases/download/v1.5.0/SNAPP.addon.v1.5.1.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/SNAPP/SNAPP.addon.v1.5.1.zip"
            description="SNP and AFLP Phylogenies"
            projectURL="http://beast2.org/snapp/">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
 	
     <package name='snapper' version='1.0.0'
-           url="https://github.com/rbouckaert/snapper/releases/download/v1.0.0/snapper.addon.v1.0.0.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/snapper/snapper.addon.v1.0.0.zip"
            description="Diffusion based SNP and AFLP Phylogenies"
            projectURL="https://github.com/rbouckaert/snapper">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -123,7 +123,7 @@
 	
 
     <package name='BEAST_CLASSIC' version='1.5.0'
-           url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.5.0/BEAST_CLASSIC.addon.v1.5.0.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/BEAST_CLASSIC/BEAST_CLASSIC.addon.v1.5.0.zip"
            projectURL="https://github.com/BEAST2-Dev/beast-classic/"
            description="BEAST classes ported from BEAST 1 in wrappers" >
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -152,7 +152,7 @@
         <depends on='BEASTLabs' atleast='1.9.0'/>
     </package>
     <package name="MODEL_SELECTION" version="1.5.3"
-            url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.5.0/MODEL_SELECTION.addon.v1.5.3.zip"
+            url="https://raw.githubusercontent.com/CompEvol/packages/main/MODEL_SELECTION/MODEL_SELECTION.addon.v1.5.3.zip"
             description="Select models through path sampling/stepping stone analysis"
             projectURL="https://github.com/BEAST2-Dev/model-selection">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -160,7 +160,7 @@
     </package>
 
     <package name="NS" version="1.1.0"
-        url="https://github.com/BEAST2-Dev/nested-sampling/releases/download/v1.1.0/NS.addon.v1.1.0.zip"
+        url="https://raw.githubusercontent.com/CompEvol/packages/main/NS/NS.addon.v1.1.0.zip"
         description="Nested sampling for model selection and posterior inference"
         projectURL="https://github.com/BEAST2-Dev/nested-sampling/wiki">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -169,7 +169,7 @@
     </package>
     
     <package name='GEO_SPHERE' version='1.3.0'
-           url="https://github.com/BEAST2-Dev/beast-geo/releases/download/v1.3.0/GEO_SPHERE.addon.v1.3.0.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/GEO_SPHERE/GEO_SPHERE.addon.v1.3.0.zip"
            description="Whole world phylogeography" 
            projectURL="https://github.com/BEAST2-Dev/beast-geo">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -183,14 +183,14 @@
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
     <package name='SpeciesNetwork' version='0.13.0'
-            url="https://github.com/zhangchicool/speciesnetwork/releases/download/v0.13.0/SpeciesNetwork.zip"
+            url="https://raw.githubusercontent.com/CompEvol/packages/main/SpeciesNetwork/SpeciesNetwork.zip"
             description="Multispecies network coalescent (MSNC) inference of introgression and hybridization"
             projectURL="https://github.com/zhangchicool/speciesnetwork">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
     
     <package name='bacter' version='2.2.3'
-             url="https://github.com/tgvaughan/bacter/releases/download/v2.2.3/bacter.v2.2.3.zip"
+             url="https://raw.githubusercontent.com/CompEvol/packages/main/bacter/bacter.v2.2.3.zip"
              description="Bacterial ARG inference."
              projectURL="http://tgvaughan.github.io/bacter" >
       <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
@@ -245,7 +245,7 @@
     </package>
 	
     <package name='EpiInf' version='7.5.2'
-           url="https://github.com/tgvaughan/epiinf/releases/download/v7.5.2/EpiInf.v7.5.2.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/EpiInf/EpiInf.v7.5.2.zip"
            description="BD/SIR/SIS epidemic trajectory inference."
            projectURL="http://tgvaughan.github.io/EpiInf" >
         <depends on='BEAST' atleast='2.5.0' atmost="2.6.9"/>
@@ -260,7 +260,7 @@
     </package>
 	
     <package name='MASTER' version='6.1.2'
-	     url="https://github.com/tgvaughan/MASTER/releases/download/v6.1.2/MASTER.package.v6.1.2.zip"
+	     url="https://raw.githubusercontent.com/CompEvol/packages/main/MASTER/MASTER.package.v6.1.2.zip"
 	     description="Stochastic population dynamics simulation"
              projectURL="http://tgvaughan.github.io/MASTER" >
         <depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
@@ -274,7 +274,7 @@
     </package>
 	
     <package name='MultiTypeTree' version='7.0.2'
-           url="https://github.com/tgvaughan/MultiTypeTree/releases/download/v7.0.2/MultiTypeTree.v7.0.2.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/MultiTypeTree/MultiTypeTree.v7.0.2.zip"
            description="Structured coalescent inference"
            projectURL="http://tgvaughan.github.io/MultiTypeTree" >
         <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
@@ -290,7 +290,7 @@
     </package> 
 	
     <package name='bdmm' version='1.0'
-           url="https://github.com/denisekuehnert/bdmm/releases/download/v1.0/BDMM.v1.0.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/bdmm/BDMM.v1.0.zip"
            description="Multitype birth-death model (aka birth-death-migration model)"
            projectURL="https://github.com/denisekuehnert/bdmm" >
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -299,7 +299,7 @@
     </package> 
 
     <package name="substBMA" version="1.2.3"
-            url="https://github.com/jessiewu/substBMA/releases/download/v1.2.3/substBMA.v1.2.3.zip"
+            url="https://raw.githubusercontent.com/CompEvol/packages/main/substBMA/substBMA.v1.2.3.zip"
             projectURL="https://github.com/jessiewu/substBMA"
             description="Substitution Bayesian Model Averaging">
         <depends on='beast2' atleast='2.5.0' atmost="2.6.9"/>
@@ -313,14 +313,14 @@
     </package>
 	
     <package name='BDSKY' version='1.4.6'
-           url="https://github.com/BEAST2-Dev/bdsky/releases/download/v1.4.6/BDSKY.v1.4.6.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/BDSKY/BDSKY.v1.4.6.zip"
            projectURL="https://github.com/BEAST2-Dev/bdsky/"
            description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
     </package>
 	
     <package name='phylodynamics' version='1.3.0'
-           url="https://github.com/BEAST2-Dev/phylodynamics/releases/download/1.3.0/phylodynamics.addon.1.3.0.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/phylodynamics/phylodynamics.addon.1.3.0.zip"
            projectURL="https://github.com/BEAST2-Dev/phylodynamics"
            description="BDSIR and Stochastic Coalescent" >
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
@@ -342,7 +342,7 @@
     </package>
 
     <package name="BREAK_AWAY" version="1.0.0"
-		url="https://github.com/rbouckaert/break-away/releases/download/v1.0.0/BREAK_AWAY.addon.v1.0.0.zip"
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/BREAK_AWAY/BREAK_AWAY.addon.v1.0.0.zip"
 		description="break-away model of phylogegraphy"
 		projectURL="https://github.com/rbouckaert/break-away">
 		<depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
@@ -351,14 +351,14 @@
     </package>
     
     <package name='BEASTvntr' version='0.1.3'
-            url="https://github.com/arjun-1/BEASTvntr/releases/download/v0.1.3/BEASTvntr.addon.v0.1.3.zip"
+            url="https://raw.githubusercontent.com/CompEvol/packages/main/BEASTvntr/BEASTvntr.addon.v0.1.3.zip"
             description="Variable Number of Tandem Repeat data, such as microsattelites"
             projectURL="https://github.com/arjun-1/BEASTvntr">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
     </package>
     
     <package name='MGSM' version='0.3.0'
-            url="https://github.com/BEAST2-Dev/MGSM/releases/download/v0.3.0/MGSM.addon.v0.3.0.zip"
+            url="https://raw.githubusercontent.com/CompEvol/packages/main/MGSM/MGSM.addon.v0.3.0.zip"
             description="Multi-gamma and relaxed gamma site models"
             projectURL="https://github.com/BEAST2-Dev/MGSM/wiki">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
@@ -386,35 +386,35 @@
     </package>
 
     <package name="PhyDyn" version="1.3.7"
-        url="https://github.com/mrc-ide/PhyDyn/releases/download/v1.3.7/PhyDyn.v1.3.7.zip"
+        url="https://raw.githubusercontent.com/CompEvol/packages/main/PhyDyn/PhyDyn.v1.3.7.zip"
         description="PhyDyn: Epidemiological modelling with BEAST"
         projectURL="https://github.com/mrc-ide/PhyDyn">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
     
     <package name='SSM' version='1.1.0'
-        url="https://github.com/BEAST2-Dev/substmodels/releases/download/v1.1.0/SSM.v1.1.0.zip"
+        url="https://raw.githubusercontent.com/CompEvol/packages/main/SSM/SSM.v1.1.0.zip"
 	    description="Standard Nucleotide Substitution Models"
         projectURL="https://github.com/BEAST2-Dev/substmodels/">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
     </package>
     
     <package name='CodonSubstModels' version='1.1.3'
-        url="https://github.com/BEAST2-Dev/codonsubstmodels/releases/download/v1.1.3/CodonSubstModels.v1.1.3.zip"
+        url="https://raw.githubusercontent.com/CompEvol/packages/main/CodonSubstModels/CodonSubstModels.v1.1.3.zip"
         description="Codon substitution models"
         projectURL="https://github.com/BEAST2-Dev/codonsubstmodels/">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
    </package>
 
     <package name='FLC' version='1.1.0'
-            url="https://github.com/4ment/flc/releases/download/v1.1.0/flc.v1.1.0.zip"
+            url="https://raw.githubusercontent.com/CompEvol/packages/main/FLC/flc.v1.1.0.zip"
             description="Flexible local clock model"
             projectURL="https://github.com/4ment/flc">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
 	
     <package name='SA' version='2.0.2'
-           url="https://github.com/CompEvol/sampled-ancestors/releases/download/v2.0.2/SA.v2.0.2.zip"
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/SA/SA.v2.0.2.zip"
            projectURL="https://github.com/CompEvol/sampled-ancestors"
            description="Sampled ancestor trees" >
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
@@ -429,7 +429,7 @@
     </package>
 	
     <package name="Mascot" version="2.1.2"
-	   url="https://github.com/nicfel/Mascot/releases/download/v2.1.2/Mascot.v2.1.2.zip"
+	   url="https://raw.githubusercontent.com/CompEvol/packages/main/Mascot/Mascot.v2.1.2.zip"
 	   description="Marginal approximation of the structured coalescent"
 	   projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/">
 		<depends on="beast2" atleast="2.5.0" atmost='2.6.9'/>
@@ -460,7 +460,7 @@
     </package>
 
     <package name="CoupledMCMC" version="1.0.2"
-         url="https://github.com/nicfel/CoupledMCMC/releases/download/v1.0.2/CoupledMCMC.v1.0.2.zip"
+         url="https://raw.githubusercontent.com/CompEvol/packages/main/CoupledMCMC/CoupledMCMC.v1.0.2.zip"
          description="Adaptive coupled MCMC (adaptive parallel tempering or MC3)"
          projectURL="https://github.com/nicfel/CoupledMCMC/">
   	<depends on="beast2" atleast="2.6.0"  atmost='2.6.9'/>
@@ -470,7 +470,7 @@
 	
 
     <package name='MM' version='1.1.1'
-	    url="https://github.com/CompEvol/morph-models/releases/download/untagged-74152ea8507b4e08d3ad/MM.addon.v1.1.1.zip"
+	    url="https://raw.githubusercontent.com/CompEvol/packages/main/MM/MM.addon.v1.1.1.zip"
             projectURL="https://github.com/CompEvol/morph-models"
             description="Enables models of morphological chatacter evolution">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
@@ -487,7 +487,7 @@
     </package>
 
     <package name='StarBEAST2' version='0.15.11'
-            url="https://github.com/genomescale/starbeast2/releases/download/v0.15.11/StarBEAST2.zip"
+            url="https://raw.githubusercontent.com/CompEvol/packages/main/StarBEAST2/StarBEAST2.zip"
             projectURL="https://github.com/genomescale/starbeast2"
             description="Multispecies coalescent inference using multi-locus and fossil data">
 	<depends on="beast2" atleast="2.5.0" atmost="2.6.9"/>
@@ -524,7 +524,7 @@
     </package>
 
     <package name='CA' version='2.0.0'
-            url="https://github.com/BEAST2-Dev/cladeage/releases/download/v.2.0.0/CA.addon.v2.0.0.zip"
+            url="https://raw.githubusercontent.com/CompEvol/packages/main/CA/CA.addon.v2.0.0.zip"
             description="Bayesian estimation of clade ages based on probabilities of fossil sampling"
             projectURL="https://github.com/BEAST2-Dev/cladeage">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -569,14 +569,14 @@
 
 
     <package name="TreeStat2" version="0.0.2"
-		url="https://github.com/alexeid/TreeStat2/releases/download/v0.0.1/TreeStat2.v0.0.2.zip"
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/TreeStat2/TreeStat2.v0.0.2.zip"
        	description="Utility for calculating tree statistics from tree log file"
        	projectURL="https://github.com/alexeid/TreeStat2/">
     	<depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
     </package>
 
     <package name='TMA' version='1.0.0'
-	     url="https://github.com/sebastianduchene/tree_model_adequacy/releases/download/v1.0.0/TMA.v1.0.0.zip"
+	     url="https://raw.githubusercontent.com/CompEvol/packages/main/TMA/TMA.v1.0.0.zip"
            projectURL="https://github.com/sebastianduchene/tree_model_adequacy"
            description="Tree model adequacy: test whether the tree prior used is adequate for your data">
       <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
@@ -595,14 +595,14 @@
     </package>
 
     <package name='CoalRe' version='0.0.5'
-            url="https://github.com/nicfel/CoalRe/releases/download/v0.0.5/CoalRe.v0.0.5.zip"
+            url="https://raw.githubusercontent.com/CompEvol/packages/main/CoalRe/CoalRe.v0.0.5.zip"
             description="Infer viral reassortment networks"
             projectURL="https://taming-the-beast.org/tutorials/Reassortment-Tutorial/">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
     </package>
 
     <package name="besp" version="0.2.0" 
-	     url="https://github.com/laduplessis/besp/releases/download/0.2.0/besp.v0.2.0.zip" 
+	     url="https://raw.githubusercontent.com/CompEvol/packages/main/besp/besp.v0.2.0.zip" 
 	     projectURL="https://github.com/laduplessis/besp/" 
 	     description="The Bayesian Epoch Sampling Skyline Plot">
 	<depends on="beast2" atleast="2.5" atmost="2.6.9"/>
@@ -624,7 +624,7 @@
       <depends on='BEASTLabs' atleast='1.9.5'/>
     </package>
     	<package name="FastRelaxedClockLogNormal" version="1.1.1"
-	     url="https://github.com/Rong419/ConstantDistanceOperator/releases/download/v1.1.0/FastRelaxedClockLogNormal.addon.v1.1.1.zip"
+	     url="https://raw.githubusercontent.com/CompEvol/packages/main/FastRelaxedClockLogNormal/FastRelaxedClockLogNormal.addon.v1.1.1.zip"
 	     projectURL="https://github.com/Rong419/ConstantDistanceOperator"
 	     description="Relaxed clock that works well with large data">
 	  <depends on="beast2" atleast="2.6" atmost="2.6.9"/>
@@ -648,7 +648,7 @@
     </package>
     
     <package name="PIQMEE" version="1.0.2" 
-	     url="https://github.com/boskovav/piqmee/releases/download/1.0.2/PIQMEE.v1.0.2.zip" 
+	     url="https://raw.githubusercontent.com/CompEvol/packages/main/PIQMEE/PIQMEE.v1.0.2.zip" 
 	     projectURL="https://github.com/boskovav/piqmee" 
 	     description="Birth-death skyline-based method efficiently dealing with duplicate sequences">
 	  <depends on="beast2" atleast="2.5.0" atmost="2.6.9"/>
@@ -670,7 +670,7 @@
     </package>
     
     <package name="outercore" version="0.0.6" 
-	     url="https://github.com/LinguaPhylo/beast-outercore/releases/download/0.0.6/outercore.v0.0.6.zip" 
+	     url="https://raw.githubusercontent.com/CompEvol/packages/main/outercore/outercore.v0.0.6.zip" 
 	     projectURL="https://github.com/LinguaPhylo/beast-outercore" 
 	     description="The BEAST 2 core features, but not in the core. (Java 11)">
 	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
@@ -684,7 +684,7 @@
     </package>
  	
     <package name="feast" version="7.5.3" 
-	     url="https://github.com/tgvaughan/feast/releases/download/v7.5.3/feast.v7.5.3.zip" 
+	     url="https://raw.githubusercontent.com/CompEvol/packages/main/feast/feast.v7.5.3.zip" 
 	     projectURL="https://github.com/tgvaughan/feast" 
 	     description="Expands the flexibility of BEAST 2 XML.">
 	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
@@ -699,7 +699,7 @@
 		<depends on='FastRelaxedClockLogNormal' atleast='1.1.0'/>
 	</package>
 	<package name='ORC' version='1.0.2'
-		url="https://github.com/jordandouglas/ORC/releases/download/v1.0.0/ORC.addon.v1.0.2.zip"
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/ORC/ORC.addon.v1.0.2.zip"
 		description="Optimised Relaxed Clock model"
 		projectURL="https://github.com/jordandouglas/ORC/">
 		<depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
