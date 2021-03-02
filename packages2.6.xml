@@ -59,6 +59,12 @@
            description="BEAST utilities, such as Script, multi monophyletic constraints">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
+    <package name='BEASTLabs' version='1.9.6'
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/BEASTLabs/BEASTlabs.addon.v1.9.6.zip"
+           projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
+           description="BEAST utilities, such as Script, multi monophyletic constraints">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
 	
     <package name='Beasy' version='0.0.2'
            url="https://raw.githubusercontent.com/CompEvol/packages/main/Beasy/Beasy.v0.0.2.zip"
@@ -81,6 +87,13 @@
            projectURL="https://github.com/rbouckaert/Babel">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
         <depends on='BEASTLabs' atleast='1.9.0'/>
+    </package>
+    <package name='Babel' version='0.3.2'
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/Babel/Babel.addon.v0.3.2.zip"
+           description="BABEL = BEAST analysis backing effective linguistics"
+           projectURL="https://github.com/rbouckaert/Babel">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+        <depends on='BEASTLabs' atleast='1.9.6'/>
     </package>
 
 
