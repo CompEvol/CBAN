@@ -695,13 +695,14 @@
 	     description="The BEAST 2 core features, but not in the core.">
 	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
     </package>
-	
-	<package name="outercore" version="0.0.7" 
-	     url="https://raw.githubusercontent.com/CompEvol/packages/main/outercore/outercore.v0.0.7.zip" 
+	    
+    <package name="outercore" version="0.0.8" 
+	     url="https://raw.githubusercontent.com/CompEvol/packages/main/outercore/outercore.v0.0.8.zip" 
 	     projectURL="https://github.com/LinguaPhylo/beast-outercore" 
 	     description="The BEAST 2 core features, but not in the core.">
 	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
     </package>
+
     
     <package name="feast" version="7.5.2" 
 	     url="https://github.com/tgvaughan/feast/releases/download/v7.5.2/feast.v7.5.2.zip" 
