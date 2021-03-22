@@ -704,7 +704,7 @@
     </package>
 
     <package name="lphybeast" version="0.0.2" 
-	     url="https://raw.githubusercontent.com/LinguaPhylo/LPhyBeast/main/releases/LPhyBEAST.v0.0.2.zip" 
+	     url="https://raw.githubusercontent.com/LinguaPhylo/LPhyBeast/master/releases/LPhyBEAST.v0.0.2.zip" 
 	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
 	     description="A command-line program that takes an LPhy model specification including a data block, 
 	                  and produces a BEAST 2 XML input file.">
