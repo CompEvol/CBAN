@@ -710,7 +710,7 @@
 	                  and produces a BEAST 2 XML input file.">
 	<depends on='beast2' atleast='2.6.3'/>
     <depends on='BEASTLabs' atleast='1.9.6'/>
-    <depends on='outercore' atleast='2.6.3'
+    <depends on='outercore' atleast='0.0.8'
              projectURL="https://github.com/LinguaPhylo/beast-outercore"
              description="The BEAST 2 core features, but not in the core."/>
     <depends on='BEAST_CLASSIC' atleast='1.5.0'/>
