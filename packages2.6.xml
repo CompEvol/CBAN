@@ -729,9 +729,6 @@
     <depends on='Mascot' atleast='2.1.2'
              description="Marginal approximation of the structured coalescent"
              projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/"/>
-    <depends on='StarBEAST2' atleast='0.15.13'
-             projectURL="https://github.com/genomescale/starbeast2"
-             description="Multispecies coalescent inference using multi-locus and fossil data"/>
     <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
     </package>
 
