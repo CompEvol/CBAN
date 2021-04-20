@@ -732,6 +732,35 @@
     <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
     </package>
 
+    <package name="lphybeast" version="0.0.3" 
+	     url="https://raw.githubusercontent.com/LinguaPhylo/LPhyBeast/master/releases/LPhyBEAST.v0.0.3.zip" 
+	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
+	     description="A command-line program that takes an LPhy model specification including a data block, 
+	                  and produces a BEAST 2 XML input file.">
+	<depends on='beast2' atleast='2.6.3'/>
+    <depends on='BEASTLabs' atleast='1.9.6'/>
+    <depends on='outercore' atleast='0.0.8'
+             projectURL="https://github.com/LinguaPhylo/beast-outercore"
+             description="The BEAST 2 core features, but not in the core."/>
+    <depends on='BEAST_CLASSIC' atleast='1.5.0'/>
+    <depends on='feast' atleast='7.5.3'
+             projectURL="https://github.com/tgvaughan/feast"
+             description="Expands the flexibility of BEAST 2 XML."/>
+    <depends on='SSM' atleast='1.1.0'
+             description="Standard Nucleotide Substitution Models"
+             projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
+    <depends on='MM' atleast='1.1.1'
+             projectURL="https://github.com/CompEvol/morph-models"
+             description="Enables models of morphological chatacter evolution"/>
+    <depends on='SA' atleast='2.0.2'
+             projectURL="https://github.com/CompEvol/sampled-ancestors"
+             description="Sampled ancestor trees"/>
+    <depends on='Mascot' atleast='2.1.2'
+             description="Marginal approximation of the structured coalescent"
+             projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/"/>
+    <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
+    </package>
+
     <package name="feast" version="7.5.2" 
 	     url="https://github.com/tgvaughan/feast/releases/download/v7.5.2/feast.v7.5.2.zip" 
 	     projectURL="https://github.com/tgvaughan/feast" 
