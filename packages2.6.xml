@@ -362,6 +362,14 @@
 		<depends on='BEASTLabs' atleast='1.9.0'/>
 		<depends on='GEO_SPHERE' atleast='1.3.0'/>
     </package>
+    <package name="BREAK_AWAY" version="1.0.1"
+      url="https://raw.githubusercontent.com/CompEvol/packages/main/BREAK_AWAY/BREAK_AWAY.addon.v1.0.1.zip"
+      description="break-away model of phylogegraphy"
+      projectURL="https://github.com/rbouckaert/break-away">
+      <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+      <depends on='BEASTLabs' atleast='1.9.0'/>
+      <depends on='GEO_SPHERE' atleast='1.3.0'/>
+    </package>
     
     <package name='BEASTvntr' version='0.1.3'
             url="https://raw.githubusercontent.com/CompEvol/packages/main/BEASTvntr/BEASTvntr.addon.v0.1.3.zip"
