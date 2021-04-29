@@ -455,6 +455,14 @@
 	   projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/">
 		<depends on="beast2" atleast="2.5.0" atmost='2.6.9'/>
     </package>
+	
+    <package name='Recombination' version='0.0.2'
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/Recombination/Recombination.v0.0.2.zip"
+           description="Inference of Recombination networks"
+           projectURL="https://github.com/nicfel/Recombination">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
+
 
 	
     <package name="CoupledMCMC" version="0.1.7"
