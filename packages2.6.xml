@@ -727,14 +727,12 @@
 	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
     </package>
     
-    <!-- 
-<package name="outercore" version="0.0.9" 
+    <package name="outercore" version="0.0.9" 
 	     url="https://raw.githubusercontent.com/LinguaPhylo/beast-outercore/master/releases/outercore.v0.0.9.zip" 
 	     projectURL="https://github.com/LinguaPhylo/beast-outercore" 
 	     description="The BEAST 2 core features, but not in the core.">
 	<depends on="beast2" atleast="2.6.5" atmost="2.6.9"/>
     </package>
- -->
 
     <package name="lphybeast" version="0.0.2" 
 	     url="https://raw.githubusercontent.com/LinguaPhylo/LPhyBeast/master/releases/LPhyBEAST.v0.0.2.zip" 
@@ -794,7 +792,6 @@
     <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
     </package>
     
-<!-- 
     <package name="lphybeast" version="0.0.4" 
 	     url="https://raw.githubusercontent.com/LinguaPhylo/LPhyBeast/master/releases/LPhyBEAST.v0.0.4.zip" 
 	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
@@ -823,7 +820,6 @@
              projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/"/>
     <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
     </package>
- -->
 
     <package name="feast" version="7.5.2" 
 	     url="https://github.com/tgvaughan/feast/releases/download/v7.5.2/feast.v7.5.2.zip" 
