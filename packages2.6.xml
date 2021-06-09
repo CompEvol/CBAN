@@ -753,7 +753,7 @@
              projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
     <depends on='MM' atleast='1.1.1'
              projectURL="https://github.com/CompEvol/morph-models"
-             description="Enables models of morphological chatacter evolution"/>
+             description="Enables models of morphological character evolution"/>
     <depends on='SA' atleast='2.0.2'
              projectURL="https://github.com/CompEvol/sampled-ancestors"
              description="Sampled ancestor trees"/>
@@ -782,7 +782,7 @@
              projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
     <depends on='MM' atleast='1.1.1'
              projectURL="https://github.com/CompEvol/morph-models"
-             description="Enables models of morphological chatacter evolution"/>
+             description="Enables models of morphological character evolution"/>
     <depends on='SA' atleast='2.0.2'
              projectURL="https://github.com/CompEvol/sampled-ancestors"
              description="Sampled ancestor trees"/>
@@ -811,7 +811,7 @@
              projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
     <depends on='MM' atleast='1.1.1'
              projectURL="https://github.com/CompEvol/morph-models"
-             description="Enables models of morphological chatacter evolution"/>
+             description="Enables models of morphological character evolution"/>
     <depends on='SA' atleast='2.0.2'
              projectURL="https://github.com/CompEvol/sampled-ancestors"
              description="Sampled ancestor trees"/>
