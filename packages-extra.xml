@@ -308,7 +308,7 @@
 	</package>
 
 	<package name='Phylonco' version='0.0.4'
-           url="https://github.com/kche309/beast-phylonco/blob/main/dist/phylonco.addon.v0.0.4.zip"
+           url="https://github.com/kche309/beast-phylonco/raw/main/dist/phylonco.addon.v0.0.4.zip"
            description="Phylonco - a package for single cell cancer analysis"
 	   projectURL="https://github.com/kche309/beast-phylonco">
         <depends on='beast2' atleast='2.6.5'/>
