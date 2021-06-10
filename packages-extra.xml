@@ -306,5 +306,13 @@
 		<depends on='BEASTLabs' atleast='1.9.5'/>
 		<depends on='FastRelaxedClockLogNormal' atleast='1.1.0'/>
 	</package>
+
+	<package name='Phylonco' version='0.0.4'
+           url="https://github.com/kche309/beast-phylonco/blob/main/dist/phylonco.addon.v0.0.4.zip"
+           description="Phylonco - a package for single cell cancer analysis"
+	   projectURL="https://github.com/kche309/beast-phylonco">
+        <depends on='beast2' atleast='2.6.5'/>
+        <depends on='BEASTLabs' atleast='1.9.0'/>
+    </package>
 	
 </packages>
