@@ -135,7 +135,7 @@
     </package>
 	
     <package name='snapper' version='1.0.0'
-           url="https://raw.githubusercontent.com/CompEvol/packages/main/snapper/snapper.addon.v1.0.0.zip"
+           url="https://github.com/rbouckaert/snapper/blob/master/dist/snapper.addon.v1.0.0.zip"
            description="Diffusion based SNP and AFLP Phylogenies"
            projectURL="https://github.com/rbouckaert/snapper">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
