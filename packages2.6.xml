@@ -141,7 +141,7 @@
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
 	    
     <package name='snapper' version='1.0.1'
-           url="https://github.com/rbouckaert/snapper/blob/master/dist/snapper.addon.v1.0.1.zip"
+           url="https://github.com/rbouckaert/snapper/raw/master/dist/snapper.addon.v1.0.1.zip"
            description="Diffusion based SNP and AFLP Phylogenies"
            projectURL="https://github.com/rbouckaert/snapper">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
