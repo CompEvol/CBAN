@@ -224,6 +224,13 @@
       <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
     </package>
 	
+    <package name='bacter' version='2.2.4'
+             url="https://raw.githubusercontent.com/CompEvol/packages/main/bacter/bacter.v2.2.4.zip"
+             description="Bacterial ARG inference."
+             projectURL="http://tgvaughan.github.io/bacter" >
+      <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
+    </package>
+	
     <package name='EpiInf' version='7.1.4'
            url="https://github.com/tgvaughan/epiinf/releases/download/v7.1.4/EpiInf.v7.1.4.zip"
            description="BD/SIR/SIS epidemic trajectory inference."
