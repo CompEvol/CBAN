@@ -897,6 +897,14 @@
 	     projectURL="https://github.com/tgvaughan/feast" 
 	     description="Expands the flexibility of BEAST 2 XML.">
 	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
+    </package>
+	
+	
+    <package name="feast" version="7.9.1" 
+	     url="https://raw.githubusercontent.com/CompEvol/packages/main/feast/feast.v7.9.1.zip" 
+	     projectURL="https://github.com/tgvaughan/feast" 
+	     description="Expands the flexibility of BEAST 2 XML.">
+	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
     </package> 
 	
 	<package name='ORC' version='1.0.1'
