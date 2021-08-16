@@ -143,6 +143,12 @@
            projectURL="http://beast2.org/snapp/">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
+    <package name='SNAPP' version='1.5.2'
+           url="https://raw.githubusercontent.com/CompEvol/packages/main/SNAPP/SNAPP.addon.v1.5.2.zip"
+           description="SNP and AFLP Phylogenies"
+           projectURL="http://beast2.org/snapp/">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
 	
     <package name='snapper' version='1.0.0'
            url="https://raw.githubusercontent.com/CompEvol/packages/main/snapper/snapper.addon.v1.0.0.zip"
