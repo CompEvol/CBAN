@@ -362,7 +362,7 @@
     </package>	
 	
    <package name="lphybeast" version="0.1.0" 
-	     url="https://raw.githubusercontent.com/LinguaPhylo/LPhyBeast/master/releases/LPhyBEAST.v0.1.0.zip" 
+	     url="https://github.com/LinguaPhylo/LPhyBeast/raw/master/releases/LPhyBeast.v0.1.0.zip" 
 	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
 	     description="A command-line program that takes an LPhy model specification including a data block, 
 	                  and produces a BEAST 2 XML input file.">
