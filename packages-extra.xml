@@ -290,7 +290,7 @@
 
 
 	<package name='starbeast3' version='0.0.1'
-		url="https://github.com/CompEvol/packages/main/StarBeast3/starbeast3.addon.v0.0.1.zip"
+		url="https://github.com/CompEvol/packages/blob/main/StarBeast3/starbeast3.addon.v0.0.1.zip?raw=true"
 		description="StarBeast3 multi species coalescent using smart MCMC operators"
 		projectURL="https://github.com/rbouckaert/starbeast3">
 		<depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
