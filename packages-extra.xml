@@ -322,6 +322,13 @@
 		<depends on='beast2' atleast='2.6.4' atmost="2.6.9"/>
 		<depends on='BEASTLabs' atleast='1.9.5'/>
 	</package>	
+	<package name='BICEPS' version='0.0.2'
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/BICEPS/BICEPS.addon.v0.0.2.zip"
+		description="Bayesian Integrated Coalescent Epoch PlotS + Yule Skyline"
+		projectURL="https://github.com/rbouckaert/biceps/">
+		<depends on='beast2' atleast='2.6.4' atmost="2.6.9"/>
+		<depends on='BEASTLabs' atleast='1.9.5'/>
+	</package>	
 	
     
     <package name="outercore" version="0.0.9" 
