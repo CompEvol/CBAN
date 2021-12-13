@@ -851,4 +851,12 @@
 		<depends on='BEASTLabs' atleast='1.9.5'/>
 		<depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
 	</package>
+	<package name='ORC' version='1.0.3'
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/ORC/ORC.addon.v1.0.3.zip"
+		description="Optimised Relaxed Clock model"
+		projectURL="https://github.com/jordandouglas/ORC/">
+		<depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
+		<depends on='BEASTLabs' atleast='1.9.7'/>
+		<depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
+	</package>
 </packages>
