@@ -298,6 +298,16 @@
 		<depends on='FastRelaxedClockLogNormal' atleast='1.0.0'/>
 	</package>
 	
+		<package name='starbeast3' version='0.1.0'
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/StarBeast3/starbeast3.addon.v0.1.0.zip"
+		description="StarBeast3 multi species coalescent using smart MCMC operators"
+		projectURL="https://github.com/rbouckaert/starbeast3">
+		<depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
+		<depends on='BEASTLabs' atleast='1.9.7'/>
+		<depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
+		<depends on='ORC' atleast='1.0.3'/>
+	</package>
+	
 	<package name='ORC' version='1.0.0'
 		url="https://github.com/jordandouglas/ORC/releases/download/v1.0.0/ORC.addon.v1.0.0.zip"
 		description="Optimised Relaxed Clock model"
