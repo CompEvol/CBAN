@@ -302,7 +302,7 @@
 	
 	
 	<package name='speedemon' version='0.1.0'
-		url="https://github.com/CompEvol/packages/blob/main/speedemon/speedemon.addon.v0.1.0.zip"
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/speedemon/speedemon.addon.v0.1.0.zip"
 		description="Fast species delimitation under the multispecies coalescent"
 		projectURL="https://github.com/rbouckaert/speedemon">
 		<depends on='beast2' atleast='2.6.6'/>
