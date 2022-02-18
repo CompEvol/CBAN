@@ -667,6 +667,12 @@
             projectURL="https://bitbucket.org/bjoelle/msbd">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
+    <package name='MSBD' version='1.2.0'
+            url="https://bitbucket.org/bjoelle/msbd/raw/096ca16a6fce28d7b9c9c6b70c4a270ae8f949ad/dist/MSBD.v1.2.0.zip"
+            description="Multi-state birth-death prior with state-specific birth and death rates"
+            projectURL="https://bitbucket.org/bjoelle/msbd">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
 
 
     <package name="TreeStat2" version="0.0.2"
