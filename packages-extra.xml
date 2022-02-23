@@ -454,8 +454,9 @@
       <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
     </package>		
 
-    <package name="lphybeast" version="0.3.0" 
-	     url="https://repo.maven.apache.org/maven2/io/github/linguaphylo/lphybeast/0.3.0/lphybeast-0.3.0.zip" 
+<!-- 	     url="https://repo.maven.apache.org/maven2/io/github/linguaphylo/lphybeast/0.3.1/lphybeast-0.3.1.zip"  -->
+    <package name="lphybeast" version="0.3.1" 
+	     url="https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/lphybeast/0.3.1/lphybeast-0.3.1.zip"
 	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
 	     description="A command-line program that takes an LPhy model specification including a data block, 
 	                  and produces a BEAST 2 XML input file.">
