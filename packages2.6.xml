@@ -876,7 +876,6 @@
 		<depends on='ORC' atleast='1.0.3'/>
 	</package>
 	
-	
 	<package name='starbeast3' version='1.0.1'
 		url="https://raw.githubusercontent.com/CompEvol/packages/main/StarBeast3/starbeast3.addon.v1.0.1.zip"
 		description="StarBeast3 multispecies coalescent using advanced MCMC operators"
@@ -885,6 +884,16 @@
 		<depends on='BEASTLabs' atleast='1.9.7'/>
 		<depends on='ORC' atleast='1.0.3'/>
 	</package>
+	
+	<package name='starbeast3' version='1.0.2'
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/StarBeast3/starbeast3.addon.v1.0.2.zip"
+		description="StarBeast3 multispecies coalescent using advanced MCMC operators"
+		projectURL="https://github.com/rbouckaert/starbeast3">
+		<depends on='beast2' atleast='2.6.0'/>
+		<depends on='BEASTLabs' atleast='1.9.7'/>
+		<depends on='ORC' atleast='1.0.3'/>
+	</package>
+
 
    <package name='OBAMA' version='0.2.0' 
 	url="https://github.com/rbouckaert/obama/releases/download/v0.2.0/OBAMA.addon.v0.2.0.zip"
