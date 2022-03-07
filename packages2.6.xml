@@ -903,4 +903,13 @@
         <depends on='bModelTest' atleast='1.2.1'/>
         <depends on='BEASTLabs' atleast='1.9.1'/>
    </package>
+   
+   	<package name='BICEPS' version='1.0.0'
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/BICEPS/BICEPS.addon.v1.0.0.zip"
+		description="Bayesian Integrated Coalescent Epoch PlotS + Yule Skyline"
+		projectURL="https://github.com/rbouckaert/biceps/">
+		<depends on='beast2' atleast='2.6.4' atmost="2.6.9"/>
+		<depends on='BEASTLabs' atleast='1.9.5'/>
+	</package>	
+
 </packages>
