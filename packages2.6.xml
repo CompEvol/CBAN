@@ -902,6 +902,17 @@
 	</package>
 
 
+	<package name='starbeast3' version='1.0.3'
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/StarBeast3/starbeast3.addon.v1.0.3.zip"
+		description="StarBeast3 multispecies coalescent using advanced MCMC operators"
+		projectURL="https://github.com/rbouckaert/starbeast3">
+		<depends on='beast2' atleast='2.6.6'/>
+		<depends on='BEASTLabs' atleast='1.9.7'/>
+		<depends on='ORC' atleast='1.0.3'/>
+		<depends on='SA' atleast='2.0.0'/>
+	</package>
+
+
    <package name='OBAMA' version='0.2.0' 
 	url="https://github.com/rbouckaert/obama/releases/download/v0.2.0/OBAMA.addon.v0.2.0.zip"
 	description="OBAMA for Bayesian Amino-acid Model Averaging"
