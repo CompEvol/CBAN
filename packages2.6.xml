@@ -418,6 +418,13 @@
             projectURL="http://indriid.com/software.html">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
     </package>
+    <package name='DENIM' version='1.0.1'
+            url="http://indriid.com/2022/DENIM.addon.v1.0.1.zip"
+            description="Divergence Estimation Notwithstanding ILS and Migration"
+            projectURL="http://indriid.com/software.html">
+        <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
+    </package>
+    
 
     <package name="BREAK_AWAY" version="1.0.0"
 		url="https://raw.githubusercontent.com/CompEvol/packages/main/BREAK_AWAY/BREAK_AWAY.addon.v1.0.0.zip"
