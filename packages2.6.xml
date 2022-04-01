@@ -735,6 +735,7 @@
             description="Infer viral reassortment networks"
             projectURL="https://taming-the-beast.org/tutorials/Reassortment-Tutorial/">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
+	<depends on="feast" atleast="7.2.0"/>
     </package>
 
     <package name="besp" version="0.2.0" 
