@@ -251,21 +251,21 @@
     </package>
     
     <package name='bacter' version='2.2.3'
-             url="https://raw.githubusercontent.com/CompEvol/packages/main/bacter/bacter.v2.2.3.zip"
+             url="https://github.com/tgvaughan/bacter/releases/download/v2.2.3/bacter.v2.2.3.zip"
              description="Bacterial ARG inference."
              projectURL="http://tgvaughan.github.io/bacter" >
       <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
     </package>
 	
     <package name='bacter' version='2.2.4'
-             url="https://raw.githubusercontent.com/CompEvol/packages/main/bacter/bacter.v2.2.4.zip"
+             url="https://github.com/tgvaughan/bacter/releases/download/v2.2.4/bacter.v2.2.4.zip"
              description="Bacterial ARG inference."
              projectURL="http://tgvaughan.github.io/bacter" >
       <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
     </package>
 	
     <package name='bacter' version='2.2.5'
-             url="https://raw.githubusercontent.com/CompEvol/packages/main/bacter/bacter.v2.2.5.zip"
+             url="https://github.com/tgvaughan/bacter/releases/download/v2.2.5/bacter.v2.2.5.zip"
              description="Bacterial ARG inference."
              projectURL="http://tgvaughan.github.io/bacter" >
       <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
@@ -320,7 +320,7 @@
     </package>
 	
     <package name='EpiInf' version='7.5.2'
-           url="https://raw.githubusercontent.com/CompEvol/packages/main/EpiInf/EpiInf.v7.5.2.zip"
+           url="https://github.com/tgvaughan/epiinf/releases/download/v7.5.2/EpiInf.v7.5.2.zip"
            description="BD/SIR/SIS epidemic trajectory inference."
            projectURL="http://tgvaughan.github.io/EpiInf" >
         <depends on='BEAST' atleast='2.5.0' atmost="2.6.9"/>
@@ -335,7 +335,7 @@
     </package>
 	
     <package name='MASTER' version='6.1.2'
-	     url="https://raw.githubusercontent.com/CompEvol/packages/main/MASTER/MASTER.package.v6.1.2.zip"
+	     url="https://github.com/tgvaughan/MASTER/releases/download/v6.1.2/MASTER.package.v6.1.2.zip"
 	     description="Stochastic population dynamics simulation"
              projectURL="http://tgvaughan.github.io/MASTER" >
         <depends on='beast2' atleast='2.6.0' atmost="2.6.9"/>
@@ -349,7 +349,7 @@
     </package>
 	
     <package name='MultiTypeTree' version='7.0.2'
-           url="https://raw.githubusercontent.com/CompEvol/packages/main/MultiTypeTree/MultiTypeTree.v7.0.2.zip"
+           url="https://github.com/tgvaughan/MultiTypeTree/releases/download/v7.0.2/MultiTypeTree.v7.0.2.zip"
            description="Structured coalescent inference"
            projectURL="http://tgvaughan.github.io/MultiTypeTree" >
         <depends on='BEAST' atleast='2.6.0' atmost="2.6.9"/>
