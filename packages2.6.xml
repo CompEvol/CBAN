@@ -970,4 +970,13 @@
 		<depends on='BEASTLabs' atleast='1.9.5'/>
 	</package>	
 
+	<package name="contacTrees" 
+             version="0.0.1"
+             description="Phylogenetic model with horizontal transfer for linguistics"
+             projectURL="https://github.com/NicoNeureiter/contacTrees" 
+             url="https://raw.githubusercontent.com/NicoNeureiter/contacTrees/master/dist/contactrees.addon.v0.0.1.zip">
+        <depends on="beast2" atleast="2.6.0" atmost="2.6.9"/>
+        <depends on="feast" atleast="7.5.3"/>
+        <depends on="BEASTLabs" atleast="1.9.0"/>
+    </package>
 </packages>
