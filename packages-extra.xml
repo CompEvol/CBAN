@@ -311,6 +311,16 @@
 		<depends on='ORC' atleast='1.0.3'/>
 		<depends on='BICEPS' atleast='0.0.2'/>
 	</package>
+	<package name='speedemon' version='0.1.1'
+		url="https://raw.githubusercontent.com/CompEvol/packages/main/speedemon/speedemon.addon.v0.1.1.zip"
+		description="Fast species delimitation under the multispecies coalescent"
+		projectURL="https://github.com/rbouckaert/speedemon">
+		<depends on='beast2' atleast='2.6.6'/>
+		<depends on='snapper' atleast='1.0.2'/>
+		<depends on='BEASTLabs' atleast='1.9.7'/>
+		<depends on='ORC' atleast='1.0.3'/>
+		<depends on='BICEPS' atleast='0.0.2'/>
+	</package>
 	
 	
 	<package name='ORC' version='1.0.0'
