@@ -490,6 +490,13 @@
              description="Marginal approximation of the structured coalescent"
              projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/"/>
       <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
-    </package>		
+    </package>
+    
+    <package name="ClaDS" version="1.0.0"
+        url="https://bitbucket.org/bjoelle/clads/raw/main/dist/ClaDS.v1.0.0.zip"
+        projectURL="https://bitbucket.org/bjoelle/clads/"
+        description="Implementation of the ClaDS birth-death tree prior">
+      <depends on="beast2" atleast="2.6.6"/>
+    </package>
     
 </packages>
