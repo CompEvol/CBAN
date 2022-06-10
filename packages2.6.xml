@@ -382,6 +382,16 @@
         <depends on='MultiTypeTree' atleast='7.0.1'/>
         <depends on='SA' atleast='2.0.2'/>
     </package>
+	
+    <package name='bdmm' version='1.0.2'
+           url="https://github.com/denisekuehnert/bdmm/releases/download/v1.0.2/BDMM.v1.0.2.zip"
+           description="Multitype birth-death model (aka birth-death-migration model)"
+           projectURL="https://github.com/denisekuehnert/bdmm" >
+        <depends on='beast2' atleast='2.6.6' atmost='2.6.9'/>
+	<depends on='MASTER' atleast='6.1.1'/>
+        <depends on='MultiTypeTree' atleast='7.0.1'/>
+        <depends on='SA' atleast='2.0.2'/>
+    </package>
 
     <package name="substBMA" version="1.2.3"
             url="https://raw.githubusercontent.com/CompEvol/packages/main/substBMA/substBMA.v1.2.3.zip"
