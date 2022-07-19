@@ -1,0 +1,41 @@
+<!-- Package file for v2.7.X packages -->
+
+<!-- NOTE: if you edit this file, DO NOT DELETE any entries. Older package versions -->
+<!-- will be available for running BEAST files so that analyses can be replicated   -->
+<!-- with the package versions used in the original analysis.                       -->
+
+<packages>
+	
+    <package name='BEAST.base' version='2.7.0'
+        url="https://github.com/CompEvol/beast2/releases/download/v2.7.0/BEAST.base.v2.7.0.package.zip"
+        projectURL="http://beast2.org"
+		description="BEAST base"/>
+
+    <package name='BEAST.app' version='0.0.1'
+        url="https://github.com/CompEvol/beast2/releases/download/v0.0.1/BEAST.app.package.v0.0.1.zip"
+        projectURL="http://beast2.org"
+		description="BEAST base applications">
+        <depends on='BEAST.base' atleast='2.7.0' atmost='2.7.9'/>
+	</package>
+
+
+    <package name='BEASTLabs' version='2.0.0'
+           url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v2.0.0/BEASTlabs.addon.v2.0.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
+           description="BEAST utilities, such as Script, multi monophyletic constraints">
+        <depends on='BEAST.base' atleast='2.7.0' atmost='2.7.9'/>
+        <depends on='BEAST.app' atleast='0.0.1'/>
+    </package>
+
+   <package name='bModelTest' version='1.3.0'
+            url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v1.3.0/bModelTest.addon.v1.3.0.zip"
+            description="Bayesian model test for nucleotide subst models, gamma rate heterogeneity and invariant sites"
+            projectURL="https://github.com/BEAST2-Dev/bModelTest/wiki">
+        <depends on='BEAST.base' atleast='2.7.0' atmost='2.7.9'/>
+        <depends on='BEAST.app' atleast='0.0.1'/>
+    </package>
+
+</packages>
+
+
+

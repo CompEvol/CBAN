@@ -1,0 +1,14 @@
+<!-- Extra package file for v2.7.X packages -->
+
+<!-- Suitable for packages that are not peer-reviewed   -->
+<!-- Peer reviewed packages can go in packages2.7.xml   -->
+
+<packages>
+    <package name="AlmostDistributions" version="0.2.0"
+        url="https://github.com/rbouckaert/AlmostDistributions/releases/download/v0.2.0/AlmostDistributions.addon.v0.2.0.zip"
+        description="Almost-distributions"
+        projectURL="https://github.com/rbouckaert/AlmostDistributions">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
+</packages>
