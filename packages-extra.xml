@@ -412,8 +412,8 @@
 		<depends on='SSM' atleast='1.1.0'
 				 description="Standard Nucleotide Substitution Models"
 				 projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
-		<depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
 		<depends on='BEAST_CLASSIC' atleast='1.5.0'/>
+		<depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
     </package>
     
     <package name="ClaDS" version="1.0.0"
