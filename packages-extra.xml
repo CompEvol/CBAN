@@ -400,7 +400,7 @@
     </package>
     
     <package name="lphybeast" version="0.4.0" 
-	     url="https://s01.oss.sonatype.org/content/repositories/snapshots/io/github/linguaphylo/lphybeast/0.4.0-SNAPSHOT/lphybeast-0.4.0-20220720.234532-2.zip"
+	     url="https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/lphybeast/0.4.0/lphybeast-0.4.0.zip"
 	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
 	     description="A command-line program that takes an LPhy model specification including a data block, 
 	                  and produces a BEAST 2 XML input file.">
