@@ -370,90 +370,7 @@
 	<depends on="beast2" atleast="2.6.5" atmost="2.6.9"/>
     </package>
 
-    
-    <package name="lphybeast" version="0.0.4" 
-	     url="https://raw.githubusercontent.com/LinguaPhylo/LPhyBeast/master/releases/LPhyBEAST.v0.0.4.zip" 
-	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
-	     description="A command-line program that takes an LPhy model specification including a data block, 
-	                  and produces a BEAST 2 XML input file.">
-	<depends on='beast2' atleast='2.6.5'/>
-    <depends on='BEASTLabs' atleast='1.9.6'/>
-    <depends on='outercore' atleast='0.0.9'
-             projectURL="https://github.com/LinguaPhylo/beast-outercore"
-             description="The BEAST 2 core features, but not in the core."/>
-    <depends on='BEAST_CLASSIC' atleast='1.5.0'/>
-    <depends on='feast' atleast='7.5.3'
-             projectURL="https://github.com/tgvaughan/feast"
-             description="Expands the flexibility of BEAST 2 XML."/>
-    <depends on='SSM' atleast='1.1.0'
-             description="Standard Nucleotide Substitution Models"
-             projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
-    <depends on='MM' atleast='1.1.1'
-             projectURL="https://github.com/CompEvol/morph-models"
-             description="Enables models of morphological character evolution"/>
-    <depends on='SA' atleast='2.0.2'
-             projectURL="https://github.com/CompEvol/sampled-ancestors"
-             description="Sampled ancestor trees"/>
-    <depends on='Mascot' atleast='2.1.2'
-             description="Marginal approximation of the structured coalescent"
-             projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/"/>
-    <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
-    </package>	
-	
-   <package name="lphybeast" version="0.1.0" 
-	     url="https://github.com/LinguaPhylo/LPhyBeast/raw/master/releases/LPhyBeast.v0.1.0.zip" 
-	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
-	     description="A command-line program that takes an LPhy model specification including a data block, 
-	                  and produces a BEAST 2 XML input file.">
-      <depends on='beast2' atleast='2.6.6'/>
-      <depends on='BEASTLabs' atleast='1.9.7'/>
-      <depends on='feast' atleast='7.9.1'
-             projectURL="https://github.com/tgvaughan/feast"
-             description="Expands the flexibility of BEAST 2 XML."/>
-
-      <depends on='BEAST_CLASSIC' atleast='1.5.0'/>
-      <depends on='SSM' atleast='1.1.0'
-             description="Standard Nucleotide Substitution Models"
-             projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
-      <depends on='MM' atleast='1.1.1'
-             projectURL="https://github.com/CompEvol/morph-models"
-             description="Enables models of morphological character evolution"/>
-      <depends on='SA' atleast='2.0.2'
-             projectURL="https://github.com/CompEvol/sampled-ancestors"
-             description="Sampled ancestor trees"/>
-      <depends on='Mascot' atleast='2.1.2'
-             description="Marginal approximation of the structured coalescent"
-             projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/"/>
-      <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
-    </package>		
-    
-    <package name="lphybeast" version="0.2.1" 
-	     url="https://repo.maven.apache.org/maven2/io/github/linguaphylo/lphybeast/0.2.1/lphybeast-0.2.1.zip" 
-	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
-	     description="A command-line program that takes an LPhy model specification including a data block, 
-	                  and produces a BEAST 2 XML input file.">
-      <depends on='beast2' atleast='2.6.6'/>
-      <depends on='BEASTLabs' atleast='1.9.7'/>
-      <depends on='feast' atleast='7.9.1'
-             projectURL="https://github.com/tgvaughan/feast"
-             description="Expands the flexibility of BEAST 2 XML."/>
-
-      <depends on='BEAST_CLASSIC' atleast='1.5.0'/>
-      <depends on='SSM' atleast='1.1.0'
-             description="Standard Nucleotide Substitution Models"
-             projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
-      <depends on='MM' atleast='1.1.1'
-             projectURL="https://github.com/CompEvol/morph-models"
-             description="Enables models of morphological character evolution"/>
-      <depends on='SA' atleast='2.0.2'
-             projectURL="https://github.com/CompEvol/sampled-ancestors"
-             description="Sampled ancestor trees"/>
-      <depends on='Mascot' atleast='2.1.2'
-             description="Marginal approximation of the structured coalescent"
-             projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/"/>
-      <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
-    </package>		
-
+    	
 <!-- url="https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/lphybeast/0.3.1/lphybeast-0.3.1.zip"  -->
     <package name="lphybeast" version="0.3.1" 
 	     url="https://repo.maven.apache.org/maven2/io/github/linguaphylo/lphybeast/0.3.1/lphybeast-0.3.1.zip"
@@ -480,6 +397,23 @@
              description="Marginal approximation of the structured coalescent"
              projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/"/>
       <depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
+    </package>
+    
+    <package name="lphybeast" version="0.4.0" 
+	     url="https://s01.oss.sonatype.org/content/repositories/snapshots/io/github/linguaphylo/lphybeast/0.4.0-SNAPSHOT/lphybeast-0.4.0-20220720.234532-2.zip"
+	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
+	     description="A command-line program that takes an LPhy model specification including a data block, 
+	                  and produces a BEAST 2 XML input file.">
+		<depends on='beast2' atleast='2.6.7'/>
+		<depends on='BEASTLabs' atleast='1.9.7'/>
+		<depends on='feast' atleast='7.11.0'
+				 projectURL="https://github.com/tgvaughan/feast"
+				 description="Expands the flexibility of BEAST 2 XML."/>
+		<depends on='SSM' atleast='1.1.0'
+				 description="Standard Nucleotide Substitution Models"
+				 projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
+		<depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
+		<depends on='BEAST_CLASSIC' atleast='1.5.0'/>
     </package>
     
     <package name="ClaDS" version="1.0.0"
