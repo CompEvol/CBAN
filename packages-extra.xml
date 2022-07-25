@@ -416,11 +416,28 @@
 		<depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
     </package>
     
+    <package name="lphybeast" version="0.4.1" 
+	     url="https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/lphybeast/0.4.1/lphybeast-0.4.1.zip"
+	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
+	     description="A command-line program that takes an LPhy model specification including a data block, 
+	                  and produces a BEAST 2 XML input file.">
+		<depends on='beast2' atleast='2.6.7'/>
+		<depends on='BEASTLabs' atleast='1.9.7'/>
+		<depends on='feast' atleast='7.11.0'
+				 projectURL="https://github.com/tgvaughan/feast"
+				 description="Expands the flexibility of BEAST 2 XML."/>
+		<depends on='BEAST_CLASSIC' atleast='1.5.0'/>
+		<depends on='SSM' atleast='1.1.0'
+				 description="Standard Nucleotide Substitution Models"
+				 projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
+		<depends on='FastRelaxedClockLogNormal' atleast='1.1.1'/>
+    </package>
+    
     <package name="LPhyBeastExt" version="0.1.0" 
 	     url="https://s01.oss.sonatype.org/content/repositories/snapshots/io/github/linguaphylo/LPhyBeastExt/0.1.0-SNAPSHOT/LPhyBeastExt-0.1.0-20220721.051116-1.zip"
 	     projectURL="https://github.com/LinguaPhylo/LPhyBeastExt" 
 	     description="An extension of LPhyBEAST.">
-      <depends on='lphybeast' atleast='0.4.0'/>
+      <depends on='lphybeast' atleast='0.4.1'/>
       
       <depends on='Mascot' atleast='2.1.2'
              description="Marginal approximation of the structured coalescent"
