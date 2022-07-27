@@ -434,7 +434,7 @@
     </package>
     
     <package name="LPhyBeastExt" version="0.1.0" 
-	     url="https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/LPhyBeastExt/0.1.0/LPhyBeastExt-0.1.0.zip"
+	     url="https://repo.maven.apache.org/maven2/io/github/linguaphylo/LPhyBeastExt/0.1.0/LPhyBeastExt-0.1.0.zip"
 	     projectURL="https://github.com/LinguaPhylo/LPhyBeastExt" 
 	     description="An extension of LPhyBEAST.">
       <depends on='lphybeast' atleast='0.4.1'/>
