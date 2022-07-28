@@ -1022,6 +1022,18 @@
 	</package>
 
 
+  <package name='speedemon' version='1.0.0'
+    url="https://raw.githubusercontent.com/CompEvol/packages/main/speedemon/speedemon.addon.v1.0.0.zip"
+    description="Fast species delimitation under the multispecies coalescent"
+    projectURL="https://github.com/rbouckaert/speedemon">
+    <depends on='beast2' atleast='2.6.6'/>
+    <depends on='snapper' atleast='1.0.2'/>
+    <depends on='BEASTLabs' atleast='1.9.7'/>
+    <depends on='ORC' atleast='1.0.3'/>
+    <depends on='BICEPS' atleast='0.0.2'/>
+  </package>
+
+
    <package name='OBAMA' version='0.2.0' 
 	url="https://github.com/rbouckaert/obama/releases/download/v0.2.0/OBAMA.addon.v0.2.0.zip"
 	description="OBAMA for Bayesian Amino-acid Model Averaging"
