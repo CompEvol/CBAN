@@ -1034,6 +1034,17 @@
   </package>
 
 
+  <package name='contraband' version='1.0.0'
+    url="https://raw.githubusercontent.com/CompEvol/packages/main/contraband/contraband.addon.v1.0.0.zip"
+    description="Scalable brownian models for continuous trait evolution"
+    projectURL="https://github.com/fkmendes/contraband">
+    <depends on='beast2' atleast='2.6.7'/>
+    <depends on="SA" atleast="2.0.0"/>
+    <depends on="MM" atleast="1.1.0"/>
+    <depends on="starbeast2" atleast="0.15.5"/>
+  </package>
+
+
    <package name='OBAMA' version='0.2.0' 
 	url="https://github.com/rbouckaert/obama/releases/download/v0.2.0/OBAMA.addon.v0.2.0.zip"
 	description="OBAMA for Bayesian Amino-acid Model Averaging"
