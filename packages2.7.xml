@@ -71,6 +71,60 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
   </package>
 
+    <package name='Babel' version='0.4.0'
+           url="https://github.com/rbouckaert/Babel/releases/download/v0.4.0/Babel.addon.v0.4.0.zip"
+           description="BABEL = BEAST analysis backing effective linguistics"
+           projectURL="https://github.com/rbouckaert/Babel">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
+
+    <package name='BEAST_CLASSIC' version='1.6.0'
+           url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.6.0/BEAST_CLASSIC.addon.v1.6.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/beast-classic/"
+           description="BEAST classes ported from BEAST 1 in wrappers" >
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
+
+    <package name='SNAPP' version='1.6.0'
+           url=""
+           description="SNP and AFLP Phylogenies"
+           projectURL="http://beast2.org/snapp/">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
+
+    <package name='snapper' version='1.1.0'
+           url=""
+           description="Diffusion based SNP and AFLP Phylogenies"
+           projectURL="https://github.com/rbouckaert/snapper">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+        <depends on='SNAPP' atleast='1.6.0'/>
+    </package>
+
+    <package name="TreeStat2" version="0.1.0"
+        url="https://github.com/alexeid/TreeStat2/releases/download/v0.1.0/TreeStat2.v0.1.0.zip"
+        description="Utility for calculating tree statistics from tree log file"
+        projectURL="https://github.com/alexeid/TreeStat2/">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+    </package>
+
+    <package name='starbeast3' version='1.1.0'
+            url="https://github.com/rbouckaert/starbeast3/releases/download/v1.1.0/starbeast3.addon.v1.1.0.zip"
+            description="StarBeast3 multispecies coalescent using advanced MCMC operators"
+             projectURL="https://github.com/rbouckaert/starbeast3">
+      	<depends on='BEAST.base' atleast='2.7.0'/>
+	    <depends on='BEAST.app' atleast='2.7.0'/>
+    	<depends on='BEASTLabs' atleast='2.0.0'/>
+    	<depends on='ORC' atleast='1.0.4'/>
+    </package>
+
+
+
 </packages>
 
 
