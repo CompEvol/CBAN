@@ -139,7 +139,6 @@
         <depends on='MODEL_SELECTION' atleast='1.6.0'/>
     </package>
 
-
     <package name="CoupledMCMC" version="1.2.0"
          url="https://github.com/nicfel/CoupledMCMC/releases/download/v1.2.0/CoupledMCMC.v1.2.0.zip"
          description="Adaptive coupled MCMC (adaptive parallel tempering or MC3)"
@@ -148,6 +147,32 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
 
+    <package name='MM' version='1.2.0'
+	    url="https://github.com/CompEvol/morph-models/releases/download/v1.2.0/MM.addon.v1.2.0.zip"
+            projectURL="https://github.com/CompEvol/morph-models"
+            description="Enables models of morphological chatacter evolution">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>     
+	
+    <package name='GEO_SPHERE' version='1.4.0'
+           url="https://github.com/BEAST2-Dev/beast-geo/releases/download/v1.4.0/GEO_SPHERE.addon.v1.4.0.zip"
+           description="Whole world phylogeography" 
+           projectURL="https://github.com/BEAST2-Dev/beast-geo">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
+
+    <package name="BREAK_AWAY" version="1.2.0"
+		url="https://github.com/rbouckaert/break-away/releases/download/v1.2.0/BREAK_AWAY.addon.v1.2.0.zip"
+		description="break-away model of phylogegraphy"
+		projectURL="https://github.com/rbouckaert/break-away">
+	    <depends on='BEAST.base' atleast='2.7.0'/>
+    	<depends on='BEAST.app' atleast='2.7.0'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+        <depends on='GEO_SPHERE' atleast='1.4.0'/>
+    </package>
 
 </packages>
 
