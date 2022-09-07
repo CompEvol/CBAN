@@ -944,7 +944,7 @@
     </package>
 
     <package name="feast" version="8.1.0" 
-	     url="https://github.com/tgvaughan/feast/releases/download/v8.0.0/feast.v8.1.0.zip" 
+	     url="https://github.com/tgvaughan/feast/releases/download/v8.1.0/feast.v8.1.0.zip" 
 	     projectURL="https://github.com/tgvaughan/feast" 
 	     description="Makes BEAST 2 XML more flexible.">
 	<depends on="beast2" atleast="2.6.3" atmost="2.6.9"/>
