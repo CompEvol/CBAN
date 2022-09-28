@@ -1109,8 +1109,8 @@
 
     <package
         name="timtam"
-        version="0.3.0"
-	      url="https://github.com/aezarebski/timtam2/releases/download/v0.3.0/timtam.v0.3.0.zip"
+        version="0.3.1"
+	      url="https://github.com/aezarebski/timtam2/releases/download/v0.3.1/timtam.v0.3.1.zip"
 	      projectURL="https://aezarebski.github.io/timtam/index.html"
 	      description="Distribution for birth-death models with occurrence data and population size estimation.">
 	    <depends on="beast2" atleast="2.6.6" atmost="2.6.9"/>
