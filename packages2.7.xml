@@ -228,6 +228,14 @@
         <depends on='BEAST.base' atleast='2.7.0'/>
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
+    
+    <package name='MGSM' version='0.4.0'
+            url="https://github.com/BEAST2-Dev/MGSM/releases/download/v0.4.0/MGSM.addon.v0.4.0.zip"
+            description="Multi-gamma and relaxed gamma site models"
+            projectURL="https://github.com/BEAST2-Dev/MGSM/wiki">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
 </packages>
 
 
