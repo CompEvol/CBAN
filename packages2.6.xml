@@ -429,7 +429,7 @@
     </package>
 	
     <package name='BDSKY' version='1.4.8'
-           url="https://raw.githubusercontent.com/CompEvol/packages/main/BDSKY/BDSKY.v1.4.8.zip"
+           url="https://github.com/BEAST2-Dev/bdsky/releases/download/v1.4.8/BDSKY.v1.4.8.zip"
            projectURL="https://github.com/BEAST2-Dev/bdsky/"
            description="birth death skyline - handles serially sampled tips, piecewise constant rate changes through time and sampled ancestors">
         <depends on='beast2' atleast='2.5.0' atmost='2.6.9'/>
