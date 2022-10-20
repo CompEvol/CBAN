@@ -89,6 +89,14 @@
         <depends on='BEASTLabs' atleast='2.0.0'/>
     </package>
 
+    <package name='ORC' version='1.1.1'
+                url="https://github.com/jordandouglas/ORC/releases/download/v1.1.1/ORC.addon.v1.1.1.zip"
+                description="Optimised Relaxed Clock model"
+                projectURL="https://github.com/jordandouglas/ORC/">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
 
 
 
