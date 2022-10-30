@@ -19,6 +19,19 @@
 	</package>
 
 
+ <package name='BEAST.base' version='2.7.2'
+        url="https://github.com/CompEvol/beast2/releases/download/2.7.2/BEAST.base.addon.v2.7.2.zip"
+        projectURL="http://beast2.org"
+        description="BEAST base"/>
+
+    <package name='BEAST.app' version='2.7.2'
+        url="https://github.com/CompEvol/beast2/releases/download/2.7.2/BEAST.app.addon.v2.7.2.zip"
+        projectURL="http://beast2.org"
+        description="BEAST base applications">
+        <depends on='BEAST.base' atleast='2.7.2' atmost='2.7.9'/>
+    </package>
+
+
     <package name='BEASTLabs' version='2.0.0'
            url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v2.0.0/BEASTlabs.addon.v2.0.0.zip"
            projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
