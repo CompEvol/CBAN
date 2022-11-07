@@ -357,6 +357,16 @@
         <depends on="BEAST.app" atleast="2.7.2" atmost="2.7.9"/>
     </package>
   
+    <package name="MultiTypeTree" version="8.0.0"
+	     url="https://github.com/tgvaughan/MultiTypeTree/releases/download/v8.0.0/MultiTypeTree.v8.0.0.zip"
+	     projectURL="https://tgvaughan.github.io/MultiTypeTree"
+	     description="Structured coalescent inference.">
+        <depends on='BEAST.base' atleast='2.7.2'/>
+        <depends on='BEAST.app' atleast='2.7.2'/>
+    </package>
+
+
+	
 </packages>
 
 
