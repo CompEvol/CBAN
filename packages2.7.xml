@@ -374,7 +374,13 @@
         <depends on='BEAST.app' atleast='2.7.2'/>
     </package>
 
-
+    <package name="MASTER" version="7.0.0"
+	     url="https://github.com/tgvaughan/MASTER/releases/download/v7.0.0/MASTER.package.v7.0.0.zip"
+	     description="Stochastic population dynamics simulation"
+             projectURL="http://tgvaughan.github.io/MASTER" >
+        <depends on="BEAST.base" atleast="2.7.2"/>
+        <depends on="BEAST.app" atleast="2.7.2"/>
+    </package>
 	
 </packages>
 
