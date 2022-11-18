@@ -409,6 +409,14 @@
         <depends on="BEAST.app" atleast="2.7.2"/>
     </package>
     
+    
+    <package name="CodonSubstModels" version="2.0.0"
+         url="https://github.com/BEAST2-Dev/codonsubstmodels/releases/download/v2.0.0/CodonSubstModels.v2.0.0.zip"
+         description="Codon substitution models for DNA"
+             projectURL="https://github.com/BEAST2-Dev/codonsubstmodels" >
+        <depends on="BEAST.base" atleast="2.7.2"/>
+        <depends on="BEAST.app" atleast="2.7.2"/>
+    </package>
 	
 </packages>
 
