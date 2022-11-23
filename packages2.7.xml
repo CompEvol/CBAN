@@ -417,8 +417,14 @@
         <depends on="BEAST.base" atleast="2.7.2"/>
         <depends on="BEAST.app" atleast="2.7.2"/>
     </package>
-	
+
+    <package name="timtam"
+             version="0.4.0"
+             url="https://github.com/aezarebski/timtam2/releases/download/v0.4.0/timtam.v0.4.0.zip"
+             projectURL="https://aezarebski.github.io/timtam/index.html"
+             description="Distribution for birth-death models with occurrence data and population size estimation.">
+	    <depends on='BEAST.base' atleast='2.7.2'/>
+	    <depends on='BEAST.app' atleast='2.7.2'/>
+    </package>
+
 </packages>
-
-
-
