@@ -435,4 +435,13 @@
 	    <depends on='BEAST.app' atleast='2.7.2'/>
     </package>
 
+    <package name='BEASTvntr' version='0.2.0'
+            url="https://github.com/arjun-1/BEASTvntr/releases/download/v0.2.0/BEASTvntr.addon.v0.2.0.zip"
+            description="Variable Number of Tandem Repeat data, such as microsattelites"
+            projectURL="https://github.com/arjun-1/BEASTvntr">
+	    <depends on='BEAST.base' atleast='2.7.1'/>
+	    <depends on='BEAST.app' atleast='2.7.1'/>
+    </package>
+
+
 </packages>
