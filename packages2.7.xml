@@ -444,4 +444,13 @@
     </package>
 
 
+    <package name="PIQMEE" version="1.0.0" 
+         url="https://github.com/boskovav/piqmee/releases/download/v1.1.0/PIQMEE.v1.1.0.zip" 
+         projectURL="https://github.com/boskovav/piqmee" 
+         description="Birth-death skyline-based method efficiently dealing with duplicate sequences">
+        <depends on='BEAST.base' atleast='2.7.1'/>
+        <depends on='BEAST.app' atleast='2.7.1'/>
+        <depends on='BDSKY' atleast='1.5.0'/>
+    </package>
+
 </packages>
