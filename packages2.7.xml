@@ -478,5 +478,14 @@
 	<depends on="SA" atleast="2.1.0"/>
 	<depends on="feast" atleast="9.0.0"/>
     </package>
+	
+	
+	<package name="FastRelaxedClockLogNormal" version="1.2.0" 
+	     url="https://github.com/Rong419/ConstantDistanceOperator/releases/download/v1.2.0/FastRelaxedClockLogNormal.addon.v1.2.0.zip" 
+	     projectURL="https://github.com/Rong419/ConstantDistanceOperator" 
+	     description="Relaxed clock that works well with large data">
+		<depends on="BEAST.base" atleast="2.7.2" />
+        <depends on="BEAST.app" atleast="2.7.2"/>
+    </package>
 
 </packages>
