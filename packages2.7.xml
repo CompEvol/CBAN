@@ -432,7 +432,14 @@
         <depends on="BEAST.base" atleast="2.7.2"/>
         <depends on="BEAST.app" atleast="2.7.2"/>
     </package>
-    
+	
+    <package name="CoalRe" version="1.0.0"
+         url="https://github.com/nicfel/CoalRe/releases/download/v1.0.0/CoalRe.v1.0.0.zip"
+         description="Inference of Reassortment networks"
+             projectURL="https://github.com/nicfel/CoalRe/" >
+        <depends on="BEAST.base" atleast="2.7.2"/>
+        <depends on="BEAST.app" atleast="2.7.2"/>
+    </package>    
     
     <package name="CodonSubstModels" version="2.0.0"
          url="https://github.com/BEAST2-Dev/codonsubstmodels/releases/download/v2.0.0/CodonSubstModels.v2.0.0.zip"
