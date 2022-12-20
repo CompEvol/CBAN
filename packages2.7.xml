@@ -32,12 +32,12 @@
     </package>
 
     <package name='BEAST.base' version='2.7.3'
-        url="https://github.com/CompEvol/beast2/releases/download/2.7.3/BEAST.base.addon.v2.7.3.zip"
+        url="https://github.com/CompEvol/beast2/releases/download/v2.7.3/BEAST.base.addon.v2.7.3.zip"
         projectURL="http://beast2.org"
         description="BEAST base"/>
 
     <package name='BEAST.app' version='2.7.3'
-        url="https://github.com/CompEvol/beast2/releases/download/2.7.3/BEAST.app.addon.v2.7.3.zip"
+        url="https://github.com/CompEvol/beast2/releases/download/v2.7.3/BEAST.app.addon.v2.7.3.zip"
         projectURL="http://beast2.org"
         description="BEAST base applications">
         <depends on='BEAST.base' atleast='2.7.3' atmost='2.7.9'/>
