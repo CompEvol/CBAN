@@ -547,4 +547,12 @@
 		<depends on="MM" atleast="1.2.1"/>
     </package>
     
+    <package name='bdtree' version='0.0.1'
+            url="https://github.com/fkmendes/bdtree/releases/download/v0.0.1/bdtree.v0.0.1.zip"
+            projectURL="https://github.com/fkmendes/bdtree"
+            description="Birth-death sequential sampling">
+		<depends on='BEAST.base' atleast='2.7.3'/>
+		<depends on='BEAST.app' atleast='2.7.3'/>
+    </package>
+    
 </packages>
