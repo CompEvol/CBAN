@@ -564,5 +564,14 @@
   	<depends on="MultiTypeTree" atleast="8.0.0"/>
   	<depends on="MASTER" atleast="7.0.0"/>
     </package>
+
+
+    <package name='SCOTTI' version='3.0.0'
+            url="https://bitbucket.org/nicofmay/scotti/raw/851f4afab58c3671b6982974f41247c92556ab89/SCOTTI/dist/SCOTTI.v3.0.0.zip"
+            description="Structured COalescent Transmission Tree Inference"
+         projectURL="https://bitbucket.org/nicofmay/scotti">
+        <depends on='BEAST.base' atleast='2.7.2'/>
+        <depends on='BEAST.app' atleast='2.7.2'/>
+    </package>
 	
 </packages>
