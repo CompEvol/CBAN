@@ -573,5 +573,13 @@
         <depends on='BEAST.base' atleast='2.7.2'/>
         <depends on='BEAST.app' atleast='2.7.2'/>
     </package>
+    
+    <package name="PhyDyn" version="1.4.0"
+        url="https://github.com/mrc-ide/PhyDyn/releases/download/v1.4.0/PhyDyn.v1.4.0.zip"
+        description="PhyDyn: Epidemiological modelling with BEAST"
+        projectURL="https://github.com/mrc-ide/PhyDyn">
+        <depends on='BEAST.base' atleast='2.7.2'/>
+        <depends on='BEAST.app' atleast='2.7.2'/>
+    </package>
 	
 </packages>
