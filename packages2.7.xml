@@ -573,6 +573,16 @@
         <depends on='BEAST.base' atleast='2.7.2'/>
         <depends on='BEAST.app' atleast='2.7.2'/>
     </package>
+
+
+    <package name='BASTA' version='4.0.0'
+            url="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation/raw/84762a81272829977c3ac42fd4f478d499bd94a9/dist/BASTA.v4.0.0.zip"
+            description="Bayesian structured coalescent approximation"
+            projectURL="https://bitbucket.org/nicofmay/basta-bayesian-structured-coalescent-approximation">
+        <depends on='BEAST.base' atleast='2.7.2'/>
+        <depends on='BEAST.app' atleast='2.7.2'/>
+    </package>
+
     
     <package name="PhyDyn" version="1.4.0"
         url="https://github.com/mrc-ide/PhyDyn/releases/download/v1.4.0/PhyDyn.v1.4.0.zip"
