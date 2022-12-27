@@ -583,6 +583,14 @@
         <depends on='BEAST.app' atleast='2.7.2'/>
     </package>
 
+
+    <package name="BADTRIP" version="2.0.0"
+        url="https://bitbucket.org/nicofmay/badtrip/raw/6dadb66854efb9caf752e260dae949591caf2c47/dist/BADTRIP.v2.0.0.zip"
+        description="Infer transmission time for non-haplotype data and epi data"
+        projectURL="https://bitbucket.org/nicofmay/badtrip">
+        <depends on='BEAST.base' atleast='2.7.2'/>
+    </package>
+
     
     <package name="PhyDyn" version="1.4.0"
         url="https://github.com/mrc-ide/PhyDyn/releases/download/v1.4.0/PhyDyn.v1.4.0.zip"
