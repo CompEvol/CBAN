@@ -599,5 +599,13 @@
         <depends on='BEAST.base' atleast='2.7.2'/>
         <depends on='BEAST.app' atleast='2.7.2'/>
     </package>
+
+    <package name='CA' version='2.1.0'
+            url="https://github.com/BEAST2-Dev/cladeage/releases/download/v2.1.0/CA.addon.v2.1.0.zip"
+            description="Bayesian estimation of clade ages based on probabilities of fossil sampling"
+            projectURL="https://github.com/BEAST2-Dev/cladeage">
+        <depends on='BEAST.base' atleast='2.7.3'/>
+        <depends on='BEAST.app' atleast='2.7.3'/>
+    </package>
 	
 </packages>
