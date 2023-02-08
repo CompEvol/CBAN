@@ -1143,4 +1143,11 @@
             description="Implementation of the ClaDS birth-death tree prior">
         <depends on="beast2" atleast="2.6.6" atmost="2.6.9"/>
     </package>
+    
+    <package name="ClaDS" version="1.1.2"
+            url="https://bitbucket.org/bjoelle/clads/raw/main/dist/ClaDS.v1.1.2.zip"
+            projectURL="https://bitbucket.org/bjoelle/clads/"
+            description="Implementation of the ClaDS birth-death tree prior">
+        <depends on="beast2" atleast="2.6.6" atmost="2.6.9"/>
+    </package>
 </packages>
