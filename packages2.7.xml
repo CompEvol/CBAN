@@ -296,6 +296,19 @@
         <depends on='ORC' atleast='1.0.4'/>
     </package>
 
+
+    <package name='starbeast3' version='1.1.6'
+            url="https://github.com/rbouckaert/starbeast3/releases/download/v1.1.6/starbeast3.addon.v1.1.6.zip"
+            description="StarBeast3 multispecies coalescent using advanced MCMC operators"
+             projectURL="https://github.com/rbouckaert/starbeast3">
+        <depends on='BEAST.base' atleast='2.7.2'/>
+        <depends on='BEAST.app' atleast='2.7.2'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+        <depends on='SA' atleast='2.1.0'/>
+        <depends on='ORC' atleast='1.0.4'/>
+    </package>
+
+
     <package name="MODEL_SELECTION" version="1.6.0"
             url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.6.0/MODEL_SELECTION.addon.v1.6.0.zip"
             description="Select models through path sampling/stepping stone analysis"
