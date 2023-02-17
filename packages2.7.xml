@@ -18,7 +18,6 @@
         <depends on='BEAST.base' atleast='2.7.0' atmost='2.7.9'/>
 	</package>
 
-
     <package name='BEAST.base' version='2.7.2'
         url="https://github.com/CompEvol/beast2/releases/download/2.7.2/BEAST.base.addon.v2.7.2.zip"
         projectURL="http://beast2.org"
@@ -42,7 +41,6 @@
         description="BEAST base applications">
         <depends on='BEAST.base' atleast='2.7.3' atmost='2.7.9'/>
     </package>
-
 
     <package name='BEASTLabs' version='2.0.0'
            url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v2.0.0/BEASTlabs.addon.v2.0.0.zip"
@@ -81,8 +79,6 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
 
-
-
     <package name='OBAMA' version='1.1.0' 
         url="https://github.com/rbouckaert/obama/releases/download/v1.1.0/OBAMA.addon.v1.1.0.zip"
         description="OBAMA for Bayesian Amino-acid Model Averaging"
@@ -91,7 +87,6 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
 		<depends on='bModelTest' atleast='1.3.0'/>
     </package>
-
 
     <package name='OBAMA' version='1.1.1' 
         url="https://github.com/rbouckaert/obama/releases/download/v.1.1.1/OBAMA.addon.v1.1.1.zip"
@@ -117,7 +112,6 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
 
-
     <package name='ORC' version='1.1.0'
 				url="https://github.com/jordandouglas/ORC/releases/download/v1.1.0/ORC.addon.v1.1.0.zip"
                 description="Optimised Relaxed Clock model"
@@ -136,8 +130,6 @@
         <depends on='BEASTLabs' atleast='2.0.0'/>
     </package>
 
-
-
     <package name='speedemon' version='1.1.0'
                 url="https://github.com/rbouckaert/speedemon/releases/download/publish/speedemon.addon.v1.1.0.zip"
                 description="Fast species delimitation under the multispecies coalescent"
@@ -150,15 +142,13 @@
     </package>
 
 
-
-
-      <package name='contraband' version='1.0.1'
+    <package name='contraband' version='1.0.1'
         url="https://raw.githubusercontent.com/CompEvol/packages/main/contraband/contraband.addon.v1.0.1.zip"
         description="Scalable brownian models for continuous trait evolution"
         projectURL="https://github.com/fkmendes/contraband">
         <depends on='BEAST.base' atleast='2.7.0'/>
         <depends on='BEAST.app' atleast='2.7.0'/>
-  </package>
+    </package>
 
     <package name='Babel' version='0.4.0'
            url="https://github.com/rbouckaert/Babel/releases/download/v0.4.0/Babel.addon.v0.4.0.zip"
@@ -237,9 +227,7 @@
     	<depends on='ORC' atleast='1.0.4'/>
     </package>
 
-
-
-        <package name='starbeast3' version='1.1.1'
+    <package name='starbeast3' version='1.1.1'
             url="https://github.com/rbouckaert/starbeast3/releases/download/v.1.1.1/starbeast3.addon.v1.1.1.zip"
             description="StarBeast3 multispecies coalescent using advanced MCMC operators"
              projectURL="https://github.com/rbouckaert/starbeast3">
@@ -249,8 +237,7 @@
         <depends on='ORC' atleast='1.0.4'/>
     </package>
 
-
-        <package name='starbeast3' version='1.1.2'
+    <package name='starbeast3' version='1.1.2'
             url="https://github.com/rbouckaert/starbeast3/releases/download/v.1.1.2/starbeast3.addon.v1.1.2.zip"
             description="StarBeast3 multispecies coalescent using advanced MCMC operators"
              projectURL="https://github.com/rbouckaert/starbeast3">
@@ -260,8 +247,7 @@
         <depends on='ORC' atleast='1.0.4'/>
     </package>
 
-
-        <package name='starbeast3' version='1.1.3'
+    <package name='starbeast3' version='1.1.3'
             url="https://github.com/rbouckaert/starbeast3/releases/download/v.1.1.3/starbeast3.addon.v1.1.3.zip"
             description="StarBeast3 multispecies coalescent using advanced MCMC operators"
              projectURL="https://github.com/rbouckaert/starbeast3">
@@ -271,7 +257,6 @@
 	<depends on='SA' atleast='2.1.0'/>
         <depends on='ORC' atleast='1.0.4'/>
     </package>
-
 
     <package name='starbeast3' version='1.1.4'
             url="https://github.com/rbouckaert/starbeast3/releases/download/v1.1.4/starbeast3.addon.v1.1.4.zip"
@@ -284,7 +269,6 @@
         <depends on='ORC' atleast='1.0.4'/>
     </package>
 
-
     <package name='starbeast3' version='1.1.5'
             url="https://github.com/rbouckaert/starbeast3/releases/download/v1.1.5/starbeast3.addon.v1.1.5.zip"
             description="StarBeast3 multispecies coalescent using advanced MCMC operators"
@@ -295,7 +279,6 @@
         <depends on='SA' atleast='2.1.0'/>
         <depends on='ORC' atleast='1.0.4'/>
     </package>
-
 
     <package name='starbeast3' version='1.1.6'
             url="https://github.com/rbouckaert/starbeast3/releases/download/v1.1.6/starbeast3.addon.v1.1.6.zip"
@@ -308,6 +291,13 @@
         <depends on='ORC' atleast='1.0.4'/>
     </package>
 
+    <package name="SpeciesNetwork" version="1.0.0"
+            url="https://github.com/zhangchicool/speciesnetwork/releases/download/v1.0.0/SpeciesNetwork.zip
+            description="Multispecies network coalescent (MSNC) inference of introgression and hybridization"
+            projectURL="https://github.com/zhangchicool/speciesnetwork">
+        <depends on='BEAST.base' atleast='2.7.3'/>
+        <depends on='BEAST.app' atleast='2.7.3'/>
+    </package>
 
     <package name="MODEL_SELECTION" version="1.6.0"
             url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.6.0/MODEL_SELECTION.addon.v1.6.0.zip"
@@ -487,7 +477,7 @@
         <depends on="BEAST.app" atleast="2.7.2" atmost="2.7.9"/>
     </package>
 	
-	<package name="MSBD" version="2.0.0"
+    <package name="MSBD" version="2.0.0"
             url="https://bitbucket.org/bjoelle/msbd/downloads/MSBD.addon.v2.0.0.zip"
             projectURL="https://bitbucket.org/bjoelle/msbd/"
             description="Implementation of the MSBD multi-type birth-death tree prior">
@@ -510,8 +500,6 @@
         <depends on="BEAST.base" atleast="2.7.2"/>
         <depends on="BEAST.app" atleast="2.7.2"/>
     </package>
-
-
 
     <package name="Mascot" version="3.0.0"
          url="https://github.com/nicfel/Mascot/releases/download/v3.0.0/Mascot.v3.0.0.zip"
@@ -537,8 +525,6 @@
         <depends on="BEAST.base" atleast="2.7.2"/>
         <depends on="BEAST.app" atleast="2.7.2"/>
     </package>
-    
-
     
     
     <package name="CodonSubstModels" version="2.0.0"
