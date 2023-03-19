@@ -393,6 +393,16 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
         <depends on='BEASTLabs' atleast='2.0.0'/>
     </package>
+    <package name='SA' version='2.1.1'
+           url="https://github.com/CompEvol/sampled-ancestors/releases/download/v2.1.1/SA.v2.1.1.zip"
+           projectURL="https://github.com/CompEvol/sampled-ancestors"
+           description="Sampled ancestor trees" >
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
+
+
 
     <package name='BDSKY' version='1.5.0'
            url="https://github.com/BEAST2-Dev/bdsky/releases/download/v1.5.0/BDSKY.v1.5.0.zip"
