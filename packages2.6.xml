@@ -725,7 +725,18 @@
             projectURL="https://bitbucket.org/bjoelle/msbd">
         <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
     </package>
-
+    <package name='MSBD' version='1.3.0'
+            url="https://bitbucket.org/bjoelle/msbd/raw/master/dist/MSBD.v1.3.0.zip"
+            description="Multi-state birth-death prior with state-specific birth and death rates"
+            projectURL="https://bitbucket.org/bjoelle/msbd">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
+    <package name='MSBD' version='1.3.1'
+            url="https://bitbucket.org/bjoelle/msbd/downloads/MSBD.v1.3.1.zip"
+            description="Multi-state birth-death prior with state-specific birth and death rates"
+            projectURL="https://bitbucket.org/bjoelle/msbd">
+        <depends on='beast2' atleast='2.6.0' atmost='2.6.9'/>
+    </package>
 
     <package name="TreeStat2" version="0.0.2"
 		url="https://raw.githubusercontent.com/CompEvol/packages/main/TreeStat2/TreeStat2.v0.0.2.zip"
@@ -1149,10 +1160,15 @@
             projectURL="https://bitbucket.org/bjoelle/clads/"
             description="Implementation of the ClaDS birth-death tree prior">
         <depends on="beast2" atleast="2.6.6" atmost="2.6.9"/>
-    </package>
-    
+    </package>  
     <package name="ClaDS" version="1.1.2"
             url="https://bitbucket.org/bjoelle/clads/raw/main/dist/ClaDS.v1.1.2.zip"
+            projectURL="https://bitbucket.org/bjoelle/clads/"
+            description="Implementation of the ClaDS birth-death tree prior">
+        <depends on="beast2" atleast="2.6.6" atmost="2.6.9"/>
+    </package>
+    <package name="ClaDS" version="1.1.3"
+            url="https://bitbucket.org/bjoelle/clads/downloads/ClaDS.v1.1.3.zip"
             projectURL="https://bitbucket.org/bjoelle/clads/"
             description="Implementation of the ClaDS birth-death tree prior">
         <depends on="beast2" atleast="2.6.6" atmost="2.6.9"/>
