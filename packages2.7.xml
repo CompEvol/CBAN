@@ -223,6 +223,12 @@
         projectURL="https://github.com/alexeid/TreeStat2/">
         <depends on='BEAST.base' atleast='2.7.0'/>
     </package>
+    <package name="TreeStat2" version="0.1.1"
+        url="https://github.com/alexeid/TreeStat2/releases/download/v0.1.0/TreeStat2.v0.1.1.zip"
+        description="Utility for calculating tree statistics from tree log file"
+        projectURL="https://github.com/alexeid/TreeStat2/">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+    </package>
 
     <package name='starbeast3' version='1.1.0'
             url="https://github.com/rbouckaert/starbeast3/releases/download/v1.1.0/starbeast3.addon.v1.1.0.zip"
