@@ -322,25 +322,25 @@
 		<depends on='FastRelaxedClockLogNormal' atleast='1.1.0'/>
 	</package>
 
-	<package name='Phylonco' version='0.0.4'
+	<package name='phylonco' version='0.0.4'
 		url="https://github.com/bioDS/beast-phylonco/raw/master/dist/phylonco.addon.v0.0.4.zip"
-		description="Phylonco - a package for single cell cancer analysis"
+		description="A package for single cell cancer evolution"
 		projectURL="https://github.com/bioDS/beast-phylonco">
 		<depends on='beast2' atleast='2.6.5'/>
 		<depends on='BEASTLabs' atleast='1.9.0'/>
 	</package>
 	
-	<package name='Phylonco' version='0.0.5'
+	<package name='phylonco' version='0.0.5'
 		url="https://github.com/bioDS/beast-phylonco/raw/master/dist/phylonco.addon.v0.0.5.zip"
-		description="Phylonco - a package for single cell cancer analysis"
+		description="A package for single cell cancer evolution"
 		projectURL="https://github.com/bioDS/beast-phylonco">
 		<depends on='beast2' atleast='2.6.5'/>
 		<depends on='BEASTLabs' atleast='1.9.0'/>
 	</package>
 	
-	<package name='Phylonco' version='0.0.6'
+	<package name='phylonco' version='0.0.6'
 		url="https://github.com/bioDS/beast-phylonco/raw/master/dist/phylonco.addon.v0.0.6.zip"
-		description="Phylonco - a package for single cell cancer analysis"
+		description="A package for single cell cancer evolution"
 		projectURL="https://github.com/bioDS/beast-phylonco">
 		<depends on='beast2' atleast='2.6.6'/>
 		<depends on='BEASTLabs' atleast='1.9.7'/>
