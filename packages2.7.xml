@@ -780,6 +780,17 @@
         <depends on='BEAST.base' atleast='2.7.0'/>
         <depends on='BDSKY' atleast='1.5.0'/>
     </package>
+
+	
+    <package name='phylonco' version='1.0.0'
+           url="https://github.com/bioDS/beast-phylonco/releases/download/v1.0.0/phylonco-lphybeast-1.0.0.zip"
+           projectURL="https://github.com/bioDS/beast-phylonco"
+           description="A package for single cell cancer evolution" >
+        <depends on='BEAST.base' atleast='2.7.3'/>
+        <depends on='BEAST.app' atleast='2.7.3'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+        <depends on='lphybeast' atleast='1.0.0'/>
+    </package>
     
     <!-- url="https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/lphybeast/1.0.0/lphybeast-1.0.0.zip"  -->
     <!--  https://repo.maven.apache.org/maven2/io/github/linguaphylo/lphybeast/1.0.0/lphybeast-1.0.0.zip -->
