@@ -20,5 +20,14 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
         <depends on='BEASTLabs' atleast='2.0.0'/>
     </package>
+
+
+    <package name="IndelDollo" version="0.0.1"
+        url="https://github.com/jordandouglas/IndelDollo/releases/download/0.0.1/IndelDollo.addon.v0.0.1.zip"
+        description="Mutations, insertions, and deletions"
+        projectURL="https://github.com/jordandouglas/IndelDollo/">
+        <depends on='BEAST.base' atleast='2.7.3'/>
+        <depends on='BEAST.app' atleast='2.7.3'/>
+    </package>
     
 </packages>
