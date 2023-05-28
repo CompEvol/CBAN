@@ -1293,7 +1293,17 @@
         <depends on="beast2" atleast="2.6.0" atmost="2.6.9"/>
         <depends on="feast" atleast="7.5.3"/>
         <depends on="BEASTLabs" atleast="1.9.0"/>
-    </package>
+       </package>
+       <package name="contacTrees" 
+             version="1.1.0"
+             description="Phylogenetic model with horizontal transfer for linguistics"
+             projectURL="https://github.com/NicoNeureiter/contacTrees" 
+             url="https://github.com/NicoNeureiter/contacTrees/releases/download/v1.1.0/contactrees.v1.1.0.zip">
+         <depends on="beast2" atleast="2.6.0" atmost="2.6.9"/>
+         <depends on="feast" atleast="7.5.3"/>
+         <depends on="BEASTLabs" atleast="1.9.0"/>
+         <depends on="BICEPS" atleast="1.0.0"/>
+       </package>
 
     <package
         name="timtam"
