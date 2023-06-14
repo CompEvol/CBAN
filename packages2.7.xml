@@ -194,6 +194,13 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
     -->
+    <package name='BEAST_CLASSIC' version='1.6.2'
+           url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.6.0/BEAST_CLASSIC.package.v1.6.2.zip"
+           projectURL="https://github.com/BEAST2-Dev/beast-classic/"
+           description="BEAST classes ported from BEAST 1 in wrappers" >
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
 
     <package name='SNAPP' version='1.6.0'
            url="https://github.com/BEAST2-Dev/SNAPP/releases/download/v1.6.0/SNAPP.addon.v1.6.0.zip"
@@ -393,6 +400,14 @@
     
     <package name='GEO_SPHERE' version='1.4.0'
            url="https://github.com/BEAST2-Dev/beast-geo/releases/download/v1.4.0/GEO_SPHERE.addon.v1.4.0.zip"
+           description="Whole world phylogeography" 
+           projectURL="https://github.com/BEAST2-Dev/beast-geo">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
+    <package name='GEO_SPHERE' version='1.4.1'
+           url="https://github.com/BEAST2-Dev/beast-geo/releases/download/v1.4.0/GEO_SPHERE.package.v1.4.1.zip"
            description="Whole world phylogeography" 
            projectURL="https://github.com/BEAST2-Dev/beast-geo">
         <depends on='BEAST.base' atleast='2.7.0'/>
