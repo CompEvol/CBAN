@@ -38,4 +38,16 @@
         <depends on='BEAST.app' atleast='2.7.4'/>
     </package>
     
+    <package name="CorrelatedTrait" version="0.0.5"
+        url="https://github.com/rbouckaert/CorrelatedTrait/releases/download/v0.0.5/CorrelatedTrait.package.v0.0.5.zip"
+        description="Analysis for a fixed tree or fixed tree set"
+        projectURL="https://github.com/rbouckaert/CorrelatedTrait">
+        <depends on='BEAST.base' atleast='2.7.4'/>
+        <depends on='BEAST.app' atleast='2.7.4'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+        <depends on='BEAST_CLASSIC' atleast='1.6.1'/>
+        <depends on='Babel' atleast='0.4.1'/>
+    </package>
+    
+    
 </packages>
