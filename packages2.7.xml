@@ -934,5 +934,17 @@
 				 projectURL="https://github.com/CompEvol/sampled-ancestors"
 				 description="Sampled ancestor trees"/>
     </package>
+
+	<package name="contacTrees" 
+             version="1.2.0"
+             description="Phylogenetic model with horizontal transfer for linguistics"
+             projectURL="https://github.com/NicoNeureiter/contacTrees" 
+             url="https://github.com/NicoNeureiter/contacTrees/releases/download/v1.2.0/contactrees.addon.v1.2.0.zip">
+    	<depends on='BEAST.base' atleast='2.7.0'/>
+	    <depends on='BEAST.app' atleast='2.7.0'/>
+    	<depends on="feast" atleast="9.0.0"/>
+	    <depends on="BEASTLabs" atleast="2.0.0"/>
+    	<depends on="BICEPS" atleast="1.1.0"/>
+    </package>
     
 </packages>
