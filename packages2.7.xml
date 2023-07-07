@@ -946,5 +946,12 @@
 	    <depends on="BEASTLabs" atleast="2.0.0"/>
     	<depends on="BICEPS" atleast="1.1.0"/>
     </package>
-    
+
+    <package name='PoMo' version='1.1.1'
+            url="https://bitbucket.org/nicofmay/pomo-beast/raw/7d0f4ffcf1b349836e7581b11467608929593920/dist/PoMo.v1.1.1.zip"
+            description="PoMo, a substitution model that separates mutation and drift processes"
+	    projectURL="https://bitbucket.org/nicofmay/pomo-beast">
+    	<depends on='BEAST.base' atleast='2.7.0'/>
+	    <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
 </packages>
