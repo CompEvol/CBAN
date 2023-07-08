@@ -604,6 +604,13 @@
         <depends on="BEAST.base" atleast="2.7.2" atmost="2.7.9"/>
         <depends on="BEAST.app" atleast="2.7.2" atmost="2.7.9"/>
     </package>
+	<package name="ClaDS" version="2.0.3"
+            url="https://bitbucket.org/bjoelle/clads/downloads/ClaDS.addon.v2.0.3.zip"
+            projectURL="https://bitbucket.org/bjoelle/clads/"
+            description="Implementation of the ClaDS birth-death tree prior">
+        <depends on="BEAST.base" atleast="2.7.2" atmost="2.7.9"/>
+        <depends on="BEAST.app" atleast="2.7.2" atmost="2.7.9"/>
+    </package>
     
     <package name="MSBD" version="2.0.0"
             url="https://bitbucket.org/bjoelle/msbd/downloads/MSBD.addon.v2.0.0.zip"
