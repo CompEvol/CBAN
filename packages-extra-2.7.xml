@@ -49,5 +49,14 @@
         <depends on='Babel' atleast='0.4.1'/>
     </package>
     
+    <package name="ASM" version="0.0.1"
+        url="https://github.com/rbouckaert/asm/releases/download/v0.0.1/ASM.package.v0.0.1.zip"
+        description="Automatic stopping MCMC"
+        projectURL="https://github.com/rbouckaert/asm">
+        <depends on='BEAST.base' atleast='2.7.5'/>
+        <depends on='BEAST.app' atleast='2.7.5'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
+    
     
 </packages>
