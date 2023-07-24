@@ -189,6 +189,14 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
         <depends on='BEASTLabs' atleast='2.0.0'/>
     </package>
+    <package name='Babel' version='0.4.2'
+           url="https://github.com/rbouckaert/Babel/releases/download/v0.4.0/Babel.addon.v0.4.2.zip"
+           description="BABEL = BEAST analysis backing effective linguistics"
+           projectURL="https://github.com/rbouckaert/Babel">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
 
     <package name='BEAST_CLASSIC' version='1.6.0'
            url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.6.0/BEAST_CLASSIC.addon.v1.6.0.zip"
