@@ -161,6 +161,16 @@
         <depends on='BEASTLabs' atleast='2.0.0'/>
     </package>
 
+
+    <package name='ORC' version='1.1.2'
+                url="https://github.com/jordandouglas/ORC/releases/download/v1.1.2/ORC.addon.v1.1.2.zip"
+                description="Optimised Relaxed Clock model"
+                projectURL="https://github.com/jordandouglas/ORC/">
+        <depends on='BEAST.base' atleast='2.7.5'/>
+        <depends on='BEAST.app' atleast='2.7.5'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
+
     <package name='speedemon' version='1.1.0'
                 url="https://github.com/rbouckaert/speedemon/releases/download/publish/speedemon.addon.v1.1.0.zip"
                 description="Fast species delimitation under the multispecies coalescent"
