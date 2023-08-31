@@ -245,6 +245,13 @@
         <depends on='BEAST.base' atleast='2.7.0'/>
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
+    <package name='BEAST_CLASSIC' version='1.6.3'
+           url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.6.0/BEAST_CLASSIC.package.v1.6.3.zip"
+           projectURL="https://github.com/BEAST2-Dev/beast-classic/"
+           description="BEAST classes ported from BEAST 1 in wrappers" >
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
 
     <package name='SNAPP' version='1.6.0'
            url="https://github.com/BEAST2-Dev/SNAPP/releases/download/v1.6.0/SNAPP.addon.v1.6.0.zip"
@@ -1035,4 +1042,13 @@
     	<depends on='BEAST.base' atleast='2.7.0'/>
 	    <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
+    
+    <package name="FixedTreeAnalysis" version="0.0.2"
+        url="https://github.com/rbouckaert/FixedTreeAnalysis/releases/download/v0.0.2/FixedTreeAnalysis.pacakge.v0.0.2.zip"
+        description="Analysis for a fixed tree or fixed tree set"
+        projectURL="https://github.com/rbouckaert/FixedTreeAnalysis/">
+        <depends on='BEAST.base' atleast='2.7.4'/>
+        <depends on='BEAST.app' atleast='2.7.4'/>
+    </package>
+    
 </packages>

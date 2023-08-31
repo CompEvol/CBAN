@@ -29,14 +29,6 @@
         <depends on='BEAST.base' atleast='2.7.3'/>
         <depends on='BEAST.app' atleast='2.7.3'/>
     </package>
-
-    <package name="FixedTreeAnalysis" version="0.0.2"
-        url="https://github.com/rbouckaert/FixedTreeAnalysis/releases/download/v0.0.2/FixedTreeAnalysis.pacakge.v0.0.2.zip"
-        description="Analysis for a fixed tree or fixed tree set"
-        projectURL="https://github.com/rbouckaert/FixedTreeAnalysis/">
-        <depends on='BEAST.base' atleast='2.7.4'/>
-        <depends on='BEAST.app' atleast='2.7.4'/>
-    </package>
     
     <package name="CorrelatedTrait" version="0.0.5"
         url="https://github.com/rbouckaert/CorrelatedTrait/releases/download/v0.0.5/CorrelatedTrait.package.v0.0.5.zip"
