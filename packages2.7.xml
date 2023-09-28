@@ -149,6 +149,13 @@
         <depends on='BEAST.base' atleast='2.7.0'/>
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
+    <package name='BICEPS' version='1.1.2'
+                url="https://github.com/rbouckaert/biceps/releases/download/v1.1.2/BICEPS.addon.v1.1.2.zip"
+                description="Bayesian Integrated Coalescent Epoch PlotS + Yule Skyline"
+                projectURL="https://github.com/rbouckaert/biceps/">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
 
     <package name='ORC' version='1.1.0'
                 url="https://github.com/jordandouglas/ORC/releases/download/v1.1.0/ORC.addon.v1.1.0.zip"
