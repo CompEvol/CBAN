@@ -50,5 +50,19 @@
         <depends on='BEAST.app' atleast='2.7.5'/>
         <depends on='BEASTLabs' atleast='2.0.0'/>
     </package>
+
+
+    
+
+    <package name='HetMM' version='0.0.1'
+           url="https://github.com/jordandouglas/HetMM/releases/download/v0.0.1/HetMM.addon.v0.0.1.zip"
+           description="Heterogeneous Michaelis-Menten model"
+           projectURL="https://github.com/jordandouglas/HetMM">
+        <depends on='BEAST.base' atleast='2.7.5'/>
+        <depends on='BEAST.app' atleast='2.7.5'/>
+    </package>
+
+
+
     
 </packages>
