@@ -789,6 +789,14 @@
         <depends on="BEAST.app" atleast="2.7.0" atmost="2.7.9"/>
     </package>
 
+    <package name="ReMASTER" version="2.3.3"
+           url="https://github.com/tgvaughan/remaster/releases/download/v2.3.3/remaster.v2.3.3.zip"
+           projectURL="https://tgvaughan.github.io/remaster"
+           description="Phylogenetic simulator" >
+        <depends on="BEAST.base" atleast="2.7.0" atmost="2.7.9"/>
+        <depends on="BEAST.app" atleast="2.7.0" atmost="2.7.9"/>
+    </package>
+
     <package name="Mascot" version="3.0.0"
          url="https://github.com/nicfel/Mascot/releases/download/v3.0.0/Mascot.v3.0.0.zip"
          description="Marginal approximation of the structured coalescent"
