@@ -309,6 +309,15 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
         <depends on='SNAPP' atleast='1.6.0'/>
     </package>
+    <package name='snapper' version='1.1.4'
+           url="https://github.com/rbouckaert/snapper/releases/download/v1.1.0/snapper.package.v1.1.4.zip"
+           description="Diffusion based SNP and AFLP Phylogenies"
+           projectURL="https://github.com/rbouckaert/snapper">
+        <depends on='BEAST.base' atleast='2.7.5'/>
+        <depends on='BEAST.app' atleast='2.7.5'/>
+        <depends on='SNAPP' atleast='1.6.0'/>
+    </package>
+    
 
     <package name="TreeStat2" version="0.1.0"
         url="https://github.com/alexeid/TreeStat2/releases/download/v0.1.0/TreeStat2.v0.1.0.zip"
