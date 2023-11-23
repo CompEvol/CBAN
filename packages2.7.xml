@@ -66,6 +66,18 @@
         <depends on='BEAST.base' atleast='2.7.5' atmost='2.7.9'/>
     </package>
 
+    <package name='BEAST.app' version='2.7.6'
+        url="https://github.com/CompEvol/beast2/releases/download/v2.7.6/BEAST.app.package.v2.7.6.zip"
+        projectURL="http://beast2.org"
+        description="BEAST base applications">
+        <depends on='BEAST.base' atleast='2.7.6' atmost='2.7.9'/>
+    </package>
+
+    <package name='BEAST.base' version='2.7.6'
+        url="https://github.com/CompEvol/beast2/releases/download/v2.7.6/BEAST.base.package.v2.7.6.zip"
+        projectURL="http://beast2.org"
+        description="BEAST base"/>
+
     <package name='BEASTLabs' version='2.0.0'
            url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v2.0.0/BEASTlabs.addon.v2.0.0.zip"
            projectURL="https://github.com/BEAST2-Dev/BEASTLabs/"
