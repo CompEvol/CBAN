@@ -1166,6 +1166,26 @@
     
     <!-- url="https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/lphybeast/1.0.0/lphybeast-1.0.0.zip"  -->
     <!--  https://repo.maven.apache.org/maven2/io/github/linguaphylo/lphybeast/1.0.0/lphybeast-1.0.0.zip -->
+    <package name="lphybeast" version="1.1.0" 
+	     url="https://repo.maven.apache.org/maven2/io/github/linguaphylo/lphybeast/1.1.0/lphybeast-1.1.0.zip"
+	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
+	     description="A command-line program that takes an LPhy model specification including a data block, 
+	                  and produces a BEAST 2 XML input file.">
+		<depends on='BEAST.base' atleast='2.7.6'/>
+        <depends on='BEAST.app' atleast='2.7.6'/>
+
+        <depends on='BEASTLabs' atleast='2.0.2'/>
+        <depends on='BEAST_CLASSIC' atleast='1.6.3'/>
+		<depends on='feast' atleast='9.8.5'
+				 projectURL="https://github.com/tgvaughan/feast"
+				 description="Expands the flexibility of BEAST 2 XML."/>
+		<depends on='SSM' atleast='1.2.0'
+				 description="Standard Nucleotide Substitution Models"
+				 projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
+		<depends on='FastRelaxedClockLogNormal' atleast='1.2.0'/>
+		<depends on='bdtree' atleast='0.0.1'/>
+    </package>
+    
     <package name="lphybeast" version="1.0.5" 
 	     url="https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/lphybeast/1.0.5/lphybeast-1.0.5.zip"
 	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
@@ -1205,30 +1225,26 @@
 		<depends on='FastRelaxedClockLogNormal' atleast='1.2.0'/>
 		<depends on='bdtree' atleast='0.0.1'/>
     </package>
-
-    <package name="lphybeast" version="1.0.3" 
-	     url="https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/lphybeast/1.0.3/lphybeast-1.0.3.zip"
-	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
-	     description="A command-line program that takes an LPhy model specification including a data block, 
-	                  and produces a BEAST 2 XML input file.">
-		<depends on='BEAST.base' atleast='2.7.5'/>
-		<depends on='BEAST.app' atleast='2.7.5'/>
-
-		<depends on='BEASTLabs' atleast='2.0.0'/>
-		<depends on='BEAST_CLASSIC' atleast='1.6.0'/>
-		<depends on='feast' atleast='9.2.0'
-				 projectURL="https://github.com/tgvaughan/feast"
-				 description="Expands the flexibility of BEAST 2 XML."/>
-		<depends on='SSM' atleast='1.2.0'
-				 description="Standard Nucleotide Substitution Models"
-				 projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
-		<depends on='FastRelaxedClockLogNormal' atleast='1.2.0'/>
-		<depends on='bdtree' atleast='0.0.1'/>
-    </package>
-    
     
     
     <!-- https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/LPhyBeastExt/0.2.0/LPhyBeastExt-0.2.0.zip -->
+    <!-- https://repo.maven.apache.org/maven2/io/github/linguaphylo/LPhyBeastExt/0.3.0/LPhyBeastExt-0.3.0.zip -->
+    <package name="LPhyBeastExt" version="0.3.0" 
+	     url="https://repo.maven.apache.org/maven2/io/github/linguaphylo/LPhyBeastExt/0.3.0/LPhyBeastExt-0.3.0.zip"
+	     projectURL="https://github.com/LinguaPhylo/LPhyBeastExt" 
+	     description="An extension of LPhyBEAST.">
+        <depends on='lphybeast' atleast='1.1.0'/>
+		<depends on='Mascot' atleast='3.0.0'
+				 description="Marginal approximation of the structured coalescent"
+				 projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/"/>
+		<depends on='MM' atleast='1.2.1'
+				 projectURL="https://github.com/CompEvol/morph-models"
+				 description="Enables models of morphological character evolution"/>
+		<depends on='SA' atleast='2.1.0'
+				 projectURL="https://github.com/CompEvol/sampled-ancestors"
+				 description="Sampled ancestor trees"/>
+    </package>
+    
     <package name="LPhyBeastExt" version="0.2.2" 
 	     url="https://s01.oss.sonatype.org/content/repositories/releases/io/github/linguaphylo/LPhyBeastExt/0.2.2/LPhyBeastExt-0.2.2.zip"
 	     projectURL="https://github.com/LinguaPhylo/LPhyBeastExt" 
@@ -1261,21 +1277,6 @@
 				 description="Sampled ancestor trees"/>
     </package>
     
-    <package name="LPhyBeastExt" version="0.2.0" 
-	     url="https://repo1.maven.org/maven2/io/github/linguaphylo/LPhyBeastExt/0.2.1/LPhyBeastExt-0.2.1.zip"
-	     projectURL="https://github.com/LinguaPhylo/LPhyBeastExt" 
-	     description="An extension of LPhyBEAST.">
-        <depends on='lphybeast' atleast='1.0.0'/>
-		<depends on='Mascot' atleast='3.0.0'
-				 description="Marginal approximation of the structured coalescent"
-				 projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/"/>
-		<depends on='MM' atleast='1.2.1'
-				 projectURL="https://github.com/CompEvol/morph-models"
-				 description="Enables models of morphological character evolution"/>
-		<depends on='SA' atleast='2.1.0'
-				 projectURL="https://github.com/CompEvol/sampled-ancestors"
-				 description="Sampled ancestor trees"/>
-    </package>
 
 	<package name="contacTrees" 
              version="1.2.0"
