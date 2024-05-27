@@ -63,8 +63,8 @@
     </package>
 
 
-    <package name="CCD" version="0.0.3" 
-	     url="https://github.com/CompEvol/CCD/releases/download/v0.0.1/CCD.package.v0.0.3.zip"
+    <package name="CCD" version="0.0.4" 
+	     url="https://github.com/CompEvol/CCD/releases/download/v0.0.1/CCD.package.v0.0.4.zip"
 	     projectURL="https://github.com/CompEvol/CCD" 
 	     description="Sensible tree set summary/point estimates.">
         <depends on='BEAST.base' atleast='2.7.6'/>
