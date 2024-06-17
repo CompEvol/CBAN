@@ -501,6 +501,14 @@
         <depends on='BEAST.app' atleast='2.7.5'/>
         <depends on='MODEL_SELECTION' atleast='1.6.0'/>
     </package>
+    <package name="NS" version="1.2.2"
+        url="https://github.com/BEAST2-Dev/nested-sampling/releases/download/v1.2.0/NS.package.v1.2.2.zip"
+        description="Nested sampling for model selection and posterior inference"
+        projectURL="https://github.com/BEAST2-Dev/nested-sampling/wiki">
+        <depends on='BEAST.base' atleast='2.7.5'/>
+        <depends on='BEAST.app' atleast='2.7.5'/>
+        <depends on='MODEL_SELECTION' atleast='1.6.0'/>
+    </package>
 
     <package name="CoupledMCMC" version="1.2.0"
          url="https://github.com/nicfel/CoupledMCMC/releases/download/v1.2.0/CoupledMCMC.v1.2.0.zip"
