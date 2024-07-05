@@ -1395,4 +1395,12 @@
         <depends on='BEAST.app' atleast='2.7.6'/>
     </package>
 
+    <package name="FLC" version="1.2.0"
+         url="https://github.com/4ment/flc/releases/download/v1.2.0/flc.v1.2.0.zip"
+         projectURL="https://github.com/4ment/flc"
+         description="Flexible local clock model">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
+
 </packages>
