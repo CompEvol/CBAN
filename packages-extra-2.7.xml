@@ -71,4 +71,13 @@
         <depends on='BEAST.app' atleast='2.7.6'/>
     </package>
     
+
+    <package name="BREATH" version="0.0.1" 
+	     url="https://github.com/rbouckaert/transmission/releases/download/v0.0.1/BREATH.v0.0.1.zip"
+	     projectURL="https://github.com/rbouckaert/transmission" 
+	     description="Bayesian Reconstruction and Evolutionary Analysis of Transmission Histories">
+        <depends on='BEAST.base' atleast='2.7.6'/>
+        <depends on='BEAST.app' atleast='2.7.6'/>
+    </package>
+
 </packages>
