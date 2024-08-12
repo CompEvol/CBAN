@@ -80,4 +80,12 @@
         <depends on='BEAST.app' atleast='2.7.6'/>
     </package>
 
+    <package name="5rf" version="0.0.1" 
+	     url="https://github.com/rbouckaert/5rf/releases/download/v0.0.1/5rf.package.v0.0.1.zip"
+	     projectURL="https://github.com/rbouckaert/5rf/" 
+	     description="Rate Class Root Frequency Model">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
+
 </packages>
