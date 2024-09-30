@@ -1252,8 +1252,7 @@
         <depends on='BDSKY' atleast='1.5.0'/>
     </package>
 
-    <!-- From phylonco-beast-1.2.0, original phylonco split to phyloncot-1.2.0 and phylonco-beast-1.2.0 -->
-    <!-- 
+<!-- From phylonco-beast-1.2.0, original phylonco split to phylonco-beast-1.2.0 and phylonco-lphybeast-1.2.0 -->
 <package name='phylonco' version='1.2.0'
            url="https://github.com/bioDS/beast-phylonco/releases/download/v1.2.0/phylonco-beast-1.2.0.zip"
            projectURL="https://github.com/bioDS/beast-phylonco"
@@ -1262,21 +1261,17 @@
         <depends on='BEAST.app' atleast='2.7.6'/>
         <depends on='BEASTLabs' atleast='2.0.2'/>
     </package>
- -->
     
-    <!-- package name cannot have "-"  -->
-    <!-- 
-<package name='phylonco.lphybeast' version='1.2.0'
+<!-- package name cannot have dash symbol "-"  -->
+<package name='phyloncoLphybeast' version='1.2.0'
            url="https://github.com/bioDS/beast-phylonco/releases/download/v1.2.0/phylonco-lphybeast-1.2.0.zip"
            projectURL="https://github.com/bioDS/beast-phylonco"
-           description="A LPhyBEAST extension for phylonco (also require LPhy and phylonco-lphy)." >
+           description="A LPhyBEAST extension for phylonco (requires: LPhy and phylonco-lphy)." >
         <depends on='phylonco' atleast='1.2.0'/>
         <depends on='lphybeast' atleast='1.2.0'/>
-        <!~~ No FLC in this version~~>
+        <!-- No FLC in this version -->
     </package>
- -->
     
-
     <package name='phylonco' version='1.0.0'
            url="https://github.com/bioDS/beast-phylonco/releases/download/v1.0.0/phylonco-lphybeast-1.0.0.zip"
            projectURL="https://github.com/bioDS/beast-phylonco"
