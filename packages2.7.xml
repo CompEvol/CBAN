@@ -1262,7 +1262,7 @@
         <depends on='BEASTLabs' atleast='2.0.2'/>
     </package>
     
-    <package name='phylonco-beast' version='1.2.0'
+    <package name='phylonco-lphybeast' version='1.2.0'
            url="https://github.com/bioDS/beast-phylonco/releases/download/v1.2.0/phylonco-lphybeast-1.2.0.zip"
            projectURL="https://github.com/bioDS/beast-phylonco"
            description="A LPhyBEAST extension for phylonco (also require LPhy and phylonco-lphy)." >
