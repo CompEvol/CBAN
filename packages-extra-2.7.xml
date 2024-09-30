@@ -118,4 +118,12 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
 
+    <package name="RBS" version="1.5.0"
+	     url="https://github.com/BEAST2-Dev/rb-beast/releases/download/v1.5.0/RBS.package.v1.5.0.zip"
+	     projectURL="https://github.com/BEAST2-Dev/rb-beast/" 
+	     description="AutoPartition and Reverisble Jump Based substitution model">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
+
 </packages>
