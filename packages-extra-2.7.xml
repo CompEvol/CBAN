@@ -126,4 +126,12 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
 
+    <package name="rootfreqs" version="0.0.2"
+	     url="https://github.com/rbouckaert/rootfreqs/releases/download/v0.0.2/rootfreqs.package.v0.0.2.zip"
+	     projectURL="https://github.com/rbouckaert/rootfreqs" 
+	     description="Allows root frequencies to be specified per site.">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
+
 </packages>
