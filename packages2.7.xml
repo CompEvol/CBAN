@@ -1292,7 +1292,7 @@
     </package>
 
 <!-- From phylonco-beast-1.2.0, original phylonco split to phylonco-beast-1.2.0 and phylonco-lphybeast-1.2.0 -->
-<package name='phylonco' version='1.2.0'
+    <package name='phylonco' version='1.2.0'
            url="https://github.com/bioDS/beast-phylonco/releases/download/v1.2.0/phylonco-beast-1.2.0.zip"
            projectURL="https://github.com/bioDS/beast-phylonco"
            description="A package for single cell cancer evolution." >
@@ -1302,7 +1302,17 @@
     </package>
     
 <!-- package name cannot have dash symbol "-"  -->
-<package name='phylonco.lphybeast' version='1.2.0'
+
+    <package name='phylonco.lphybeast' version='1.2.1'
+           url="https://github.com/bioDS/beast-phylonco/releases/download/v1.2.1/phylonco-lphybeast-1.2.1.zip"
+           projectURL="https://github.com/bioDS/beast-phylonco"
+           description="A LPhyBEAST extension for phylonco (requires: LPhy and phylonco-lphy)." >
+        <depends on='phylonco' atleast='1.2.0'/>
+        <depends on='lphybeast' atleast='1.2.1'/>
+        <!-- No FLC in this version -->
+    </package>
+
+    <package name='phylonco.lphybeast' version='1.2.0'
            url="https://github.com/bioDS/beast-phylonco/releases/download/v1.2.0/phylonco-lphybeast-1.2.0.zip"
            projectURL="https://github.com/bioDS/beast-phylonco"
            description="A LPhyBEAST extension for phylonco (requires: LPhy and phylonco-lphy)." >
@@ -1329,6 +1339,26 @@
         <depends on='BEAST.app' atleast='2.7.3'/>
         <depends on='BEASTLabs' atleast='2.0.0'/>
         <depends on='lphybeast' atleast='1.0.0'/>
+    </package>
+    
+    <package name="lphybeast" version="1.2.1" 
+	     url="https://github.com/LinguaPhylo/LPhyBeast/releases/download/1.2.1/lphybeast-1.2.1.zip"
+	     projectURL="https://github.com/LinguaPhylo/LPhyBeast" 
+	     description="A command-line program that takes an LPhy model specification including a data block, 
+	                  and produces a BEAST 2 XML input file.">
+		<depends on='BEAST.base' atleast='2.7.7'/>
+		<depends on='BEAST.app' atleast='2.7.7'/>
+	
+		<depends on='BEASTLabs' atleast='2.0.2'/>
+		<depends on='BEAST_CLASSIC' atleast='1.6.3'/>
+		<depends on='feast' atleast='9.8.5'
+				 projectURL="https://github.com/tgvaughan/feast"
+				 description="Expands the flexibility of BEAST 2 XML."/>
+		<depends on='SSM' atleast='1.2.0'
+				 description="Standard Nucleotide Substitution Models"
+				 projectURL="https://github.com/BEAST2-Dev/substmodels/"/>
+		<depends on='ORC' atleast='1.2.0'/>
+		<depends on='bdtree' atleast='0.0.1'/>
     </package>
     
     <!-- migrate to Maven projecct, and release at Github, from 1.2.0  -->
