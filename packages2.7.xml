@@ -354,6 +354,15 @@
     </package>
     
 
+    <package name="TreeStat2" version="0.2.0"
+        url="https://github.com/alexeid/TreeStat2/releases/download/v0.2.0/TreeStat2.v0.2.0.zip
+        description="Utility for calculating tree statistics from tree log file"
+        projectURL="https://github.com/alexeid/TreeStat2/">
+        <depends on='BEAST.base' atleast='2.7.7'/>
+        <depends on='BEAST.app' atleast='2.7.7'/>
+        <depends on='CCD' atleast='1.0.1'/>
+    </package>
+    
     <package name="TreeStat2" version="0.1.0"
         url="https://github.com/alexeid/TreeStat2/releases/download/v0.1.0/TreeStat2.v0.1.0.zip"
         description="Utility for calculating tree statistics from tree log file"
