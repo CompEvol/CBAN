@@ -142,4 +142,14 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
 
+    <package name="EpochClockModel" version="0.0.2"
+	     url="https://github.com/rbouckaert/EpochClockModel/releases/download/v0.0.2/EpochClockModel.v0.0.2.zip"
+	     projectURL="https://github.com/rbouckaert/EpochClockModel" 
+	     description="Add clock models that have different mean rates at different epochs">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
+
+
+
 </packages>
