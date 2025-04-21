@@ -928,6 +928,15 @@
       <depends on="BEAST.app" atleast="2.7.0" atmost="2.7.9"/>
    </package>
 
+   <package name="TiDeTree" version="1.0.1"
+         url="https://github.com/seidels/tidetree/releases/download/v1.0.1/tidetree.v1.0.1.zip"
+         projectURL="https://github.com/seidels/tidetree"
+         description="Estimating single-cell trees from lineage tracing data">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+	<depends on="feast" atleast="10.0.0"/>
+    </package>
+
     <package name="ClaDS" version="2.0.0"
             url="https://bitbucket.org/bjoelle/clads/downloads/ClaDS.addon.v2.0.0.zip"
             projectURL="https://bitbucket.org/bjoelle/clads/"
