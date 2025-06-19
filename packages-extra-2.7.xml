@@ -167,5 +167,13 @@
     </package>
 
 
+    <package name="TargetedBeast" version="1.0.0"
+         url="https://github.com/nicfel/targetedbeast/releases/download/v.1.0.0/TargetedBeast.v1.0.0.zip"
+         projectURL="https://github.com/nicfel/targetedbeast/" 
+         description="Targeted MCMC operators for Improving the Scalability of Bayesian Phylodynamic Inference">
+        <depends on='BEAST.base' atleast='2.7.2'/>
+        <depends on='BEAST.app' atleast='2.7.2'/>
+    </package>
+
 
 </packages>
