@@ -11,6 +11,13 @@
         <depends on='BEAST.base' atleast='2.7.0'/>
         <depends on='BEASTLabs' atleast='2.0.0'/>
     </package>
+    <package name="AlmostDistributions" version="0.2.1"
+        url="https://github.com/rbouckaert/AlmostDistributions/releases/download/v0.2.0/AlmostDistributions.package.v0.2.1.zip"
+        description="Almost-distributions"
+        projectURL="https://github.com/rbouckaert/AlmostDistributions">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEASTLabs' atleast='2.0.0'/>
+    </package>
 
     <package name="Experimenter" version="0.2.0"
         url="https://github.com/christiaanjs/beast-validation/releases/download/v0.2.0/Experimenter.addon.v0.2.0.zip"
