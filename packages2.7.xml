@@ -270,6 +270,16 @@
         <depends on='SA' atleast='2.1.1'/>
     </package>
 
+
+    <package name='gammaspike' version='1.1.0'
+           url="https://github.com/jordandouglas/GammaSpikeModel/releases/download/v1.1.0/gammaspike.package.v1.1.0.zip"
+           description="A clock model that captures and tests for punctuated evolution"
+           projectURL="https://github.com/jordandouglas/GammaSpikeModel">
+        <depends on='BEAST.base' atleast='2.7.7'/>
+        <depends on='BEAST.app' atleast='2.7.7'/>
+        <depends on='SA' atleast='2.1.1'/>
+    </package>
+
     <package name='contraband' version='1.0.1'
         url="https://raw.githubusercontent.com/CompEvol/packages/main/contraband/contraband.addon.v1.0.1.zip"
         description="Scalable brownian models for continuous trait evolution"
