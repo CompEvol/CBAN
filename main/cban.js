@@ -73,11 +73,25 @@ function getLatestVersionPackages(packagesDict) {
 		var name = pkgObj.name.toLowerCase(); // case-insensitive
 		if (name in uniqPackagesDict) {
 		    var preObj = uniqPackagesDict[name];
-		    if (preObj.version >= pkgObj.version) {continue;}				
+		    if (compareVersions(preObj.version, pkgObj.version) >= 0) {continue;}				
 		} 
 		uniqPackagesDict[name] = pkgObj;
 	}
 	return uniqPackagesDict;
+}
+
+function compareVersions(v1, v2) {
+    const parts1 = v1.split('.').map(Number);
+    const parts2 = v2.split('.').map(Number);
+    const len = Math.max(parts1.length, parts2.length);
+
+    for (let i = 0; i < len; i++) {
+        const num1 = parts1[i] || 0;
+        const num2 = parts2[i] || 0;
+        if (num1 > num2) return 1;
+        if (num1 < num2) return -1;
+    }
+    return 0; // equal
 }
 
 // sort by name, but keep BEAST at the first 
