@@ -1405,6 +1405,14 @@
         <depends on='BEAST.app' atleast='2.7.3'/>
     </package>
     
+    <package name='bdtree' version='0.0.2'
+            url="https://github.com/fkmendes/bdtree/releases/download/v.0.0.2/bdtree.v0.0.2.zip"
+            projectURL="https://github.com/fkmendes/bdtree"
+            description="Birth-death sequential sampling">
+        <depends on='BEAST.base' atleast='2.7.3'/>
+        <depends on='BEAST.app' atleast='2.7.3'/>
+    </package>
+    
     <package name='bdmm' version='2.0.0'
            url="https://github.com/denisekuehnert/bdmm/releases/download/v2.0.0/BDMM.v2.0.0.zip"
            description="Multitype birth-death model (aka birth-death-migration model)"
