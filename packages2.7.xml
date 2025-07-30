@@ -734,6 +734,13 @@
         <depends on='BEAST.base' atleast='2.7.0'/>
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
+    <package name='SSM' version='1.2.2'
+        url="https://github.com/BEAST2-Dev/substmodels/releases/download/v1.2.0/SSM.v1.2.2.zip"
+        description="Standard Nucleotide Substitution Models"
+        projectURL="https://github.com/BEAST2-Dev/substmodels/">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+    </package>
     
     <package name='MGSM' version='0.4.0'
             url="https://github.com/BEAST2-Dev/MGSM/releases/download/v0.4.0/MGSM.addon.v0.4.0.zip"
