@@ -290,6 +290,14 @@
         <depends on='SA' atleast='2.1.1'/>
     </package>
 
+    <package name='resub' version='1.0.0'
+           url="https://github.com/jordandouglas/resub/releases/download/v1.0.0/resub.v1.0.0.package.zip"
+           description="Refinement expansion substitution model"
+           projectURL="https://github.com/jordandouglas/resub">
+        <depends on='BEAST.base' atleast='2.7.8'/>
+    </package>
+
+
     <package name='contraband' version='1.0.1'
         url="https://raw.githubusercontent.com/CompEvol/packages/main/contraband/contraband.addon.v1.0.1.zip"
         description="Scalable brownian models for continuous trait evolution"
