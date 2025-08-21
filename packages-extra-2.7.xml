@@ -182,5 +182,13 @@
         <depends on='BEAST.app' atleast='2.7.2'/>
     </package>
 
+    <package name="BEAST2Lang" version="0.0.1"
+         url="https://github.com/CompEvol/beast2lang/releases/download/0.0.1/BEAST2Lang.v0.0.1.zip"
+         projectURL="https://github.com/CompEvol/beast2lang/" 
+         description="Run a Beast2 model using the definition language">
+		<depends on='BEAST.base' atleast='2.7.8'/>
+		<depends on='BEAST.app' atleast='2.7.8'/>
+		<depends on='BEASTLabs' atleast='2.0.3'/>
+    </package>
 
 </packages>
