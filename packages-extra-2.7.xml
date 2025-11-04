@@ -187,6 +187,15 @@
         <depends on='BEAST.app' atleast='2.7.0'/>
     </package>
 
+	<package name="TyCHE" version="0.0.3"
+         url="https://github.com/hoehnlab/tyche/releases/download/v0.0.3/TyCHE.v0.0.3.zip"
+         projectURL="https://tyche.readthedocs.io"
+         description="Type-linked Clocks for Heterogenous Evolution">
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BEAST.app' atleast='2.7.0'/>
+		<depends on='BEAST_CLASSIC' atleast='1.6.3'/>
+    </package>
+
 
     <package name="TargetedBeast" version="1.0.0"
          url="https://github.com/nicfel/targetedbeast/releases/download/v.1.0.0/TargetedBeast.v1.0.0.zip"
