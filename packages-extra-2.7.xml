@@ -69,6 +69,19 @@
         <depends on='BEAST.app' atleast='2.7.5'/>
     </package>
 
+    <package name='beastmap' version='0.0.3'
+           url="https://github.com/jordandouglas/BeastMap/releases/download/v0.0.3/beastmap.package.v0.0.3.zip"
+           description="Stochastic mapping and ancestral sequence/state reconstruction"
+           projectURL="https://github.com/jordandouglas/BeastMap/">
+        <depends on='BEAST.base' atleast='2.7.8'/>
+        <depends on='BEAST.app' atleast='2.7.8'/>
+        <depends on='CodonSubstModels' atleast='2.0.1'/>
+        <depends on='starbeast3' atleast='1.2.1'/>
+        <depends on='MM' atleast='1.2.0'/>
+    </package>
+
+
+
 
     <package name='FoldBeast' version='0.0.1'
            url="https://github.com/jordandouglas/FoldBeast/releases/download/v0.0.1/FoldBeast.package.v0.0.1.zip"
