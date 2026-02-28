@@ -1,0 +1,9 @@
+<!-- BEAST 2.8 package repository: live alpha testing of the full new framework -->
+<packages>
+    <package name="MM" version="1.3.0"
+        url="https://github.com/alexeid/morph-models/releases/download/v1.3.0/MM.v1.3.0.zip"
+        projectURL="https://github.com/alexeid/morph-models"
+        description="Lewis MK and MKv substitution models for discrete morphological data">
+        <depends on="BEAST.base" atleast="2.8.0"/>
+    </package>
+</packages>
