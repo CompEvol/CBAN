@@ -6,8 +6,8 @@
         description="Lewis MK and MKv substitution models for discrete morphological data">
         <depends on="BEAST.base" atleast="2.8.0"/>
     </package>
-    <package name="SA" version="2.2.0"
-        url="https://github.com/CompEvol/sampled-ancestors/releases/download/v2.2.0/SA.v2.2.0.zip"
+    <package name="SA" version="2.3.0"
+        url="https://github.com/CompEvol/sampled-ancestors/releases/download/v2.3.0/SA.v2.3.0.zip"
         projectURL="https://github.com/CompEvol/sampled-ancestors"
         description="Sampled ancestor trees for BEAST">
         <depends on="BEAST.base" atleast="2.8.0"/>
