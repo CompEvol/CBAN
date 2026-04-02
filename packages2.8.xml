@@ -18,4 +18,13 @@
                 projectURL="https://github.com/jordandouglas/ORC/">
         <depends on='BEAST.base' atleast='2.8.0'/>
     </package>
+    <package name='gammaspike' version='1.3.0'
+           url="https://github.com/jordandouglas/GammaSpikeModel/releases/download/v1.3.0/gammaspike.v1.3.0.zip"
+           description="A clock model that captures and tests for punctuated evolution"
+           projectURL="https://github.com/jordandouglas/GammaSpikeModel">
+        <depends on='BEAST.base' atleast='2.8.0'/>
+        <depends on='BEAST.app' atleast='2.8.0'/>
+        <depends on='SA' atleast='2.3.0'/>
+        <depends on='ORC' atleast='2.3.0'/>
+    </package>
 </packages>
