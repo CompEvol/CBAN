@@ -25,6 +25,6 @@
         <depends on='BEAST.base' atleast='2.8.0'/>
         <depends on='BEAST.app' atleast='2.8.0'/>
         <depends on='SA' atleast='2.3.0'/>
-        <depends on='ORC' atleast='2.3.0'/>
+        <depends on='ORC' atleast='1.3.0'/>
     </package>
 </packages>
