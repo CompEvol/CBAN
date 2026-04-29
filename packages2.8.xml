@@ -33,4 +33,10 @@
         <depends on='SA' atleast='2.3.0'/>
         <depends on='ORC' atleast='1.3.0'/>
     </package>
+    <package name="feast" version="11.0.0"
+           url="https://github.com/tgvaughan/feast/releases/download/v11.0.0/feast.v11.0.0.zip"
+           projectURL="https://tgvaughan.github.io/feast"
+           description="Flexible BEAST 2 XML extension package." >
+      <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
+   </package>
 </packages>
