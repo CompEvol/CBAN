@@ -45,4 +45,10 @@
            description="Phylodynamic simulation system" >
         <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
     </package>
+    <package name="BEAST_CLASSIC" version="1.7.0"
+        url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.7.0-beta1/BEAST_CLASSIC.v1.7.0.zip"
+        projectURL="https://github.com/BEAST2-Dev/beast-classic"
+        description="Classic BEAST models: phylogeography, GMRF skyride, GLM">
+        <depends on="BEAST.base" atleast="2.8.0"/>
+    </package>
 </packages>
