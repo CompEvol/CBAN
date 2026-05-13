@@ -51,6 +51,12 @@
            description="Phylodynamic simulation system" >
         <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
     </package>
+    <package name="ReMASTER" version="3.0.1"
+           url="https://github.com/tgvaughan/remaster/releases/download/v3.0.1/remaster.v3.0.1.zip"
+           projectURL="https://tgvaughan.github.io/remaster"
+           description="Phylodynamic simulation system" >
+        <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
+    </package>
     <package name="BDMM-Prime" version="3.0.0"
            url="https://github.com/tgvaughan/BDMM-Prime/releases/download/v3.0.0/BDMM-Prime.v3.0.0.zip"
            projectURL="https://tgvaughan.github.io/BDMM-Prime"
