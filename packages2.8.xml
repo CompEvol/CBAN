@@ -45,6 +45,12 @@
            description="Flexible BEAST 2 XML extension package." >
       <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
    </package>
+    <package name="feast" version="11.0.1"
+           url="https://github.com/tgvaughan/feast/releases/download/v11.0.1/feast.v11.0.1.zip"
+           projectURL="https://tgvaughan.github.io/feast"
+           description="Flexible BEAST 2 XML extension package." >
+      <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
+   </package>
     <package name="ReMASTER" version="3.0.0"
            url="https://github.com/tgvaughan/remaster/releases/download/v3.0.0/remaster.v3.0.0.zip"
            projectURL="https://tgvaughan.github.io/remaster"
