@@ -1565,6 +1565,15 @@
         <depends on='BDSKY' atleast='1.5.0'/>
     </package>
 
+    <package name='phylodynamics' version='1.5.0'
+           url="https://github.com/BEAST2-Dev/phylodynamics/releases/download/v1.5.0/phylodynamics.addon.v1.5.0.zip"
+           projectURL="https://github.com/BEAST2-Dev/phylodynamics"
+           description="BDSIR and Stochastic Coalescent" >
+        <depends on='BEAST.base' atleast='2.7.0'/>
+        <depends on='BDSKY' atleast='1.5.0'/>
+    </package>
+		
+
 	<package name='PopFunc' version='0.0.1'
            url="https://github.com/LinguaPhylo/PopFunc/releases/download/v0.0.1/pop.v0.0.1.zip"
            projectURL="https://github.com/LinguaPhylo/PopFunc"
