@@ -94,13 +94,13 @@
         description="Standard Nucleotide Substitution Models"
         projectURL="https://github.com/BEAST2-Dev/substmodels/">
         <depends on='BEAST.base' atleast='2.8.0'/>
-        <depends on='BEAST.fx' atleast='2.8.0'/>
+        <depends on='BEAST.app' atleast='2.8.0'/>
     </package>
     <package name='BICEPS' version='1.2.0'
                 url="https://github.com/rbouckaert/biceps/releases/download/v1.2.0/BICEPS.v1.2.0.zip"
                 description="Bayesian Integrated Coalescent Epoch PlotS + Yule Skyline"
                 projectURL="https://github.com/rbouckaert/biceps/">
         <depends on='BEAST.base' atleast='2.8.0'/>
-        <depends on='BEAST.fx' atleast='2.8.0'/>
+        <depends on='BEAST.app' atleast='2.8.0'/>
     </package>    
 </packages>
