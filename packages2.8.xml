@@ -103,4 +103,11 @@
         <depends on='BEAST.base' atleast='2.8.0'/>
         <depends on='BEAST.app' atleast='2.8.0'/>
     </package>    
+    <package name="contacTrees" version="2.0.0"
+                url="https://github.com/NicoNeureiter/contacTrees/releases/download/v2.0.0/contacTrees.v2.0.0.zip"
+                projectURL="https://github.com/NicoNeureiter/contacTrees"
+                description="Phylogenetic model for language evolution with horizontal transfer">
+        <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
+        <depends on="BEAST.app" atleast="2.8.0" atmost="2.8.9"/>
+    </package>
 </packages>
