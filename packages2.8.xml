@@ -89,8 +89,8 @@
         description="Coupled MCMC (MC3) for BEAST">
         <depends on="BEAST.base" atleast="2.8.0"/>
     </package>
-    <package name='SSM' version='1.3.0'
-        url="https://github.com/BEAST2-Dev/substmodels/releases/download/v1.3.0/SSM.v1.3.0.zip"
+    <package name='SSM' version='1.3.1'
+        url="https://github.com/BEAST2-Dev/substmodels/releases/download/v1.3.0/SSM.v1.3.1.zip"
         description="Standard Nucleotide Substitution Models"
         projectURL="https://github.com/BEAST2-Dev/substmodels/">
         <depends on='BEAST.base' atleast='2.8.0'/>
