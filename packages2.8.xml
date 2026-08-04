@@ -110,4 +110,11 @@
         <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
         <depends on="BEAST.app" atleast="2.8.0" atmost="2.8.9"/>
     </package>
+        <package name='bModelTest' version='1.4.0'
+        url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v1.4.0/BMT.v1.4.0.zip"
+        description="Bayesian model test: site model averaging and selection for BEAST 3"
+        projectURL="https://github.com/BEAST2-Dev/bModelTest/">
+        <depends on='BEAST.base' atleast='2.8.0'/>
+        <depends on='BEAST.app' atleast='2.8.0'/>
+    </package>
 </packages>
