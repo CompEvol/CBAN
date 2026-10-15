@@ -1927,11 +1927,5 @@
         <depends on='BEASTLabs' atleast='2.0.0'/>
     </package>
 
-    <package name='MixedEffectsClock' version='0.1.0'
-        url="https://github.com/sebastianduchene/MixedEffectsClock/releases/download/v0.1.0/MixedEffectsClock.v0.1.0.zip"
-        projectURL="https://github.com/sebastianduchene/MixedEffectsClock"
-        description="Mixed-effects molecular clock models.">
-        <depends on='BEAST.base' atleast='2.7.7'/>
-    </package>
 
 </packages>
