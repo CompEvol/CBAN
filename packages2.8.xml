@@ -161,11 +161,8 @@
 	     description="Estimating single-cell trees from lineage tracing data">
       <depends on="BEAST.base" atleast="2.8.0"/>
       <depends on="feast" atleast="11.0.1"/>
-    </package>
-
-  </packages>
-
-  
+    </package> 
+<!--  https://doi.org/10.1093/molbev/msag080    -->
     <package name="ADB" version="0.1.0"
         url="https://github.com/pilarskj/ADB/releases/download/v0.1.0/ADB.v0.1.0.zip"
         projectURL="https://github.com/pilarskj/ADB"
