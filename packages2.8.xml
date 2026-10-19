@@ -133,8 +133,8 @@
         <depends on='BEAST.base' atleast='2.8.0'/>
         <depends on='BEAST.app' atleast='2.8.0'/>
     </package>
-    <package name='CCD' version='1.2.0'
-        url="https://github.com/CompEvol/CCD/releases/download/v1.2.0/CCD.v1.2.0.zip"
+    <package name='CCD' version='1.2.2'
+        url="https://github.com/CompEvol/CCD/releases/download/v1.2.2/CCD.v1.2.2.zip"
         description="Conditional Clade Distribution methods for BEAST 3"
         projectURL="https://github.com/CompEvol/CCD/">
         <depends on='BEAST.base' atleast='2.8.0'/>
