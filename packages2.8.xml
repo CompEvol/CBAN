@@ -12,8 +12,8 @@
         description="Sampled ancestor trees for BEAST">
         <depends on="BEAST.base" atleast="2.8.0"/>
     </package>
-    <package name="BEASTLabs" version="2.1.0"
-        url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v2.1.0-beta1/BEASTLabs.v2.1.0.zip"
+    <package name="BEASTLabs" version="2.1.1"
+        url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v2.1.1/BEASTLabs.v2.1.1.zip"
         projectURL="https://github.com/BEAST2-Dev/BEASTLabs"
         description="BEAST Labs utility library">
         <depends on="BEAST.base" atleast="2.8.0"/>
