@@ -87,6 +87,14 @@
         <depends on="BEAST.app" atleast="2.8.0" atmost="2.8.9"/>
         <depends on="SA" atleast="2.3.0"/>
     </package>
+	<package name="BDMM-Prime" version="3.1.0"
+           url="https://github.com/tgvaughan/BDMM-Prime/releases/download/v3.1.0/BDMM-Prime.v3.1.0.zip"
+           projectURL="https://tgvaughan.github.io/BDMM-Prime"
+           description="Linear birth-death phylodynamics">
+        <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
+        <depends on="BEAST.app" atleast="2.8.0" atmost="2.8.9"/>
+        <depends on="SA" atleast="2.3.0"/>
+    </package>
     <package name="BEAST_CLASSIC" version="1.7.1"
         url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.7.1/BEAST_CLASSIC.v1.7.1.zip"
         projectURL="https://github.com/BEAST2-Dev/beast-classic"
