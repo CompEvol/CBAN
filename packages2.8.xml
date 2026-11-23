@@ -2,6 +2,7 @@
 <packages>
     <package name="MM" version="1.3.1"
         url="https://github.com/CompEvol/morph-models/releases/download/v1.3.1-beta1/MM.v1.3.1.zip"
+        groupId="io.github.compevol" artifactId="morph-models"
         projectURL="https://github.com/CompEvol/morph-models"
         description="Lewis MK and MKv substitution models for discrete morphological data">
         <depends on="BEAST.base" atleast="2.8.0"/>
@@ -14,6 +15,7 @@
     </package>
     <package name="BEASTLabs" version="2.1.1"
         url="https://github.com/BEAST2-Dev/BEASTLabs/releases/download/v2.1.1/BEASTLabs.v2.1.1.zip"
+        groupId="io.github.beast2-dev" artifactId="beast-labs"
         projectURL="https://github.com/BEAST2-Dev/BEASTLabs"
         description="BEAST Labs utility library">
         <depends on="BEAST.base" atleast="2.8.0"/>
@@ -26,6 +28,7 @@
     </package>
     <package name='ORC' version='1.3.1'
                 url="https://github.com/jordandouglas/ORC/releases/download/v1.3.1/ORC.v1.3.1.zip"
+                groupId="io.github.jordandouglas" artifactId="beast-orc"
                 description="Optimised Relaxed Clock model"
                 projectURL="https://github.com/jordandouglas/ORC/">
         <depends on='BEAST.base' atleast='2.8.0'/>
@@ -72,6 +75,7 @@
    </package>
     <package name="feast" version="11.0.1"
            url="https://github.com/tgvaughan/feast/releases/download/v11.0.1/feast.v11.0.1.zip"
+           groupId="io.github.tgvaughan" artifactId="feast"
            projectURL="https://tgvaughan.github.io/feast"
            description="Flexible BEAST 2 XML extension package." >
       <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
@@ -84,12 +88,14 @@
     </package>
     <package name="ReMASTER" version="3.0.1"
            url="https://github.com/tgvaughan/remaster/releases/download/v3.0.1/remaster.v3.0.1.zip"
+           groupId="io.github.tgvaughan" artifactId="remaster"
            projectURL="https://tgvaughan.github.io/remaster"
            description="Phylodynamic simulation system" >
         <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
     </package>
     <package name="BDMM-Prime" version="3.0.0"
            url="https://github.com/tgvaughan/BDMM-Prime/releases/download/v3.0.0/BDMM-Prime.v3.0.0.zip"
+           groupId="io.github.tgvaughan" artifactId="bdmm-prime"
            projectURL="https://tgvaughan.github.io/BDMM-Prime"
            description="Linear birth-death phylodynamics">
         <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
@@ -98,6 +104,7 @@
     </package>
 	<package name="BDMM-Prime" version="3.1.0"
            url="https://github.com/tgvaughan/BDMM-Prime/releases/download/v3.1.0/BDMM-Prime.v3.1.0.zip"
+           groupId="io.github.tgvaughan" artifactId="bdmm-prime"
            projectURL="https://tgvaughan.github.io/BDMM-Prime"
            description="Linear birth-death phylodynamics">
         <depends on="BEAST.base" atleast="2.8.0" atmost="2.8.9"/>
@@ -106,6 +113,7 @@
     </package>
     <package name="BEAST_CLASSIC" version="1.7.1"
         url="https://github.com/BEAST2-Dev/beast-classic/releases/download/v1.7.1/BEAST_CLASSIC.v1.7.1.zip"
+        groupId="io.github.beast2-dev" artifactId="beast-classic"
         projectURL="https://github.com/BEAST2-Dev/beast-classic"
         description="Classic BEAST models: phylogeography, GMRF skyride, GLM">
         <depends on="BEAST.base" atleast="2.8.0"/>
@@ -145,6 +153,7 @@
     </package>
     <package name='bModelTest' version='1.4.0'
         url="https://github.com/BEAST2-Dev/bModelTest/releases/download/v1.4.0/BMT.v1.4.0.zip"
+        groupId="io.github.beast2-dev" artifactId="bModelTest"
         description="Bayesian model test: site model averaging and selection for BEAST 3"
         projectURL="https://github.com/BEAST2-Dev/bModelTest/">
         <depends on='BEAST.base' atleast='2.8.0'/>
@@ -152,6 +161,7 @@
     </package>
     <package name='CCD' version='1.2.2'
         url="https://github.com/CompEvol/CCD/releases/download/v1.2.2/CCD.v1.2.2.zip"
+        groupId="io.github.compevol" artifactId="ccd"
         description="Conditional Clade Distribution methods for BEAST 3"
         projectURL="https://github.com/CompEvol/CCD/">
         <depends on='BEAST.base' atleast='2.8.0'/>
@@ -159,6 +169,7 @@
     </package>
     <package name='MODEL_SELECTION' version='1.7.0'
         url="https://github.com/BEAST2-Dev/model-selection/releases/download/v1.7.0/MODEL_SELECTION.v1.7.0.zip"
+        groupId="io.github.beast2-dev" artifactId="model-selection"
         description="Select models through path sampling/stepping stone analysis"
         projectURL="https://github.com/BEAST2-Dev/model-selection/">
         <depends on='BEAST.base' atleast='2.8.0'/>
@@ -166,6 +177,7 @@
     </package>
     <package name='NS' version='1.3.1'
         url="https://github.com/BEAST2-Dev/nested-sampling/releases/download/v1.3.1/NS.v1.3.1.zip"
+        groupId="io.github.beast2-dev" artifactId="nested-sampling"
         description="BEAST 3 package for Nested Sampling"
         projectURL="https://github.com/BEAST2-Dev/nested-sampling/">
         <depends on='BEAST.base' atleast='2.8.0'/>
